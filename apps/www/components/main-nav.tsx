@@ -38,7 +38,7 @@ export function MainNav() {
               : "text-foreground/80"
           )}
         >
-          Components
+          Atom
         </Link>
         <Link
           href="/blocks"
@@ -49,7 +49,7 @@ export function MainNav() {
               : "text-foreground/80"
           )}
         >
-          Blocks
+          Template
         </Link>
         <Link
           href="/charts"
@@ -61,7 +61,7 @@ export function MainNav() {
               : "text-foreground/80"
           )}
         >
-          Charts
+          Block
         </Link>
         <Link
           href="/themes"
@@ -72,7 +72,7 @@ export function MainNav() {
               : "text-foreground/80"
           )}
         >
-          Themes
+          Micro
         </Link>
         <Link
           href="/colors"
@@ -83,7 +83,7 @@ export function MainNav() {
               : "text-foreground/80"
           )}
         >
-          Colors
+          Icon
         </Link>
       </nav>
     </div>
