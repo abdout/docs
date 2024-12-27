@@ -29,11 +29,11 @@ export function MainNav() {
           Docs
         </Link>
         <Link
-          href="/docs/components"
+          href="/docs/atoms"
           className={cn(
             "transition-colors hover:text-foreground/80",
-            pathname?.startsWith("/docs/components") &&
-              !pathname?.startsWith("/docs/component/chart")
+            pathname?.startsWith("/docs/atoms") &&
+              !pathname?.startsWith("/docs/atom/chart")
               ? "text-foreground"
               : "text-foreground/80"
           )}
@@ -41,10 +41,10 @@ export function MainNav() {
           Atom
         </Link>
         <Link
-          href="/blocks"
+          href="/templates"
           className={cn(
             "transition-colors hover:text-foreground/80",
-            pathname?.startsWith("/blocks")
+            pathname?.startsWith("/templates")
               ? "text-foreground"
               : "text-foreground/80"
           )}
