@@ -83,7 +83,7 @@ export default function IndexPage() {
           </section>
         </div>
       </div> */}
-      <div className="py-10 grid grid-cols-2 gap-8 md:max-w-[80%] md:grid-cols-4">
+      <div className="py-10 grid grid-cols-2 gap-8 md:grid-cols-4 md:max-w-[80%]">
           {categories.map((category, index) => (
             <div
               key={index}
@@ -94,10 +94,10 @@ export default function IndexPage() {
                 alt={category.title}
                 width={70}
                 height={70}
-                className="h-10 w-10 pb-1 dark:invert md:h-14 md:w-14 md:pb-2"
+                className="w-10 h-10 md:w-14 md:h-14 pb-1 md:pb-2 dark:invert"
               />
-              <h3 className="mb-2 text-[15px] font-medium md:text-lg">{category.title}</h3>
-              <p className="text-[13px] text-muted-foreground max-w-[80%] sm:text-sm sm:leading-6 md:max-w-[70%]">
+              <h3 className="text-[15px] md:text-lg font-medium mb-2">{category.title}</h3>
+              <p className="max-w-[80%] md:max-w-[70%] text-muted-foreground text-[13px] sm:text-sm sm:leading-6">
                 {category.description}
               </p>
             </div>
