@@ -583,6 +583,6 @@ export const blocks: Registry = [
         type: "registry:component",
       },
     ],
-    categories: ["authentication", "login"],
+    categories: ["hero"],
   },
 ]
