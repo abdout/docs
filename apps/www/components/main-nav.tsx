@@ -52,7 +52,7 @@ export function MainNav() {
           Template
         </Link>
         <Link
-          href="/charts"
+          href="/templates"
           className={cn(
             "transition-colors hover:text-foreground/80",
             pathname?.startsWith("/docs/component/chart") ||
