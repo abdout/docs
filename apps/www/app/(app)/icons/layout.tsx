@@ -46,9 +46,7 @@ export default function BlocksLayout({
           </Button>
         </PageActions>
       </PageHeader>
-      <div>
-        auth
-      </div>
+      
     </>
   )
 }
