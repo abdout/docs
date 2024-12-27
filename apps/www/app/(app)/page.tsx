@@ -97,7 +97,7 @@ export default function IndexPage() {
                 className=""
               />
               <h3 className="">{category.title}</h3>
-              <p className="">
+              <p className="max-w-[80%] md:max-w-[70%] text-muted-foreground text-[13px] sm:text-sm sm:leading-6">
                 {category.description}
               </p>
             </div>
