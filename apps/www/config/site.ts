@@ -1,6 +1,6 @@
 export const siteConfig = {
-  name: "shadcn/ui",
-  url: "https://ui.shadcn.com",
+  name: "Codebase",
+  url: "https://cb.databayt.org",
   ogImage: "https://ui.shadcn.com/og.jpg",
   description:
     "Beautifully designed components that you can copy and paste into your apps. Accessible. Customizable. Open Source.",

@@ -13,14 +13,36 @@ import {
 import { Button } from "@/registry/new-york/ui/button"
 
 export default function IndexPage() {
+  const categories = [
+    {
+      src: "/codebase/atom.png",
+      title: "Atom",
+      description: "Atomic components for larger structures",
+    },
+    {
+      src: "/codebase/template.png",
+      title: "Template",
+      description: "Pre-designed layouts for quick setup",
+    },
+    {
+      src: "/codebase/block.png",
+      title: "Block",
+      description: "Reusable blocks for project assembly",
+    },
+    {
+      src: "/codebase/micro.png",
+      title: "Micro",
+      description: "Ready-to-use micro serivces",
+    },
+  ];
   return (
     <>
       <PageHeader>
         <Announcement />
-        <PageHeaderHeading>Build your component library</PageHeaderHeading>
+        <PageHeaderHeading>Index your code library</PageHeaderHeading>
         <PageHeaderDescription>
           Beautifully designed components that you can copy and paste into your
-          apps. Made with Tailwind CSS. Open source.
+          apps. Made with Nextjs. Open source.
         </PageHeaderDescription>
         <PageActions>
           <Button asChild size="sm">
@@ -31,7 +53,7 @@ export default function IndexPage() {
           </Button>
         </PageActions>
       </PageHeader>
-      <div className="border-grid border-b">
+      {/* <div className="border-grid border-b">
         <div className="container-wrapper">
           <div className="container py-4">
             <ExamplesNav className="[&>a:first-child]:text-primary" />
@@ -60,7 +82,27 @@ export default function IndexPage() {
             <CardsDemo />
           </section>
         </div>
-      </div>
+      </div> */}
+      <div className="grid grid-cols-2 gap-8 md:grid-cols-4 py-10 md:max-w-[80%]">
+          {categories.map((category, index) => (
+            <div
+              key={index}
+              className="flex flex-col items-center text-center max-w-[200px]"
+            >
+              <Image
+                src={category.src}
+                alt={category.title}
+                width={70}
+                height={70}
+                className="w-10 h-10 md:w-14 md:h-14 pb-1 md:pb-2 dark:invert"
+              />
+              <h3 className="text-[15px] md:text-lg font-medium mb-2">{category.title}</h3>
+              <p className="max-w-[80%] md:max-w-[70%]  text-muted-foreground text-[13px] sm:text-sm sm:leading-6">
+                {category.description}
+              </p>
+            </div>
+          ))}
+        </div>
     </>
   )
 }
