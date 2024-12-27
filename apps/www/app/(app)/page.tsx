@@ -83,11 +83,11 @@ export default function IndexPage() {
           </section>
         </div>
       </div> */}
-      <div className="grid grid-cols-2 gap-8 md:grid-cols-4 py-10 md:max-w-[80%]">
+      <div className="py-10 grid grid-cols-2 gap-8 md:grid-cols-4 md:max-w-[80%]">
           {categories.map((category, index) => (
             <div
               key={index}
-              className="flex flex-col items-center text-center max-w-[200px]"
+              className="max-w-[200px] flex flex-col items-center text-center"
             >
               <Image
                 src={category.src}
