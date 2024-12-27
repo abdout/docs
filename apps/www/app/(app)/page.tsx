@@ -2,8 +2,8 @@ import Image from "next/image"
 import Link from "next/link"
 
 import { Announcement } from "@/components/announcement"
-import { CardsDemo } from "@/components/cards"
-import { ExamplesNav } from "@/components/examples-nav"
+// import { CardsDemo } from "@/components/cards"
+// import { ExamplesNav } from "@/components/examples-nav"
 import {
   PageActions,
   PageHeader,
@@ -83,21 +83,21 @@ export default function IndexPage() {
           </section>
         </div>
       </div> */}
-      <div className="py-10 grid grid-cols-2 gap-8 md:grid-cols-4 md:max-w-[80%]">
+      <div className="">
           {categories.map((category, index) => (
             <div
               key={index}
-              className="flex max-w-[200px] flex-col items-center text-center"
+              className=""
             >
               <Image
                 src={category.src}
                 alt={category.title}
                 width={70}
                 height={70}
-                className="w-10 h-10 md:w-14 md:h-14 pb-1 md:pb-2 dark:invert"
+                className=""
               />
-              <h3 className="text-[15px] md:text-lg font-medium mb-2">{category.title}</h3>
-              <p className="max-w-[80%] md:max-w-[70%] text-muted-foreground text-[13px] sm:text-sm sm:leading-6">
+              <h3 className="">{category.title}</h3>
+              <p className="">
                 {category.description}
               </p>
             </div>

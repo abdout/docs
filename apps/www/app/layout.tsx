@@ -1,6 +1,5 @@
 import "@/styles/globals.css"
 import { Metadata, Viewport } from "next"
-
 import { META_THEME_COLORS, siteConfig } from "@/config/site"
 import { fontMono, fontSans } from "@/lib/fonts"
 import { cn } from "@/lib/utils"
@@ -28,8 +27,8 @@ export const metadata: Metadata = {
   ],
   authors: [
     {
-      name: "shadcn",
-      url: "https://shadcn.com",
+      name: "Databayt",
+      url: "https://databayt.org",
     },
   ],
   creator: "shadcn",
