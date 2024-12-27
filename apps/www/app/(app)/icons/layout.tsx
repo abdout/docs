@@ -27,33 +27,28 @@ export default function BlocksLayout({
     <>
       <PageHeader>
         <Announcement />
-        <PageHeaderHeading>Ready templates for the Web</PageHeaderHeading>
+        <PageHeaderHeading>SVG icons for the Web</PageHeaderHeading>
         <PageHeaderDescription>
-          Clean, modern building templates. Copy and paste into your apps. Works
-          will with Nextjs framework. Open Source. Free forever.
+          Clear, concise icons. Copy and paste into your apps. Works
+          well with Nextjs framework. Open Source. Free forever.
         </PageHeaderDescription>
         <PageActions>
           <Button asChild size="sm">
-            <a href="#blocks">Browse templates</a>
+            <a href="#blocks">Browse Icons</a>
           </Button>
           <Button asChild variant="ghost" size="sm">
             <a
               href="https://github.com/shadcn-ui/ui/discussions/new?category=blocks-request"
               target="_blank"
             >
-              Request a template
+              Request an icon
             </a>
           </Button>
         </PageActions>
       </PageHeader>
-      <div id="blocks" className="border-grid scroll-mt-24 border-b">
-        <div className="container-wrapper">
-          <div className="container flex items-center py-4">
-            <BlocksNav />
-          </div>
-        </div>
+      <div>
+        auth
       </div>
-      <div className="container-wrapper flex-1">{children}</div>
     </>
   )
 }
