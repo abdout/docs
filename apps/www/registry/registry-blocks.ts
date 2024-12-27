@@ -567,4 +567,22 @@ export const blocks: Registry = [
     ],
     categories: ["authentication", "login"],
   },
+  {
+    name: "hero-01",
+    description: "A simple hero section.",
+    type: "registry:block",
+    registryDependencies: ["button", "card", "input", "label"],
+    files: [
+      {
+        path: "blocks/hero-01/page.tsx",
+        target: "app/hero/page.tsx",
+        type: "registry:page",
+      },
+      {
+        path: "blocks/hero-01/components/hero-template.tsx",
+        type: "registry:component",
+      },
+    ],
+    categories: ["authentication", "login"],
+  },
 ]

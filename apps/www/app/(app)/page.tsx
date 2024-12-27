@@ -13,28 +13,6 @@ import {
 import { Button } from "@/registry/new-york/ui/button"
 
 export default function IndexPage() {
-  const categories = [
-    {
-      src: "/codebase/atom.png",
-      title: "Atom",
-      description: "Atomic components for larger structures",
-    },
-    {
-      src: "/codebase/template.png",
-      title: "Template",
-      description: "Pre-designed layouts for quick setup",
-    },
-    {
-      src: "/codebase/block.png",
-      title: "Block",
-      description: "Reusable blocks for project assembly",
-    },
-    {
-      src: "/codebase/micro.png",
-      title: "Micro",
-      description: "Ready-to-use micro serivces",
-    },
-  ];
   return (
     <>
       <PageHeader>
@@ -83,26 +61,6 @@ export default function IndexPage() {
           </section>
         </div>
       </div> */}
-      <div className="">
-          {categories.map((category, index) => (
-            <div
-              key={index}
-              className=""
-            >
-              <Image
-                src={category.src}
-                alt={category.title}
-                width={70}
-                height={70}
-                className=""
-              />
-              <h3 className="">{category.title}</h3>
-              <p className="text-[13px] sm:text-sm sm:leading-6 text-muted-foreground max-w-[80%] md:max-w-[70%]">
-                {category.description}
-              </p>
-            </div>
-          ))}
-        </div>
     </>
   )
 }

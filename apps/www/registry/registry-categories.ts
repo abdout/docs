@@ -5,6 +5,26 @@ export const registryCategories = [
     hidden: false,
   },
   {
+    name: "Header",
+    slug: "header",
+    hidden: false,
+  },
+  {
+    name: "Footer",
+    slug: "footer",
+    hidden: false,
+  },
+  {
+    name: "Hero",
+    slug: "hero",
+    hidden: false,
+  },
+  {
+    name: "Testimonial",
+    slug: "testimonial",
+    hidden: false,
+  },
+  {
     name: "Dashboard",
     slug: "dashboard",
     hidden: true,
