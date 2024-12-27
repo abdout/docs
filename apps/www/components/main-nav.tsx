@@ -52,11 +52,11 @@ export function MainNav() {
           Template
         </Link>
         <Link
-          href="/templates"
+          href="/blocks"
           className={cn(
             "transition-colors hover:text-foreground/80",
             pathname?.startsWith("/docs/component/chart") ||
-              pathname?.startsWith("/charts")
+              pathname?.startsWith("/blocks")
               ? "text-foreground"
               : "text-foreground/80"
           )}
@@ -64,10 +64,10 @@ export function MainNav() {
           Block
         </Link>
         <Link
-          href="/themes"
+          href="/micros"
           className={cn(
             "transition-colors hover:text-foreground/80",
-            pathname?.startsWith("/themes")
+            pathname?.startsWith("/micros")
               ? "text-foreground"
               : "text-foreground/80"
           )}
@@ -75,10 +75,10 @@ export function MainNav() {
           Micro
         </Link>
         <Link
-          href="/colors"
+          href="/icons"
           className={cn(
             "transition-colors hover:text-foreground/80",
-            pathname?.startsWith("/colors")
+            pathname?.startsWith("/icons")
               ? "text-foreground"
               : "text-foreground/80"
           )}
