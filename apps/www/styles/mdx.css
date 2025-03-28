@@ -1,5 +1,5 @@
 [data-theme="light"] {
-  display: block;
+  display: template;
 }
 
 [data-theme="dark"] {
@@ -11,7 +11,7 @@
 }
 
 .dark [data-theme="dark"] {
-  display: block;
+  display: template;
 }
 
 [data-rehype-pretty-code-fragment] {

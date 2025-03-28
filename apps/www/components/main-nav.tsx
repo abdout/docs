@@ -13,17 +13,21 @@ export function MainNav() {
   return (
     <div className="mr-4 hidden md:flex">
       <Link href="/" className="mr-4 flex items-center gap-2 lg:mr-6">
-        <Icons.logo className="h-6 w-6" />
+        <div className="-mt-[2px]">
+          <Icons.logo className="h-6 w-6 " />
+        </div>
         <span className="hidden font-bold lg:inline-block">
           {siteConfig.name}
         </span>
       </Link>
       <nav className="flex items-center gap-4 text-sm xl:gap-6">
         <Link
-          href="/docs"
+          href="/docs/installation"
           className={cn(
             "transition-colors hover:text-foreground/80",
-            pathname === "/docs" ? "text-foreground" : "text-foreground/80"
+            pathname === "/docs/installation"
+              ? "text-foreground"
+              : "text-foreground/80"
           )}
         >
           Docs
@@ -33,12 +37,12 @@ export function MainNav() {
           className={cn(
             "transition-colors hover:text-foreground/80",
             pathname?.startsWith("/docs/components") &&
-              !pathname?.startsWith("/docs/atom/chart")
+              !pathname?.startsWith("/docs/component/chart")
               ? "text-foreground"
               : "text-foreground/80"
           )}
         >
-          Atom
+          Atoms
         </Link>
         <Link
           href="/templates"
@@ -49,42 +53,66 @@ export function MainNav() {
               : "text-foreground/80"
           )}
         >
-          Template
+          Templates
         </Link>
         <Link
           href="/blocks"
           className={cn(
             "transition-colors hover:text-foreground/80",
-            pathname?.startsWith("/docs/component/chart") ||
+            pathname?.startsWith("/docs/component/blocks") ||
               pathname?.startsWith("/blocks")
               ? "text-foreground"
               : "text-foreground/80"
           )}
         >
-          Block
+          Blocks
         </Link>
         <Link
           href="/micros"
           className={cn(
             "transition-colors hover:text-foreground/80",
-            pathname?.startsWith("/micros")
+            pathname?.startsWith("/docs/component/micros") ||
+              pathname?.startsWith("/micros")
               ? "text-foreground"
               : "text-foreground/80"
           )}
         >
-          Micro
+          Micros
         </Link>
-        <Link
-          href="/icons"
+        {/* <Link
+          href="/charts"
           className={cn(
             "transition-colors hover:text-foreground/80",
-            pathname?.startsWith("/icons")
+            pathname?.startsWith("/docs/component/chart") ||
+              pathname?.startsWith("/charts")
               ? "text-foreground"
               : "text-foreground/80"
           )}
         >
-          Icon
+          Charts
         </Link>
+        <Link
+          href="/themes"
+          className={cn(
+            "transition-colors hover:text-foreground/80",
+            pathname?.startsWith("/themes")
+              ? "text-foreground"
+              : "text-foreground/80"
+          )}
+        >
+          Themes
+        </Link>
+        <Link
+          href="/colors"
+          className={cn(
+            "transition-colors hover:text-foreground/80",
+            pathname?.startsWith("/colors")
+              ? "text-foreground"
+              : "text-foreground/80"
+          )}
+        >
+          Colors
+        </Link> */}
       </nav>
     </div>
   )

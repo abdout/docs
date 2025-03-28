@@ -9,7 +9,7 @@ export const Index: Record<string, any> = {
       name: "accordion",
       description: "",
       type: "registry:ui",
-      registryDependencies: undefined,
+      registryDependencies: [],
       files: [{
         path: "registry/new-york/ui/accordion.tsx",
         type: "registry:ui",
@@ -24,7 +24,7 @@ export const Index: Record<string, any> = {
       name: "alert",
       description: "",
       type: "registry:ui",
-      registryDependencies: undefined,
+      registryDependencies: [],
       files: [{
         path: "registry/new-york/ui/alert.tsx",
         type: "registry:ui",
@@ -54,7 +54,7 @@ export const Index: Record<string, any> = {
       name: "aspect-ratio",
       description: "",
       type: "registry:ui",
-      registryDependencies: undefined,
+      registryDependencies: [],
       files: [{
         path: "registry/new-york/ui/aspect-ratio.tsx",
         type: "registry:ui",
@@ -69,7 +69,7 @@ export const Index: Record<string, any> = {
       name: "avatar",
       description: "",
       type: "registry:ui",
-      registryDependencies: undefined,
+      registryDependencies: [],
       files: [{
         path: "registry/new-york/ui/avatar.tsx",
         type: "registry:ui",
@@ -84,7 +84,7 @@ export const Index: Record<string, any> = {
       name: "badge",
       description: "",
       type: "registry:ui",
-      registryDependencies: undefined,
+      registryDependencies: [],
       files: [{
         path: "registry/new-york/ui/badge.tsx",
         type: "registry:ui",
@@ -99,7 +99,7 @@ export const Index: Record<string, any> = {
       name: "breadcrumb",
       description: "",
       type: "registry:ui",
-      registryDependencies: undefined,
+      registryDependencies: [],
       files: [{
         path: "registry/new-york/ui/breadcrumb.tsx",
         type: "registry:ui",
@@ -114,7 +114,7 @@ export const Index: Record<string, any> = {
       name: "button",
       description: "",
       type: "registry:ui",
-      registryDependencies: undefined,
+      registryDependencies: [],
       files: [{
         path: "registry/new-york/ui/button.tsx",
         type: "registry:ui",
@@ -144,7 +144,7 @@ export const Index: Record<string, any> = {
       name: "card",
       description: "",
       type: "registry:ui",
-      registryDependencies: undefined,
+      registryDependencies: [],
       files: [{
         path: "registry/new-york/ui/card.tsx",
         type: "registry:ui",
@@ -189,7 +189,7 @@ export const Index: Record<string, any> = {
       name: "checkbox",
       description: "",
       type: "registry:ui",
-      registryDependencies: undefined,
+      registryDependencies: [],
       files: [{
         path: "registry/new-york/ui/checkbox.tsx",
         type: "registry:ui",
@@ -204,7 +204,7 @@ export const Index: Record<string, any> = {
       name: "collapsible",
       description: "",
       type: "registry:ui",
-      registryDependencies: undefined,
+      registryDependencies: [],
       files: [{
         path: "registry/new-york/ui/collapsible.tsx",
         type: "registry:ui",
@@ -234,7 +234,7 @@ export const Index: Record<string, any> = {
       name: "context-menu",
       description: "",
       type: "registry:ui",
-      registryDependencies: undefined,
+      registryDependencies: [],
       files: [{
         path: "registry/new-york/ui/context-menu.tsx",
         type: "registry:ui",
@@ -249,7 +249,7 @@ export const Index: Record<string, any> = {
       name: "dialog",
       description: "",
       type: "registry:ui",
-      registryDependencies: undefined,
+      registryDependencies: [],
       files: [{
         path: "registry/new-york/ui/dialog.tsx",
         type: "registry:ui",
@@ -264,7 +264,7 @@ export const Index: Record<string, any> = {
       name: "drawer",
       description: "",
       type: "registry:ui",
-      registryDependencies: undefined,
+      registryDependencies: [],
       files: [{
         path: "registry/new-york/ui/drawer.tsx",
         type: "registry:ui",
@@ -279,7 +279,7 @@ export const Index: Record<string, any> = {
       name: "dropdown-menu",
       description: "",
       type: "registry:ui",
-      registryDependencies: undefined,
+      registryDependencies: [],
       files: [{
         path: "registry/new-york/ui/dropdown-menu.tsx",
         type: "registry:ui",
@@ -309,7 +309,7 @@ export const Index: Record<string, any> = {
       name: "hover-card",
       description: "",
       type: "registry:ui",
-      registryDependencies: undefined,
+      registryDependencies: [],
       files: [{
         path: "registry/new-york/ui/hover-card.tsx",
         type: "registry:ui",
@@ -324,7 +324,7 @@ export const Index: Record<string, any> = {
       name: "input",
       description: "",
       type: "registry:ui",
-      registryDependencies: undefined,
+      registryDependencies: [],
       files: [{
         path: "registry/new-york/ui/input.tsx",
         type: "registry:ui",
@@ -339,7 +339,7 @@ export const Index: Record<string, any> = {
       name: "input-otp",
       description: "",
       type: "registry:ui",
-      registryDependencies: undefined,
+      registryDependencies: [],
       files: [{
         path: "registry/new-york/ui/input-otp.tsx",
         type: "registry:ui",
@@ -354,7 +354,7 @@ export const Index: Record<string, any> = {
       name: "label",
       description: "",
       type: "registry:ui",
-      registryDependencies: undefined,
+      registryDependencies: [],
       files: [{
         path: "registry/new-york/ui/label.tsx",
         type: "registry:ui",
@@ -369,7 +369,7 @@ export const Index: Record<string, any> = {
       name: "menubar",
       description: "",
       type: "registry:ui",
-      registryDependencies: undefined,
+      registryDependencies: [],
       files: [{
         path: "registry/new-york/ui/menubar.tsx",
         type: "registry:ui",
@@ -384,7 +384,7 @@ export const Index: Record<string, any> = {
       name: "navigation-menu",
       description: "",
       type: "registry:ui",
-      registryDependencies: undefined,
+      registryDependencies: [],
       files: [{
         path: "registry/new-york/ui/navigation-menu.tsx",
         type: "registry:ui",
@@ -414,7 +414,7 @@ export const Index: Record<string, any> = {
       name: "popover",
       description: "",
       type: "registry:ui",
-      registryDependencies: undefined,
+      registryDependencies: [],
       files: [{
         path: "registry/new-york/ui/popover.tsx",
         type: "registry:ui",
@@ -429,7 +429,7 @@ export const Index: Record<string, any> = {
       name: "progress",
       description: "",
       type: "registry:ui",
-      registryDependencies: undefined,
+      registryDependencies: [],
       files: [{
         path: "registry/new-york/ui/progress.tsx",
         type: "registry:ui",
@@ -444,7 +444,7 @@ export const Index: Record<string, any> = {
       name: "radio-group",
       description: "",
       type: "registry:ui",
-      registryDependencies: undefined,
+      registryDependencies: [],
       files: [{
         path: "registry/new-york/ui/radio-group.tsx",
         type: "registry:ui",
@@ -459,7 +459,7 @@ export const Index: Record<string, any> = {
       name: "resizable",
       description: "",
       type: "registry:ui",
-      registryDependencies: undefined,
+      registryDependencies: [],
       files: [{
         path: "registry/new-york/ui/resizable.tsx",
         type: "registry:ui",
@@ -474,7 +474,7 @@ export const Index: Record<string, any> = {
       name: "scroll-area",
       description: "",
       type: "registry:ui",
-      registryDependencies: undefined,
+      registryDependencies: [],
       files: [{
         path: "registry/new-york/ui/scroll-area.tsx",
         type: "registry:ui",
@@ -489,7 +489,7 @@ export const Index: Record<string, any> = {
       name: "select",
       description: "",
       type: "registry:ui",
-      registryDependencies: undefined,
+      registryDependencies: [],
       files: [{
         path: "registry/new-york/ui/select.tsx",
         type: "registry:ui",
@@ -504,7 +504,7 @@ export const Index: Record<string, any> = {
       name: "separator",
       description: "",
       type: "registry:ui",
-      registryDependencies: undefined,
+      registryDependencies: [],
       files: [{
         path: "registry/new-york/ui/separator.tsx",
         type: "registry:ui",
@@ -519,7 +519,7 @@ export const Index: Record<string, any> = {
       name: "sheet",
       description: "",
       type: "registry:ui",
-      registryDependencies: undefined,
+      registryDependencies: [],
       files: [{
         path: "registry/new-york/ui/sheet.tsx",
         type: "registry:ui",
@@ -549,7 +549,7 @@ export const Index: Record<string, any> = {
       name: "skeleton",
       description: "",
       type: "registry:ui",
-      registryDependencies: undefined,
+      registryDependencies: [],
       files: [{
         path: "registry/new-york/ui/skeleton.tsx",
         type: "registry:ui",
@@ -564,7 +564,7 @@ export const Index: Record<string, any> = {
       name: "slider",
       description: "",
       type: "registry:ui",
-      registryDependencies: undefined,
+      registryDependencies: [],
       files: [{
         path: "registry/new-york/ui/slider.tsx",
         type: "registry:ui",
@@ -579,7 +579,7 @@ export const Index: Record<string, any> = {
       name: "sonner",
       description: "",
       type: "registry:ui",
-      registryDependencies: undefined,
+      registryDependencies: [],
       files: [{
         path: "registry/new-york/ui/sonner.tsx",
         type: "registry:ui",
@@ -594,7 +594,7 @@ export const Index: Record<string, any> = {
       name: "switch",
       description: "",
       type: "registry:ui",
-      registryDependencies: undefined,
+      registryDependencies: [],
       files: [{
         path: "registry/new-york/ui/switch.tsx",
         type: "registry:ui",
@@ -609,7 +609,7 @@ export const Index: Record<string, any> = {
       name: "table",
       description: "",
       type: "registry:ui",
-      registryDependencies: undefined,
+      registryDependencies: [],
       files: [{
         path: "registry/new-york/ui/table.tsx",
         type: "registry:ui",
@@ -624,7 +624,7 @@ export const Index: Record<string, any> = {
       name: "tabs",
       description: "",
       type: "registry:ui",
-      registryDependencies: undefined,
+      registryDependencies: [],
       files: [{
         path: "registry/new-york/ui/tabs.tsx",
         type: "registry:ui",
@@ -639,7 +639,7 @@ export const Index: Record<string, any> = {
       name: "textarea",
       description: "",
       type: "registry:ui",
-      registryDependencies: undefined,
+      registryDependencies: [],
       files: [{
         path: "registry/new-york/ui/textarea.tsx",
         type: "registry:ui",
@@ -654,7 +654,7 @@ export const Index: Record<string, any> = {
       name: "toast",
       description: "",
       type: "registry:ui",
-      registryDependencies: undefined,
+      registryDependencies: [],
       files: [{
         path: "registry/new-york/ui/toast.tsx",
         type: "registry:ui",
@@ -677,7 +677,7 @@ export const Index: Record<string, any> = {
       name: "toggle",
       description: "",
       type: "registry:ui",
-      registryDependencies: undefined,
+      registryDependencies: [],
       files: [{
         path: "registry/new-york/ui/toggle.tsx",
         type: "registry:ui",
@@ -707,7 +707,7 @@ export const Index: Record<string, any> = {
       name: "tooltip",
       description: "",
       type: "registry:ui",
-      registryDependencies: undefined,
+      registryDependencies: [],
       files: [{
         path: "registry/new-york/ui/tooltip.tsx",
         type: "registry:ui",
@@ -718,530 +718,628 @@ export const Index: Record<string, any> = {
       source: "",
       meta: undefined,
     },
-    "sidebar-01": {
-      name: "sidebar-01",
-      description: "A simple sidebar with navigation grouped by section.",
-      type: "registry:block",
-      registryDependencies: ["sidebar","breadcrumb","separator","label","dropdown-menu"],
+    "dashboard-01": {
+      name: "dashboard-01",
+      description: "A dashboard with sidebar, charts and data table.",
+      type: "registry:template",
+      registryDependencies: ["sidebar","breadcrumb","separator","label","chart","card","select","tabs","table","toggle-group","badge","button","checkbox","dropdown-menu","drawer","input","avatar","sheet","sonner"],
       files: [{
-        path: "registry/new-york/blocks/sidebar-01/page.tsx",
+        path: "registry/new-york/templates/dashboard-01/page.tsx",
         type: "registry:page",
         target: "app/dashboard/page.tsx"
       },{
-        path: "registry/new-york/blocks/sidebar-01/components/app-sidebar.tsx",
+        path: "registry/new-york/templates/dashboard-01/data.json",
+        type: "registry:file",
+        target: "app/dashboard/data.json"
+      },{
+        path: "registry/new-york/templates/dashboard-01/components/app-sidebar.tsx",
         type: "registry:component",
         target: ""
       },{
-        path: "registry/new-york/blocks/sidebar-01/components/search-form.tsx",
+        path: "registry/new-york/templates/dashboard-01/components/chart-area-interactive.tsx",
         type: "registry:component",
         target: ""
       },{
-        path: "registry/new-york/blocks/sidebar-01/components/version-switcher.tsx",
+        path: "registry/new-york/templates/dashboard-01/components/data-table.tsx",
+        type: "registry:component",
+        target: ""
+      },{
+        path: "registry/new-york/templates/dashboard-01/components/nav-documents.tsx",
+        type: "registry:component",
+        target: ""
+      },{
+        path: "registry/new-york/templates/dashboard-01/components/nav-main.tsx",
+        type: "registry:component",
+        target: ""
+      },{
+        path: "registry/new-york/templates/dashboard-01/components/nav-secondary.tsx",
+        type: "registry:component",
+        target: ""
+      },{
+        path: "registry/new-york/templates/dashboard-01/components/nav-user.tsx",
+        type: "registry:component",
+        target: ""
+      },{
+        path: "registry/new-york/templates/dashboard-01/components/section-cards.tsx",
+        type: "registry:component",
+        target: ""
+      },{
+        path: "registry/new-york/templates/dashboard-01/components/site-header.tsx",
+        type: "registry:component",
+        target: ""
+      }],
+      categories: ["dashboard"],
+      component: React.lazy(() => import("@/registry/new-york/templates/dashboard-01/page.tsx")),
+      source: "__registry__/new-york/templates/dashboard-01/page.tsx",
+      meta: undefined,
+    },
+    "sidebar-01": {
+      name: "sidebar-01",
+      description: "A simple sidebar with navigation grouped by section.",
+      type: "registry:template",
+      registryDependencies: ["sidebar","breadcrumb","separator","label","dropdown-menu"],
+      files: [{
+        path: "registry/new-york/templates/sidebar-01/page.tsx",
+        type: "registry:page",
+        target: "app/dashboard/page.tsx"
+      },{
+        path: "registry/new-york/templates/sidebar-01/components/app-sidebar.tsx",
+        type: "registry:component",
+        target: ""
+      },{
+        path: "registry/new-york/templates/sidebar-01/components/search-form.tsx",
+        type: "registry:component",
+        target: ""
+      },{
+        path: "registry/new-york/templates/sidebar-01/components/version-switcher.tsx",
         type: "registry:component",
         target: ""
       }],
       categories: ["sidebar","dashboard"],
-      component: React.lazy(() => import("@/registry/new-york/blocks/sidebar-01/page.tsx")),
-      source: "__registry__/new-york/blocks/sidebar-01/page.tsx",
+      component: React.lazy(() => import("@/registry/new-york/templates/sidebar-01/page.tsx")),
+      source: "__registry__/new-york/templates/sidebar-01/page.tsx",
       meta: undefined,
     },
     "sidebar-02": {
       name: "sidebar-02",
       description: "A sidebar with collapsible sections.",
-      type: "registry:block",
+      type: "registry:template",
       registryDependencies: ["sidebar","breadcrumb","separator","label","dropdown-menu"],
       files: [{
-        path: "registry/new-york/blocks/sidebar-02/page.tsx",
+        path: "registry/new-york/templates/sidebar-02/page.tsx",
         type: "registry:page",
         target: "app/dashboard/page.tsx"
       },{
-        path: "registry/new-york/blocks/sidebar-02/components/app-sidebar.tsx",
+        path: "registry/new-york/templates/sidebar-02/components/app-sidebar.tsx",
         type: "registry:component",
         target: ""
       },{
-        path: "registry/new-york/blocks/sidebar-02/components/search-form.tsx",
+        path: "registry/new-york/templates/sidebar-02/components/search-form.tsx",
         type: "registry:component",
         target: ""
       },{
-        path: "registry/new-york/blocks/sidebar-02/components/version-switcher.tsx",
+        path: "registry/new-york/templates/sidebar-02/components/version-switcher.tsx",
         type: "registry:component",
         target: ""
       }],
       categories: ["sidebar","dashboard"],
-      component: React.lazy(() => import("@/registry/new-york/blocks/sidebar-02/page.tsx")),
-      source: "__registry__/new-york/blocks/sidebar-02/page.tsx",
+      component: React.lazy(() => import("@/registry/new-york/templates/sidebar-02/page.tsx")),
+      source: "__registry__/new-york/templates/sidebar-02/page.tsx",
       meta: undefined,
     },
     "sidebar-03": {
       name: "sidebar-03",
       description: "A sidebar with submenus.",
-      type: "registry:block",
+      type: "registry:template",
       registryDependencies: ["sidebar","breadcrumb"],
       files: [{
-        path: "registry/new-york/blocks/sidebar-03/page.tsx",
+        path: "registry/new-york/templates/sidebar-03/page.tsx",
         type: "registry:page",
         target: "app/dashboard/page.tsx"
       },{
-        path: "registry/new-york/blocks/sidebar-03/components/app-sidebar.tsx",
+        path: "registry/new-york/templates/sidebar-03/components/app-sidebar.tsx",
         type: "registry:component",
         target: ""
       }],
       categories: ["sidebar","dashboard"],
-      component: React.lazy(() => import("@/registry/new-york/blocks/sidebar-03/page.tsx")),
-      source: "__registry__/new-york/blocks/sidebar-03/page.tsx",
+      component: React.lazy(() => import("@/registry/new-york/templates/sidebar-03/page.tsx")),
+      source: "__registry__/new-york/templates/sidebar-03/page.tsx",
       meta: undefined,
     },
     "sidebar-04": {
       name: "sidebar-04",
       description: "A floating sidebar with submenus.",
-      type: "registry:block",
+      type: "registry:template",
       registryDependencies: ["sidebar","breadcrumb","separator"],
       files: [{
-        path: "registry/new-york/blocks/sidebar-04/page.tsx",
+        path: "registry/new-york/templates/sidebar-04/page.tsx",
         type: "registry:page",
         target: "app/dashboard/page.tsx"
       },{
-        path: "registry/new-york/blocks/sidebar-04/components/app-sidebar.tsx",
+        path: "registry/new-york/templates/sidebar-04/components/app-sidebar.tsx",
         type: "registry:component",
         target: ""
       }],
       categories: ["sidebar","dashboard"],
-      component: React.lazy(() => import("@/registry/new-york/blocks/sidebar-04/page.tsx")),
-      source: "__registry__/new-york/blocks/sidebar-04/page.tsx",
+      component: React.lazy(() => import("@/registry/new-york/templates/sidebar-04/page.tsx")),
+      source: "__registry__/new-york/templates/sidebar-04/page.tsx",
       meta: undefined,
     },
     "sidebar-05": {
       name: "sidebar-05",
       description: "A sidebar with collapsible submenus.",
-      type: "registry:block",
+      type: "registry:template",
       registryDependencies: ["sidebar","breadcrumb","separator","label","collapsible"],
       files: [{
-        path: "registry/new-york/blocks/sidebar-05/page.tsx",
+        path: "registry/new-york/templates/sidebar-05/page.tsx",
         type: "registry:page",
         target: "app/dashboard/page.tsx"
       },{
-        path: "registry/new-york/blocks/sidebar-05/components/app-sidebar.tsx",
+        path: "registry/new-york/templates/sidebar-05/components/app-sidebar.tsx",
         type: "registry:component",
         target: ""
       },{
-        path: "registry/new-york/blocks/sidebar-05/components/search-form.tsx",
+        path: "registry/new-york/templates/sidebar-05/components/search-form.tsx",
         type: "registry:component",
         target: ""
       }],
       categories: ["sidebar","dashboard"],
-      component: React.lazy(() => import("@/registry/new-york/blocks/sidebar-05/page.tsx")),
-      source: "__registry__/new-york/blocks/sidebar-05/page.tsx",
+      component: React.lazy(() => import("@/registry/new-york/templates/sidebar-05/page.tsx")),
+      source: "__registry__/new-york/templates/sidebar-05/page.tsx",
       meta: undefined,
     },
     "sidebar-06": {
       name: "sidebar-06",
       description: "A sidebar with submenus as dropdowns.",
-      type: "registry:block",
+      type: "registry:template",
       registryDependencies: ["sidebar","breadcrumb","separator","card","dropdown-menu"],
       files: [{
-        path: "registry/new-york/blocks/sidebar-06/page.tsx",
+        path: "registry/new-york/templates/sidebar-06/page.tsx",
         type: "registry:page",
         target: "app/dashboard/page.tsx"
       },{
-        path: "registry/new-york/blocks/sidebar-06/components/app-sidebar.tsx",
+        path: "registry/new-york/templates/sidebar-06/components/app-sidebar.tsx",
         type: "registry:component",
         target: ""
       },{
-        path: "registry/new-york/blocks/sidebar-06/components/nav-main.tsx",
+        path: "registry/new-york/templates/sidebar-06/components/nav-main.tsx",
         type: "registry:component",
         target: ""
       },{
-        path: "registry/new-york/blocks/sidebar-06/components/sidebar-opt-in-form.tsx",
+        path: "registry/new-york/templates/sidebar-06/components/sidebar-opt-in-form.tsx",
         type: "registry:component",
         target: ""
       }],
       categories: ["sidebar","dashboard"],
-      component: React.lazy(() => import("@/registry/new-york/blocks/sidebar-06/page.tsx")),
-      source: "__registry__/new-york/blocks/sidebar-06/page.tsx",
+      component: React.lazy(() => import("@/registry/new-york/templates/sidebar-06/page.tsx")),
+      source: "__registry__/new-york/templates/sidebar-06/page.tsx",
       meta: undefined,
     },
     "sidebar-07": {
       name: "sidebar-07",
       description: "A sidebar that collapses to icons.",
-      type: "registry:block",
+      type: "registry:template",
       registryDependencies: ["sidebar","breadcrumb","separator","collapsible","dropdown-menu","avatar"],
       files: [{
-        path: "registry/new-york/blocks/sidebar-07/page.tsx",
+        path: "registry/new-york/templates/sidebar-07/page.tsx",
         type: "registry:page",
         target: "app/dashboard/page.tsx"
       },{
-        path: "registry/new-york/blocks/sidebar-07/components/app-sidebar.tsx",
+        path: "registry/new-york/templates/sidebar-07/components/app-sidebar.tsx",
         type: "registry:component",
         target: ""
       },{
-        path: "registry/new-york/blocks/sidebar-07/components/nav-main.tsx",
+        path: "registry/new-york/templates/sidebar-07/components/nav-main.tsx",
         type: "registry:component",
         target: ""
       },{
-        path: "registry/new-york/blocks/sidebar-07/components/nav-projects.tsx",
+        path: "registry/new-york/templates/sidebar-07/components/nav-projects.tsx",
         type: "registry:component",
         target: ""
       },{
-        path: "registry/new-york/blocks/sidebar-07/components/nav-user.tsx",
+        path: "registry/new-york/templates/sidebar-07/components/nav-user.tsx",
         type: "registry:component",
         target: ""
       },{
-        path: "registry/new-york/blocks/sidebar-07/components/team-switcher.tsx",
+        path: "registry/new-york/templates/sidebar-07/components/team-switcher.tsx",
         type: "registry:component",
         target: ""
       }],
       categories: ["sidebar","dashboard"],
-      component: React.lazy(() => import("@/registry/new-york/blocks/sidebar-07/page.tsx")),
-      source: "__registry__/new-york/blocks/sidebar-07/page.tsx",
+      component: React.lazy(() => import("@/registry/new-york/templates/sidebar-07/page.tsx")),
+      source: "__registry__/new-york/templates/sidebar-07/page.tsx",
       meta: undefined,
     },
     "sidebar-08": {
       name: "sidebar-08",
       description: "An inset sidebar with secondary navigation.",
-      type: "registry:block",
+      type: "registry:template",
       registryDependencies: ["sidebar","breadcrumb","separator","collapsible","dropdown-menu","avatar"],
       files: [{
-        path: "registry/new-york/blocks/sidebar-08/page.tsx",
+        path: "registry/new-york/templates/sidebar-08/page.tsx",
         type: "registry:page",
         target: "app/dashboard/page.tsx"
       },{
-        path: "registry/new-york/blocks/sidebar-08/components/app-sidebar.tsx",
+        path: "registry/new-york/templates/sidebar-08/components/app-sidebar.tsx",
         type: "registry:component",
         target: ""
       },{
-        path: "registry/new-york/blocks/sidebar-08/components/nav-main.tsx",
+        path: "registry/new-york/templates/sidebar-08/components/nav-main.tsx",
         type: "registry:component",
         target: ""
       },{
-        path: "registry/new-york/blocks/sidebar-08/components/nav-projects.tsx",
+        path: "registry/new-york/templates/sidebar-08/components/nav-projects.tsx",
         type: "registry:component",
         target: ""
       },{
-        path: "registry/new-york/blocks/sidebar-08/components/nav-secondary.tsx",
+        path: "registry/new-york/templates/sidebar-08/components/nav-secondary.tsx",
         type: "registry:component",
         target: ""
       },{
-        path: "registry/new-york/blocks/sidebar-08/components/nav-user.tsx",
+        path: "registry/new-york/templates/sidebar-08/components/nav-user.tsx",
         type: "registry:component",
         target: ""
       }],
       categories: ["sidebar","dashboard"],
-      component: React.lazy(() => import("@/registry/new-york/blocks/sidebar-08/page.tsx")),
-      source: "__registry__/new-york/blocks/sidebar-08/page.tsx",
+      component: React.lazy(() => import("@/registry/new-york/templates/sidebar-08/page.tsx")),
+      source: "__registry__/new-york/templates/sidebar-08/page.tsx",
       meta: undefined,
     },
     "sidebar-09": {
       name: "sidebar-09",
       description: "Collapsible nested sidebars.",
-      type: "registry:block",
-      registryDependencies: ["sidebar","breadcrumb","separator","collapsible","dropdown-menu","avatar","switch"],
+      type: "registry:template",
+      registryDependencies: ["sidebar","breadcrumb","separator","collapsible","dropdown-menu","avatar","switch","label"],
       files: [{
-        path: "registry/new-york/blocks/sidebar-09/page.tsx",
+        path: "registry/new-york/templates/sidebar-09/page.tsx",
         type: "registry:page",
         target: "app/dashboard/page.tsx"
       },{
-        path: "registry/new-york/blocks/sidebar-09/components/app-sidebar.tsx",
+        path: "registry/new-york/templates/sidebar-09/components/app-sidebar.tsx",
         type: "registry:component",
         target: ""
       },{
-        path: "registry/new-york/blocks/sidebar-09/components/nav-user.tsx",
+        path: "registry/new-york/templates/sidebar-09/components/nav-user.tsx",
         type: "registry:component",
         target: ""
       }],
       categories: ["sidebar","dashboard"],
-      component: React.lazy(() => import("@/registry/new-york/blocks/sidebar-09/page.tsx")),
-      source: "__registry__/new-york/blocks/sidebar-09/page.tsx",
+      component: React.lazy(() => import("@/registry/new-york/templates/sidebar-09/page.tsx")),
+      source: "__registry__/new-york/templates/sidebar-09/page.tsx",
       meta: undefined,
     },
     "sidebar-10": {
       name: "sidebar-10",
       description: "A sidebar in a popover.",
-      type: "registry:block",
+      type: "registry:template",
       registryDependencies: ["sidebar","breadcrumb","separator","popover","collapsible","dropdown-menu"],
       files: [{
-        path: "registry/new-york/blocks/sidebar-10/page.tsx",
+        path: "registry/new-york/templates/sidebar-10/page.tsx",
         type: "registry:page",
         target: "app/dashboard/page.tsx"
       },{
-        path: "registry/new-york/blocks/sidebar-10/components/app-sidebar.tsx",
+        path: "registry/new-york/templates/sidebar-10/components/app-sidebar.tsx",
         type: "registry:component",
         target: ""
       },{
-        path: "registry/new-york/blocks/sidebar-10/components/nav-actions.tsx",
+        path: "registry/new-york/templates/sidebar-10/components/nav-actions.tsx",
         type: "registry:component",
         target: ""
       },{
-        path: "registry/new-york/blocks/sidebar-10/components/nav-favorites.tsx",
+        path: "registry/new-york/templates/sidebar-10/components/nav-favorites.tsx",
         type: "registry:component",
         target: ""
       },{
-        path: "registry/new-york/blocks/sidebar-10/components/nav-main.tsx",
+        path: "registry/new-york/templates/sidebar-10/components/nav-main.tsx",
         type: "registry:component",
         target: ""
       },{
-        path: "registry/new-york/blocks/sidebar-10/components/nav-secondary.tsx",
+        path: "registry/new-york/templates/sidebar-10/components/nav-secondary.tsx",
         type: "registry:component",
         target: ""
       },{
-        path: "registry/new-york/blocks/sidebar-10/components/nav-workspaces.tsx",
+        path: "registry/new-york/templates/sidebar-10/components/nav-workspaces.tsx",
         type: "registry:component",
         target: ""
       },{
-        path: "registry/new-york/blocks/sidebar-10/components/team-switcher.tsx",
+        path: "registry/new-york/templates/sidebar-10/components/team-switcher.tsx",
         type: "registry:component",
         target: ""
       }],
       categories: ["sidebar","dashboard"],
-      component: React.lazy(() => import("@/registry/new-york/blocks/sidebar-10/page.tsx")),
-      source: "__registry__/new-york/blocks/sidebar-10/page.tsx",
+      component: React.lazy(() => import("@/registry/new-york/templates/sidebar-10/page.tsx")),
+      source: "__registry__/new-york/templates/sidebar-10/page.tsx",
       meta: undefined,
     },
     "sidebar-11": {
       name: "sidebar-11",
       description: "A sidebar with a collapsible file tree.",
-      type: "registry:block",
+      type: "registry:template",
       registryDependencies: ["sidebar","breadcrumb","separator","collapsible"],
       files: [{
-        path: "registry/new-york/blocks/sidebar-11/page.tsx",
+        path: "registry/new-york/templates/sidebar-11/page.tsx",
         type: "registry:page",
         target: "app/dashboard/page.tsx"
       },{
-        path: "registry/new-york/blocks/sidebar-11/components/app-sidebar.tsx",
+        path: "registry/new-york/templates/sidebar-11/components/app-sidebar.tsx",
         type: "registry:component",
         target: ""
       }],
       categories: ["sidebar","dashboard"],
-      component: React.lazy(() => import("@/registry/new-york/blocks/sidebar-11/page.tsx")),
-      source: "__registry__/new-york/blocks/sidebar-11/page.tsx",
+      component: React.lazy(() => import("@/registry/new-york/templates/sidebar-11/page.tsx")),
+      source: "__registry__/new-york/templates/sidebar-11/page.tsx",
       meta: undefined,
     },
     "sidebar-12": {
       name: "sidebar-12",
       description: "A sidebar with a calendar.",
-      type: "registry:block",
+      type: "registry:template",
       registryDependencies: ["sidebar","breadcrumb","separator","collapsible","calendar","dropdown-menu","avatar"],
       files: [{
-        path: "registry/new-york/blocks/sidebar-12/page.tsx",
+        path: "registry/new-york/templates/sidebar-12/page.tsx",
         type: "registry:page",
         target: "app/dashboard/page.tsx"
       },{
-        path: "registry/new-york/blocks/sidebar-12/components/app-sidebar.tsx",
+        path: "registry/new-york/templates/sidebar-12/components/app-sidebar.tsx",
         type: "registry:component",
         target: ""
       },{
-        path: "registry/new-york/blocks/sidebar-12/components/calendars.tsx",
+        path: "registry/new-york/templates/sidebar-12/components/calendars.tsx",
         type: "registry:component",
         target: ""
       },{
-        path: "registry/new-york/blocks/sidebar-12/components/date-picker.tsx",
+        path: "registry/new-york/templates/sidebar-12/components/date-picker.tsx",
         type: "registry:component",
         target: ""
       },{
-        path: "registry/new-york/blocks/sidebar-12/components/nav-user.tsx",
+        path: "registry/new-york/templates/sidebar-12/components/nav-user.tsx",
         type: "registry:component",
         target: ""
       }],
       categories: ["sidebar","dashboard"],
-      component: React.lazy(() => import("@/registry/new-york/blocks/sidebar-12/page.tsx")),
-      source: "__registry__/new-york/blocks/sidebar-12/page.tsx",
+      component: React.lazy(() => import("@/registry/new-york/templates/sidebar-12/page.tsx")),
+      source: "__registry__/new-york/templates/sidebar-12/page.tsx",
       meta: undefined,
     },
     "sidebar-13": {
       name: "sidebar-13",
       description: "A sidebar in a dialog.",
-      type: "registry:block",
+      type: "registry:template",
       registryDependencies: ["sidebar","breadcrumb","button","dialog"],
       files: [{
-        path: "registry/new-york/blocks/sidebar-13/page.tsx",
+        path: "registry/new-york/templates/sidebar-13/page.tsx",
         type: "registry:page",
         target: "app/dashboard/page.tsx"
       },{
-        path: "registry/new-york/blocks/sidebar-13/components/settings-dialog.tsx",
+        path: "registry/new-york/templates/sidebar-13/components/settings-dialog.tsx",
         type: "registry:component",
         target: ""
       }],
       categories: ["sidebar","dashboard"],
-      component: React.lazy(() => import("@/registry/new-york/blocks/sidebar-13/page.tsx")),
-      source: "__registry__/new-york/blocks/sidebar-13/page.tsx",
+      component: React.lazy(() => import("@/registry/new-york/templates/sidebar-13/page.tsx")),
+      source: "__registry__/new-york/templates/sidebar-13/page.tsx",
       meta: undefined,
     },
     "sidebar-14": {
       name: "sidebar-14",
       description: "A sidebar on the right.",
-      type: "registry:block",
+      type: "registry:template",
       registryDependencies: ["sidebar","breadcrumb"],
       files: [{
-        path: "registry/new-york/blocks/sidebar-14/page.tsx",
+        path: "registry/new-york/templates/sidebar-14/page.tsx",
         type: "registry:page",
         target: "app/dashboard/page.tsx"
       },{
-        path: "registry/new-york/blocks/sidebar-14/components/app-sidebar.tsx",
+        path: "registry/new-york/templates/sidebar-14/components/app-sidebar.tsx",
         type: "registry:component",
         target: ""
       }],
       categories: ["sidebar","dashboard"],
-      component: React.lazy(() => import("@/registry/new-york/blocks/sidebar-14/page.tsx")),
-      source: "__registry__/new-york/blocks/sidebar-14/page.tsx",
+      component: React.lazy(() => import("@/registry/new-york/templates/sidebar-14/page.tsx")),
+      source: "__registry__/new-york/templates/sidebar-14/page.tsx",
       meta: undefined,
     },
     "sidebar-15": {
       name: "sidebar-15",
       description: "A left and right sidebar.",
-      type: "registry:block",
+      type: "registry:template",
       registryDependencies: ["sidebar","breadcrumb","separator","popover","collapsible","dropdown-menu","calendar","avatar"],
       files: [{
-        path: "registry/new-york/blocks/sidebar-15/page.tsx",
+        path: "registry/new-york/templates/sidebar-15/page.tsx",
         type: "registry:page",
         target: "app/dashboard/page.tsx"
       },{
-        path: "registry/new-york/blocks/sidebar-15/components/calendars.tsx",
+        path: "registry/new-york/templates/sidebar-15/components/calendars.tsx",
         type: "registry:component",
         target: ""
       },{
-        path: "registry/new-york/blocks/sidebar-15/components/date-picker.tsx",
+        path: "registry/new-york/templates/sidebar-15/components/date-picker.tsx",
         type: "registry:component",
         target: ""
       },{
-        path: "registry/new-york/blocks/sidebar-15/components/nav-favorites.tsx",
+        path: "registry/new-york/templates/sidebar-15/components/nav-favorites.tsx",
         type: "registry:component",
         target: ""
       },{
-        path: "registry/new-york/blocks/sidebar-15/components/nav-main.tsx",
+        path: "registry/new-york/templates/sidebar-15/components/nav-main.tsx",
         type: "registry:component",
         target: ""
       },{
-        path: "registry/new-york/blocks/sidebar-15/components/nav-secondary.tsx",
+        path: "registry/new-york/templates/sidebar-15/components/nav-secondary.tsx",
         type: "registry:component",
         target: ""
       },{
-        path: "registry/new-york/blocks/sidebar-15/components/nav-user.tsx",
+        path: "registry/new-york/templates/sidebar-15/components/nav-user.tsx",
         type: "registry:component",
         target: ""
       },{
-        path: "registry/new-york/blocks/sidebar-15/components/nav-workspaces.tsx",
+        path: "registry/new-york/templates/sidebar-15/components/nav-workspaces.tsx",
         type: "registry:component",
         target: ""
       },{
-        path: "registry/new-york/blocks/sidebar-15/components/sidebar-left.tsx",
+        path: "registry/new-york/templates/sidebar-15/components/sidebar-left.tsx",
         type: "registry:component",
         target: ""
       },{
-        path: "registry/new-york/blocks/sidebar-15/components/sidebar-right.tsx",
+        path: "registry/new-york/templates/sidebar-15/components/sidebar-right.tsx",
         type: "registry:component",
         target: ""
       },{
-        path: "registry/new-york/blocks/sidebar-15/components/team-switcher.tsx",
+        path: "registry/new-york/templates/sidebar-15/components/team-switcher.tsx",
         type: "registry:component",
         target: ""
       }],
       categories: ["sidebar","dashboard"],
-      component: React.lazy(() => import("@/registry/new-york/blocks/sidebar-15/page.tsx")),
-      source: "__registry__/new-york/blocks/sidebar-15/page.tsx",
+      component: React.lazy(() => import("@/registry/new-york/templates/sidebar-15/page.tsx")),
+      source: "__registry__/new-york/templates/sidebar-15/page.tsx",
+      meta: undefined,
+    },
+    "sidebar-16": {
+      name: "sidebar-16",
+      description: "A sidebar with a sticky site header.",
+      type: "registry:template",
+      registryDependencies: ["sidebar","breadcrumb","separator","collapsible","dropdown-menu","avatar","button","label"],
+      files: [{
+        path: "registry/new-york/templates/sidebar-16/page.tsx",
+        type: "registry:page",
+        target: "app/dashboard/page.tsx"
+      },{
+        path: "registry/new-york/templates/sidebar-16/components/app-sidebar.tsx",
+        type: "registry:component",
+        target: ""
+      },{
+        path: "registry/new-york/templates/sidebar-16/components/nav-main.tsx",
+        type: "registry:component",
+        target: ""
+      },{
+        path: "registry/new-york/templates/sidebar-16/components/nav-projects.tsx",
+        type: "registry:component",
+        target: ""
+      },{
+        path: "registry/new-york/templates/sidebar-16/components/nav-secondary.tsx",
+        type: "registry:component",
+        target: ""
+      },{
+        path: "registry/new-york/templates/sidebar-16/components/nav-user.tsx",
+        type: "registry:component",
+        target: ""
+      },{
+        path: "registry/new-york/templates/sidebar-16/components/search-form.tsx",
+        type: "registry:component",
+        target: ""
+      },{
+        path: "registry/new-york/templates/sidebar-16/components/site-header.tsx",
+        type: "registry:component",
+        target: ""
+      }],
+      categories: ["sidebar","dashboard"],
+      component: React.lazy(() => import("@/registry/new-york/templates/sidebar-16/page.tsx")),
+      source: "__registry__/new-york/templates/sidebar-16/page.tsx",
       meta: undefined,
     },
     "login-01": {
       name: "login-01",
       description: "A simple login form.",
-      type: "registry:block",
+      type: "registry:template",
       registryDependencies: ["button","card","input","label"],
       files: [{
-        path: "registry/new-york/blocks/login-01/page.tsx",
+        path: "registry/new-york/templates/login-01/page.tsx",
         type: "registry:page",
         target: "app/login/page.tsx"
       },{
-        path: "registry/new-york/blocks/login-01/components/login-form.tsx",
+        path: "registry/new-york/templates/login-01/components/login-form.tsx",
         type: "registry:component",
         target: ""
       }],
       categories: ["authentication","login"],
-      component: React.lazy(() => import("@/registry/new-york/blocks/login-01/page.tsx")),
-      source: "__registry__/new-york/blocks/login-01/page.tsx",
+      component: React.lazy(() => import("@/registry/new-york/templates/login-01/page.tsx")),
+      source: "__registry__/new-york/templates/login-01/page.tsx",
       meta: undefined,
     },
     "login-02": {
       name: "login-02",
       description: "A two column login page with a cover image.",
-      type: "registry:block",
+      type: "registry:template",
       registryDependencies: ["button","card","input","label"],
       files: [{
-        path: "registry/new-york/blocks/login-02/page.tsx",
+        path: "registry/new-york/templates/login-02/page.tsx",
         type: "registry:page",
         target: "app/login/page.tsx"
       },{
-        path: "registry/new-york/blocks/login-02/components/login-form.tsx",
+        path: "registry/new-york/templates/login-02/components/login-form.tsx",
         type: "registry:component",
         target: ""
       }],
       categories: ["authentication","login"],
-      component: React.lazy(() => import("@/registry/new-york/blocks/login-02/page.tsx")),
-      source: "__registry__/new-york/blocks/login-02/page.tsx",
+      component: React.lazy(() => import("@/registry/new-york/templates/login-02/page.tsx")),
+      source: "__registry__/new-york/templates/login-02/page.tsx",
       meta: undefined,
     },
     "login-03": {
       name: "login-03",
       description: "A login page with a muted background color.",
-      type: "registry:block",
+      type: "registry:template",
       registryDependencies: ["button","card","input","label"],
       files: [{
-        path: "registry/new-york/blocks/login-03/page.tsx",
+        path: "registry/new-york/templates/login-03/page.tsx",
         type: "registry:page",
         target: "app/login/page.tsx"
       },{
-        path: "registry/new-york/blocks/login-03/components/login-form.tsx",
+        path: "registry/new-york/templates/login-03/components/login-form.tsx",
         type: "registry:component",
         target: ""
       }],
       categories: ["authentication","login"],
-      component: React.lazy(() => import("@/registry/new-york/blocks/login-03/page.tsx")),
-      source: "__registry__/new-york/blocks/login-03/page.tsx",
+      component: React.lazy(() => import("@/registry/new-york/templates/login-03/page.tsx")),
+      source: "__registry__/new-york/templates/login-03/page.tsx",
       meta: undefined,
     },
     "login-04": {
       name: "login-04",
       description: "A login page with form and image.",
-      type: "registry:block",
+      type: "registry:template",
       registryDependencies: ["button","card","input","label"],
       files: [{
-        path: "registry/new-york/blocks/login-04/page.tsx",
+        path: "registry/new-york/templates/login-04/page.tsx",
         type: "registry:page",
         target: "app/login/page.tsx"
       },{
-        path: "registry/new-york/blocks/login-04/components/login-form.tsx",
+        path: "registry/new-york/templates/login-04/components/login-form.tsx",
         type: "registry:component",
         target: ""
       }],
       categories: ["authentication","login"],
-      component: React.lazy(() => import("@/registry/new-york/blocks/login-04/page.tsx")),
-      source: "__registry__/new-york/blocks/login-04/page.tsx",
+      component: React.lazy(() => import("@/registry/new-york/templates/login-04/page.tsx")),
+      source: "__registry__/new-york/templates/login-04/page.tsx",
       meta: undefined,
     },
     "login-05": {
       name: "login-05",
       description: "A simple email-only login page.",
-      type: "registry:block",
+      type: "registry:template",
       registryDependencies: ["button","card","input","label"],
       files: [{
-        path: "registry/new-york/blocks/login-05/page.tsx",
+        path: "registry/new-york/templates/login-05/page.tsx",
         type: "registry:page",
         target: "app/login/page.tsx"
       },{
-        path: "registry/new-york/blocks/login-05/components/login-form.tsx",
+        path: "registry/new-york/templates/login-05/components/login-form.tsx",
         type: "registry:component",
         target: ""
       }],
       categories: ["authentication","login"],
-      component: React.lazy(() => import("@/registry/new-york/blocks/login-05/page.tsx")),
-      source: "__registry__/new-york/blocks/login-05/page.tsx",
+      component: React.lazy(() => import("@/registry/new-york/templates/login-05/page.tsx")),
+      source: "__registry__/new-york/templates/login-05/page.tsx",
       meta: undefined,
     },
     "chart-area-axes": {
       name: "chart-area-axes",
       description: "",
-      type: "registry:block",
+      type: "registry:template",
       registryDependencies: ["card","chart"],
       files: [{
         path: "registry/new-york/charts/chart-area-axes.tsx",
-        type: "registry:block",
+        type: "registry:template",
         target: ""
       }],
       categories: ["charts","charts-area"],
@@ -1252,11 +1350,11 @@ export const Index: Record<string, any> = {
     "chart-area-default": {
       name: "chart-area-default",
       description: "",
-      type: "registry:block",
+      type: "registry:template",
       registryDependencies: ["card","chart"],
       files: [{
         path: "registry/new-york/charts/chart-area-default.tsx",
-        type: "registry:block",
+        type: "registry:template",
         target: ""
       }],
       categories: ["charts","charts-area"],
@@ -1267,11 +1365,11 @@ export const Index: Record<string, any> = {
     "chart-area-gradient": {
       name: "chart-area-gradient",
       description: "",
-      type: "registry:block",
+      type: "registry:template",
       registryDependencies: ["card","chart"],
       files: [{
         path: "registry/new-york/charts/chart-area-gradient.tsx",
-        type: "registry:block",
+        type: "registry:template",
         target: ""
       }],
       categories: ["charts","charts-area"],
@@ -1282,11 +1380,11 @@ export const Index: Record<string, any> = {
     "chart-area-icons": {
       name: "chart-area-icons",
       description: "",
-      type: "registry:block",
+      type: "registry:template",
       registryDependencies: ["card","chart"],
       files: [{
         path: "registry/new-york/charts/chart-area-icons.tsx",
-        type: "registry:block",
+        type: "registry:template",
         target: ""
       }],
       categories: ["charts","charts-area"],
@@ -1297,7 +1395,7 @@ export const Index: Record<string, any> = {
     "chart-area-interactive": {
       name: "chart-area-interactive",
       description: "",
-      type: "registry:block",
+      type: "registry:template",
       registryDependencies: ["card","chart","select"],
       files: [{
         path: "registry/new-york/charts/chart-area-interactive.tsx",
@@ -1312,11 +1410,11 @@ export const Index: Record<string, any> = {
     "chart-area-legend": {
       name: "chart-area-legend",
       description: "",
-      type: "registry:block",
+      type: "registry:template",
       registryDependencies: ["card","chart"],
       files: [{
         path: "registry/new-york/charts/chart-area-legend.tsx",
-        type: "registry:block",
+        type: "registry:template",
         target: ""
       }],
       categories: ["charts","charts-area"],
@@ -1327,11 +1425,11 @@ export const Index: Record<string, any> = {
     "chart-area-linear": {
       name: "chart-area-linear",
       description: "",
-      type: "registry:block",
+      type: "registry:template",
       registryDependencies: ["card","chart"],
       files: [{
         path: "registry/new-york/charts/chart-area-linear.tsx",
-        type: "registry:block",
+        type: "registry:template",
         target: ""
       }],
       categories: ["charts","charts-area"],
@@ -1342,11 +1440,11 @@ export const Index: Record<string, any> = {
     "chart-area-stacked-expand": {
       name: "chart-area-stacked-expand",
       description: "",
-      type: "registry:block",
+      type: "registry:template",
       registryDependencies: ["card","chart"],
       files: [{
         path: "registry/new-york/charts/chart-area-stacked-expand.tsx",
-        type: "registry:block",
+        type: "registry:template",
         target: ""
       }],
       categories: ["charts","charts-area"],
@@ -1357,11 +1455,11 @@ export const Index: Record<string, any> = {
     "chart-area-stacked": {
       name: "chart-area-stacked",
       description: "",
-      type: "registry:block",
+      type: "registry:template",
       registryDependencies: ["card","chart"],
       files: [{
         path: "registry/new-york/charts/chart-area-stacked.tsx",
-        type: "registry:block",
+        type: "registry:template",
         target: ""
       }],
       categories: ["charts","charts-area"],
@@ -1372,11 +1470,11 @@ export const Index: Record<string, any> = {
     "chart-area-step": {
       name: "chart-area-step",
       description: "",
-      type: "registry:block",
+      type: "registry:template",
       registryDependencies: ["card","chart"],
       files: [{
         path: "registry/new-york/charts/chart-area-step.tsx",
-        type: "registry:block",
+        type: "registry:template",
         target: ""
       }],
       categories: ["charts","charts-area"],
@@ -1387,11 +1485,11 @@ export const Index: Record<string, any> = {
     "chart-bar-active": {
       name: "chart-bar-active",
       description: "",
-      type: "registry:block",
+      type: "registry:template",
       registryDependencies: ["card","chart"],
       files: [{
         path: "registry/new-york/charts/chart-bar-active.tsx",
-        type: "registry:block",
+        type: "registry:template",
         target: ""
       }],
       categories: ["charts","charts-bar"],
@@ -1402,11 +1500,11 @@ export const Index: Record<string, any> = {
     "chart-bar-default": {
       name: "chart-bar-default",
       description: "",
-      type: "registry:block",
+      type: "registry:template",
       registryDependencies: ["card","chart"],
       files: [{
         path: "registry/new-york/charts/chart-bar-default.tsx",
-        type: "registry:block",
+        type: "registry:template",
         target: ""
       }],
       categories: ["charts","charts-bar"],
@@ -1417,11 +1515,11 @@ export const Index: Record<string, any> = {
     "chart-bar-horizontal": {
       name: "chart-bar-horizontal",
       description: "",
-      type: "registry:block",
+      type: "registry:template",
       registryDependencies: ["card","chart"],
       files: [{
         path: "registry/new-york/charts/chart-bar-horizontal.tsx",
-        type: "registry:block",
+        type: "registry:template",
         target: ""
       }],
       categories: ["charts","charts-bar"],
@@ -1432,11 +1530,11 @@ export const Index: Record<string, any> = {
     "chart-bar-interactive": {
       name: "chart-bar-interactive",
       description: "",
-      type: "registry:block",
+      type: "registry:template",
       registryDependencies: ["card","chart"],
       files: [{
         path: "registry/new-york/charts/chart-bar-interactive.tsx",
-        type: "registry:block",
+        type: "registry:template",
         target: ""
       }],
       categories: ["charts","charts-bar"],
@@ -1447,11 +1545,11 @@ export const Index: Record<string, any> = {
     "chart-bar-label-custom": {
       name: "chart-bar-label-custom",
       description: "",
-      type: "registry:block",
+      type: "registry:template",
       registryDependencies: ["card","chart"],
       files: [{
         path: "registry/new-york/charts/chart-bar-label-custom.tsx",
-        type: "registry:block",
+        type: "registry:template",
         target: ""
       }],
       categories: ["charts","charts-bar"],
@@ -1462,11 +1560,11 @@ export const Index: Record<string, any> = {
     "chart-bar-label": {
       name: "chart-bar-label",
       description: "",
-      type: "registry:block",
+      type: "registry:template",
       registryDependencies: ["card","chart"],
       files: [{
         path: "registry/new-york/charts/chart-bar-label.tsx",
-        type: "registry:block",
+        type: "registry:template",
         target: ""
       }],
       categories: ["charts","charts-bar"],
@@ -1477,11 +1575,11 @@ export const Index: Record<string, any> = {
     "chart-bar-mixed": {
       name: "chart-bar-mixed",
       description: "",
-      type: "registry:block",
+      type: "registry:template",
       registryDependencies: ["card","chart"],
       files: [{
         path: "registry/new-york/charts/chart-bar-mixed.tsx",
-        type: "registry:block",
+        type: "registry:template",
         target: ""
       }],
       categories: ["charts","charts-bar"],
@@ -1492,11 +1590,11 @@ export const Index: Record<string, any> = {
     "chart-bar-multiple": {
       name: "chart-bar-multiple",
       description: "",
-      type: "registry:block",
+      type: "registry:template",
       registryDependencies: ["card","chart"],
       files: [{
         path: "registry/new-york/charts/chart-bar-multiple.tsx",
-        type: "registry:block",
+        type: "registry:template",
         target: ""
       }],
       categories: ["charts","charts-bar"],
@@ -1507,11 +1605,11 @@ export const Index: Record<string, any> = {
     "chart-bar-negative": {
       name: "chart-bar-negative",
       description: "",
-      type: "registry:block",
+      type: "registry:template",
       registryDependencies: ["card","chart"],
       files: [{
         path: "registry/new-york/charts/chart-bar-negative.tsx",
-        type: "registry:block",
+        type: "registry:template",
         target: ""
       }],
       categories: ["charts","charts-bar"],
@@ -1522,11 +1620,11 @@ export const Index: Record<string, any> = {
     "chart-bar-stacked": {
       name: "chart-bar-stacked",
       description: "",
-      type: "registry:block",
+      type: "registry:template",
       registryDependencies: ["card","chart"],
       files: [{
         path: "registry/new-york/charts/chart-bar-stacked.tsx",
-        type: "registry:block",
+        type: "registry:template",
         target: ""
       }],
       categories: ["charts","charts-bar"],
@@ -1537,11 +1635,11 @@ export const Index: Record<string, any> = {
     "chart-line-default": {
       name: "chart-line-default",
       description: "",
-      type: "registry:block",
+      type: "registry:template",
       registryDependencies: ["card","chart"],
       files: [{
         path: "registry/new-york/charts/chart-line-default.tsx",
-        type: "registry:block",
+        type: "registry:template",
         target: ""
       }],
       categories: ["charts","charts-line"],
@@ -1552,11 +1650,11 @@ export const Index: Record<string, any> = {
     "chart-line-dots-colors": {
       name: "chart-line-dots-colors",
       description: "",
-      type: "registry:block",
+      type: "registry:template",
       registryDependencies: ["card","chart"],
       files: [{
         path: "registry/new-york/charts/chart-line-dots-colors.tsx",
-        type: "registry:block",
+        type: "registry:template",
         target: ""
       }],
       categories: ["charts","charts-line"],
@@ -1567,11 +1665,11 @@ export const Index: Record<string, any> = {
     "chart-line-dots-custom": {
       name: "chart-line-dots-custom",
       description: "",
-      type: "registry:block",
+      type: "registry:template",
       registryDependencies: ["card","chart"],
       files: [{
         path: "registry/new-york/charts/chart-line-dots-custom.tsx",
-        type: "registry:block",
+        type: "registry:template",
         target: ""
       }],
       categories: ["charts","charts-line"],
@@ -1582,11 +1680,11 @@ export const Index: Record<string, any> = {
     "chart-line-dots": {
       name: "chart-line-dots",
       description: "",
-      type: "registry:block",
+      type: "registry:template",
       registryDependencies: ["card","chart"],
       files: [{
         path: "registry/new-york/charts/chart-line-dots.tsx",
-        type: "registry:block",
+        type: "registry:template",
         target: ""
       }],
       categories: ["charts","charts-line"],
@@ -1597,11 +1695,11 @@ export const Index: Record<string, any> = {
     "chart-line-interactive": {
       name: "chart-line-interactive",
       description: "",
-      type: "registry:block",
+      type: "registry:template",
       registryDependencies: ["card","chart"],
       files: [{
         path: "registry/new-york/charts/chart-line-interactive.tsx",
-        type: "registry:block",
+        type: "registry:template",
         target: ""
       }],
       categories: ["charts","charts-line"],
@@ -1612,11 +1710,11 @@ export const Index: Record<string, any> = {
     "chart-line-label-custom": {
       name: "chart-line-label-custom",
       description: "",
-      type: "registry:block",
+      type: "registry:template",
       registryDependencies: ["card","chart"],
       files: [{
         path: "registry/new-york/charts/chart-line-label-custom.tsx",
-        type: "registry:block",
+        type: "registry:template",
         target: ""
       }],
       categories: ["charts","charts-line"],
@@ -1627,11 +1725,11 @@ export const Index: Record<string, any> = {
     "chart-line-label": {
       name: "chart-line-label",
       description: "",
-      type: "registry:block",
+      type: "registry:template",
       registryDependencies: ["card","chart"],
       files: [{
         path: "registry/new-york/charts/chart-line-label.tsx",
-        type: "registry:block",
+        type: "registry:template",
         target: ""
       }],
       categories: ["charts","charts-line"],
@@ -1642,11 +1740,11 @@ export const Index: Record<string, any> = {
     "chart-line-linear": {
       name: "chart-line-linear",
       description: "",
-      type: "registry:block",
+      type: "registry:template",
       registryDependencies: ["card","chart"],
       files: [{
         path: "registry/new-york/charts/chart-line-linear.tsx",
-        type: "registry:block",
+        type: "registry:template",
         target: ""
       }],
       categories: ["charts","charts-line"],
@@ -1657,11 +1755,11 @@ export const Index: Record<string, any> = {
     "chart-line-multiple": {
       name: "chart-line-multiple",
       description: "",
-      type: "registry:block",
+      type: "registry:template",
       registryDependencies: ["card","chart"],
       files: [{
         path: "registry/new-york/charts/chart-line-multiple.tsx",
-        type: "registry:block",
+        type: "registry:template",
         target: ""
       }],
       categories: ["charts","charts-line"],
@@ -1672,11 +1770,11 @@ export const Index: Record<string, any> = {
     "chart-line-step": {
       name: "chart-line-step",
       description: "",
-      type: "registry:block",
+      type: "registry:template",
       registryDependencies: ["card","chart"],
       files: [{
         path: "registry/new-york/charts/chart-line-step.tsx",
-        type: "registry:block",
+        type: "registry:template",
         target: ""
       }],
       categories: ["charts","charts-line"],
@@ -1687,11 +1785,11 @@ export const Index: Record<string, any> = {
     "chart-pie-donut-active": {
       name: "chart-pie-donut-active",
       description: "",
-      type: "registry:block",
+      type: "registry:template",
       registryDependencies: ["card","chart"],
       files: [{
         path: "registry/new-york/charts/chart-pie-donut-active.tsx",
-        type: "registry:block",
+        type: "registry:template",
         target: ""
       }],
       categories: ["charts","charts-pie"],
@@ -1702,11 +1800,11 @@ export const Index: Record<string, any> = {
     "chart-pie-donut-text": {
       name: "chart-pie-donut-text",
       description: "",
-      type: "registry:block",
+      type: "registry:template",
       registryDependencies: ["card","chart"],
       files: [{
         path: "registry/new-york/charts/chart-pie-donut-text.tsx",
-        type: "registry:block",
+        type: "registry:template",
         target: ""
       }],
       categories: ["charts","charts-pie"],
@@ -1717,11 +1815,11 @@ export const Index: Record<string, any> = {
     "chart-pie-donut": {
       name: "chart-pie-donut",
       description: "",
-      type: "registry:block",
+      type: "registry:template",
       registryDependencies: ["card","chart"],
       files: [{
         path: "registry/new-york/charts/chart-pie-donut.tsx",
-        type: "registry:block",
+        type: "registry:template",
         target: ""
       }],
       categories: ["charts","charts-pie"],
@@ -1732,11 +1830,11 @@ export const Index: Record<string, any> = {
     "chart-pie-interactive": {
       name: "chart-pie-interactive",
       description: "",
-      type: "registry:block",
+      type: "registry:template",
       registryDependencies: ["card","chart"],
       files: [{
         path: "registry/new-york/charts/chart-pie-interactive.tsx",
-        type: "registry:block",
+        type: "registry:template",
         target: ""
       }],
       categories: ["charts","charts-pie"],
@@ -1747,11 +1845,11 @@ export const Index: Record<string, any> = {
     "chart-pie-label-custom": {
       name: "chart-pie-label-custom",
       description: "",
-      type: "registry:block",
+      type: "registry:template",
       registryDependencies: ["card","chart"],
       files: [{
         path: "registry/new-york/charts/chart-pie-label-custom.tsx",
-        type: "registry:block",
+        type: "registry:template",
         target: ""
       }],
       categories: ["charts","charts-pie"],
@@ -1762,11 +1860,11 @@ export const Index: Record<string, any> = {
     "chart-pie-label-list": {
       name: "chart-pie-label-list",
       description: "",
-      type: "registry:block",
+      type: "registry:template",
       registryDependencies: ["card","chart"],
       files: [{
         path: "registry/new-york/charts/chart-pie-label-list.tsx",
-        type: "registry:block",
+        type: "registry:template",
         target: ""
       }],
       categories: ["charts","charts-pie"],
@@ -1777,11 +1875,11 @@ export const Index: Record<string, any> = {
     "chart-pie-label": {
       name: "chart-pie-label",
       description: "",
-      type: "registry:block",
+      type: "registry:template",
       registryDependencies: ["card","chart"],
       files: [{
         path: "registry/new-york/charts/chart-pie-label.tsx",
-        type: "registry:block",
+        type: "registry:template",
         target: ""
       }],
       categories: ["charts","charts-pie"],
@@ -1792,11 +1890,11 @@ export const Index: Record<string, any> = {
     "chart-pie-legend": {
       name: "chart-pie-legend",
       description: "",
-      type: "registry:block",
+      type: "registry:template",
       registryDependencies: ["card","chart"],
       files: [{
         path: "registry/new-york/charts/chart-pie-legend.tsx",
-        type: "registry:block",
+        type: "registry:template",
         target: ""
       }],
       categories: ["charts","charts-pie"],
@@ -1807,11 +1905,11 @@ export const Index: Record<string, any> = {
     "chart-pie-separator-none": {
       name: "chart-pie-separator-none",
       description: "",
-      type: "registry:block",
+      type: "registry:template",
       registryDependencies: ["card","chart"],
       files: [{
         path: "registry/new-york/charts/chart-pie-separator-none.tsx",
-        type: "registry:block",
+        type: "registry:template",
         target: ""
       }],
       categories: ["charts","charts-pie"],
@@ -1822,11 +1920,11 @@ export const Index: Record<string, any> = {
     "chart-pie-simple": {
       name: "chart-pie-simple",
       description: "",
-      type: "registry:block",
+      type: "registry:template",
       registryDependencies: ["card","chart"],
       files: [{
         path: "registry/new-york/charts/chart-pie-simple.tsx",
-        type: "registry:block",
+        type: "registry:template",
         target: ""
       }],
       categories: ["charts","charts-pie"],
@@ -1837,11 +1935,11 @@ export const Index: Record<string, any> = {
     "chart-pie-stacked": {
       name: "chart-pie-stacked",
       description: "",
-      type: "registry:block",
+      type: "registry:template",
       registryDependencies: ["card","chart"],
       files: [{
         path: "registry/new-york/charts/chart-pie-stacked.tsx",
-        type: "registry:block",
+        type: "registry:template",
         target: ""
       }],
       categories: ["charts","charts-pie"],
@@ -1852,11 +1950,11 @@ export const Index: Record<string, any> = {
     "chart-radar-default": {
       name: "chart-radar-default",
       description: "",
-      type: "registry:block",
+      type: "registry:template",
       registryDependencies: ["card","chart"],
       files: [{
         path: "registry/new-york/charts/chart-radar-default.tsx",
-        type: "registry:block",
+        type: "registry:template",
         target: ""
       }],
       categories: ["charts","charts-radar"],
@@ -1867,11 +1965,11 @@ export const Index: Record<string, any> = {
     "chart-radar-dots": {
       name: "chart-radar-dots",
       description: "",
-      type: "registry:block",
+      type: "registry:template",
       registryDependencies: ["card","chart"],
       files: [{
         path: "registry/new-york/charts/chart-radar-dots.tsx",
-        type: "registry:block",
+        type: "registry:template",
         target: ""
       }],
       categories: ["charts","charts-radar"],
@@ -1882,11 +1980,11 @@ export const Index: Record<string, any> = {
     "chart-radar-grid-circle-fill": {
       name: "chart-radar-grid-circle-fill",
       description: "",
-      type: "registry:block",
+      type: "registry:template",
       registryDependencies: ["card","chart"],
       files: [{
         path: "registry/new-york/charts/chart-radar-grid-circle-fill.tsx",
-        type: "registry:block",
+        type: "registry:template",
         target: ""
       }],
       categories: ["charts","charts-radar"],
@@ -1897,11 +1995,11 @@ export const Index: Record<string, any> = {
     "chart-radar-grid-circle-no-lines": {
       name: "chart-radar-grid-circle-no-lines",
       description: "",
-      type: "registry:block",
+      type: "registry:template",
       registryDependencies: ["card","chart"],
       files: [{
         path: "registry/new-york/charts/chart-radar-grid-circle-no-lines.tsx",
-        type: "registry:block",
+        type: "registry:template",
         target: ""
       }],
       categories: ["charts","charts-radar"],
@@ -1912,11 +2010,11 @@ export const Index: Record<string, any> = {
     "chart-radar-grid-circle": {
       name: "chart-radar-grid-circle",
       description: "",
-      type: "registry:block",
+      type: "registry:template",
       registryDependencies: ["card","chart"],
       files: [{
         path: "registry/new-york/charts/chart-radar-grid-circle.tsx",
-        type: "registry:block",
+        type: "registry:template",
         target: ""
       }],
       categories: ["charts","charts-radar"],
@@ -1927,11 +2025,11 @@ export const Index: Record<string, any> = {
     "chart-radar-grid-custom": {
       name: "chart-radar-grid-custom",
       description: "",
-      type: "registry:block",
+      type: "registry:template",
       registryDependencies: ["card","chart"],
       files: [{
         path: "registry/new-york/charts/chart-radar-grid-custom.tsx",
-        type: "registry:block",
+        type: "registry:template",
         target: ""
       }],
       categories: ["charts","charts-radar"],
@@ -1942,11 +2040,11 @@ export const Index: Record<string, any> = {
     "chart-radar-grid-fill": {
       name: "chart-radar-grid-fill",
       description: "",
-      type: "registry:block",
+      type: "registry:template",
       registryDependencies: ["card","chart"],
       files: [{
         path: "registry/new-york/charts/chart-radar-grid-fill.tsx",
-        type: "registry:block",
+        type: "registry:template",
         target: ""
       }],
       categories: ["charts","charts-radar"],
@@ -1957,11 +2055,11 @@ export const Index: Record<string, any> = {
     "chart-radar-grid-none": {
       name: "chart-radar-grid-none",
       description: "",
-      type: "registry:block",
+      type: "registry:template",
       registryDependencies: ["card","chart"],
       files: [{
         path: "registry/new-york/charts/chart-radar-grid-none.tsx",
-        type: "registry:block",
+        type: "registry:template",
         target: ""
       }],
       categories: ["charts","charts-radar"],
@@ -1972,11 +2070,11 @@ export const Index: Record<string, any> = {
     "chart-radar-icons": {
       name: "chart-radar-icons",
       description: "",
-      type: "registry:block",
+      type: "registry:template",
       registryDependencies: ["card","chart"],
       files: [{
         path: "registry/new-york/charts/chart-radar-icons.tsx",
-        type: "registry:block",
+        type: "registry:template",
         target: ""
       }],
       categories: ["charts","charts-radar"],
@@ -1987,11 +2085,11 @@ export const Index: Record<string, any> = {
     "chart-radar-label-custom": {
       name: "chart-radar-label-custom",
       description: "",
-      type: "registry:block",
+      type: "registry:template",
       registryDependencies: ["card","chart"],
       files: [{
         path: "registry/new-york/charts/chart-radar-label-custom.tsx",
-        type: "registry:block",
+        type: "registry:template",
         target: ""
       }],
       categories: ["charts","charts-radar"],
@@ -2002,11 +2100,11 @@ export const Index: Record<string, any> = {
     "chart-radar-legend": {
       name: "chart-radar-legend",
       description: "",
-      type: "registry:block",
+      type: "registry:template",
       registryDependencies: ["card","chart"],
       files: [{
         path: "registry/new-york/charts/chart-radar-legend.tsx",
-        type: "registry:block",
+        type: "registry:template",
         target: ""
       }],
       categories: ["charts","charts-radar"],
@@ -2017,11 +2115,11 @@ export const Index: Record<string, any> = {
     "chart-radar-lines-only": {
       name: "chart-radar-lines-only",
       description: "",
-      type: "registry:block",
+      type: "registry:template",
       registryDependencies: ["card","chart"],
       files: [{
         path: "registry/new-york/charts/chart-radar-lines-only.tsx",
-        type: "registry:block",
+        type: "registry:template",
         target: ""
       }],
       categories: ["charts","charts-radar"],
@@ -2032,11 +2130,11 @@ export const Index: Record<string, any> = {
     "chart-radar-multiple": {
       name: "chart-radar-multiple",
       description: "",
-      type: "registry:block",
+      type: "registry:template",
       registryDependencies: ["card","chart"],
       files: [{
         path: "registry/new-york/charts/chart-radar-multiple.tsx",
-        type: "registry:block",
+        type: "registry:template",
         target: ""
       }],
       categories: ["charts","charts-radar"],
@@ -2047,11 +2145,11 @@ export const Index: Record<string, any> = {
     "chart-radar-radius": {
       name: "chart-radar-radius",
       description: "",
-      type: "registry:block",
+      type: "registry:template",
       registryDependencies: ["card","chart"],
       files: [{
         path: "registry/new-york/charts/chart-radar-radius.tsx",
-        type: "registry:block",
+        type: "registry:template",
         target: ""
       }],
       categories: ["charts","charts-radar"],
@@ -2062,11 +2160,11 @@ export const Index: Record<string, any> = {
     "chart-radial-grid": {
       name: "chart-radial-grid",
       description: "",
-      type: "registry:block",
+      type: "registry:template",
       registryDependencies: ["card","chart"],
       files: [{
         path: "registry/new-york/charts/chart-radial-grid.tsx",
-        type: "registry:block",
+        type: "registry:template",
         target: ""
       }],
       categories: ["charts","charts-radial"],
@@ -2077,11 +2175,11 @@ export const Index: Record<string, any> = {
     "chart-radial-label": {
       name: "chart-radial-label",
       description: "",
-      type: "registry:block",
+      type: "registry:template",
       registryDependencies: ["card","chart"],
       files: [{
         path: "registry/new-york/charts/chart-radial-label.tsx",
-        type: "registry:block",
+        type: "registry:template",
         target: ""
       }],
       categories: ["charts","charts-radial"],
@@ -2092,11 +2190,11 @@ export const Index: Record<string, any> = {
     "chart-radial-shape": {
       name: "chart-radial-shape",
       description: "",
-      type: "registry:block",
+      type: "registry:template",
       registryDependencies: ["card","chart"],
       files: [{
         path: "registry/new-york/charts/chart-radial-shape.tsx",
-        type: "registry:block",
+        type: "registry:template",
         target: ""
       }],
       categories: ["charts","charts-radial"],
@@ -2107,11 +2205,11 @@ export const Index: Record<string, any> = {
     "chart-radial-simple": {
       name: "chart-radial-simple",
       description: "",
-      type: "registry:block",
+      type: "registry:template",
       registryDependencies: ["card","chart"],
       files: [{
         path: "registry/new-york/charts/chart-radial-simple.tsx",
-        type: "registry:block",
+        type: "registry:template",
         target: ""
       }],
       categories: ["charts","charts-radial"],
@@ -2122,11 +2220,11 @@ export const Index: Record<string, any> = {
     "chart-radial-stacked": {
       name: "chart-radial-stacked",
       description: "",
-      type: "registry:block",
+      type: "registry:template",
       registryDependencies: ["card","chart"],
       files: [{
         path: "registry/new-york/charts/chart-radial-stacked.tsx",
-        type: "registry:block",
+        type: "registry:template",
         target: ""
       }],
       categories: ["charts","charts-radial"],
@@ -2137,11 +2235,11 @@ export const Index: Record<string, any> = {
     "chart-radial-text": {
       name: "chart-radial-text",
       description: "",
-      type: "registry:block",
+      type: "registry:template",
       registryDependencies: ["card","chart"],
       files: [{
         path: "registry/new-york/charts/chart-radial-text.tsx",
-        type: "registry:block",
+        type: "registry:template",
         target: ""
       }],
       categories: ["charts","charts-radial"],
@@ -2152,11 +2250,11 @@ export const Index: Record<string, any> = {
     "chart-tooltip-default": {
       name: "chart-tooltip-default",
       description: "",
-      type: "registry:block",
+      type: "registry:template",
       registryDependencies: ["card","chart"],
       files: [{
         path: "registry/new-york/charts/chart-tooltip-default.tsx",
-        type: "registry:block",
+        type: "registry:template",
         target: ""
       }],
       categories: ["charts","charts-tooltip"],
@@ -2167,11 +2265,11 @@ export const Index: Record<string, any> = {
     "chart-tooltip-indicator-line": {
       name: "chart-tooltip-indicator-line",
       description: "",
-      type: "registry:block",
+      type: "registry:template",
       registryDependencies: ["card","chart"],
       files: [{
         path: "registry/new-york/charts/chart-tooltip-indicator-line.tsx",
-        type: "registry:block",
+        type: "registry:template",
         target: ""
       }],
       categories: ["charts","charts-tooltip"],
@@ -2182,11 +2280,11 @@ export const Index: Record<string, any> = {
     "chart-tooltip-indicator-none": {
       name: "chart-tooltip-indicator-none",
       description: "",
-      type: "registry:block",
+      type: "registry:template",
       registryDependencies: ["card","chart"],
       files: [{
         path: "registry/new-york/charts/chart-tooltip-indicator-none.tsx",
-        type: "registry:block",
+        type: "registry:template",
         target: ""
       }],
       categories: ["charts","charts-tooltip"],
@@ -2197,11 +2295,11 @@ export const Index: Record<string, any> = {
     "chart-tooltip-label-none": {
       name: "chart-tooltip-label-none",
       description: "",
-      type: "registry:block",
+      type: "registry:template",
       registryDependencies: ["card","chart"],
       files: [{
         path: "registry/new-york/charts/chart-tooltip-label-none.tsx",
-        type: "registry:block",
+        type: "registry:template",
         target: ""
       }],
       categories: ["charts","charts-tooltip"],
@@ -2212,11 +2310,11 @@ export const Index: Record<string, any> = {
     "chart-tooltip-label-custom": {
       name: "chart-tooltip-label-custom",
       description: "",
-      type: "registry:block",
+      type: "registry:template",
       registryDependencies: ["card","chart"],
       files: [{
         path: "registry/new-york/charts/chart-tooltip-label-custom.tsx",
-        type: "registry:block",
+        type: "registry:template",
         target: ""
       }],
       categories: ["charts","charts-tooltip"],
@@ -2227,11 +2325,11 @@ export const Index: Record<string, any> = {
     "chart-tooltip-label-formatter": {
       name: "chart-tooltip-label-formatter",
       description: "",
-      type: "registry:block",
+      type: "registry:template",
       registryDependencies: ["card","chart"],
       files: [{
         path: "registry/new-york/charts/chart-tooltip-label-formatter.tsx",
-        type: "registry:block",
+        type: "registry:template",
         target: ""
       }],
       categories: ["charts","charts-tooltip"],
@@ -2242,11 +2340,11 @@ export const Index: Record<string, any> = {
     "chart-tooltip-formatter": {
       name: "chart-tooltip-formatter",
       description: "",
-      type: "registry:block",
+      type: "registry:template",
       registryDependencies: ["card","chart"],
       files: [{
         path: "registry/new-york/charts/chart-tooltip-formatter.tsx",
-        type: "registry:block",
+        type: "registry:template",
         target: ""
       }],
       categories: ["charts","charts-tooltip"],
@@ -2257,11 +2355,11 @@ export const Index: Record<string, any> = {
     "chart-tooltip-icons": {
       name: "chart-tooltip-icons",
       description: "",
-      type: "registry:block",
+      type: "registry:template",
       registryDependencies: ["card","chart"],
       files: [{
         path: "registry/new-york/charts/chart-tooltip-icons.tsx",
-        type: "registry:block",
+        type: "registry:template",
         target: ""
       }],
       categories: ["charts","charts-tooltip"],
@@ -2272,11 +2370,11 @@ export const Index: Record<string, any> = {
     "chart-tooltip-advanced": {
       name: "chart-tooltip-advanced",
       description: "",
-      type: "registry:block",
+      type: "registry:template",
       registryDependencies: ["card","chart"],
       files: [{
         path: "registry/new-york/charts/chart-tooltip-advanced.tsx",
-        type: "registry:block",
+        type: "registry:template",
         target: ""
       }],
       categories: ["charts","charts-tooltip"],
@@ -2288,7 +2386,7 @@ export const Index: Record<string, any> = {
       name: "utils",
       description: "",
       type: "registry:lib",
-      registryDependencies: undefined,
+      registryDependencies: [],
       files: [{
         path: "registry/new-york/lib/utils.ts",
         type: "registry:lib",
@@ -2303,7 +2401,7 @@ export const Index: Record<string, any> = {
       name: "use-mobile",
       description: "",
       type: "registry:hook",
-      registryDependencies: undefined,
+      registryDependencies: [],
       files: [{
         path: "registry/new-york/hooks/use-mobile.tsx",
         type: "registry:hook",
@@ -2318,7 +2416,7 @@ export const Index: Record<string, any> = {
       name: "use-toast",
       description: "",
       type: "registry:hook",
-      registryDependencies: undefined,
+      registryDependencies: [],
       files: [{
         path: "registry/new-york/hooks/use-toast.ts",
         type: "registry:hook",
@@ -2608,7 +2706,7 @@ export const Index: Record<string, any> = {
       name: "sidebar-demo",
       description: "",
       type: "registry:internal",
-      registryDependencies: undefined,
+      registryDependencies: [],
       files: [{
         path: "registry/new-york/internal/sidebar-demo.tsx",
         type: "registry:component",
@@ -2623,7 +2721,7 @@ export const Index: Record<string, any> = {
       name: "sidebar-header",
       description: "",
       type: "registry:internal",
-      registryDependencies: undefined,
+      registryDependencies: [],
       files: [{
         path: "registry/new-york/internal/sidebar-header.tsx",
         type: "registry:component",
@@ -2638,7 +2736,7 @@ export const Index: Record<string, any> = {
       name: "sidebar-footer",
       description: "",
       type: "registry:internal",
-      registryDependencies: undefined,
+      registryDependencies: [],
       files: [{
         path: "registry/new-york/internal/sidebar-footer.tsx",
         type: "registry:component",
@@ -2653,7 +2751,7 @@ export const Index: Record<string, any> = {
       name: "sidebar-group",
       description: "",
       type: "registry:internal",
-      registryDependencies: undefined,
+      registryDependencies: [],
       files: [{
         path: "registry/new-york/internal/sidebar-group.tsx",
         type: "registry:component",
@@ -2668,7 +2766,7 @@ export const Index: Record<string, any> = {
       name: "sidebar-group-collapsible",
       description: "",
       type: "registry:internal",
-      registryDependencies: undefined,
+      registryDependencies: [],
       files: [{
         path: "registry/new-york/internal/sidebar-group-collapsible.tsx",
         type: "registry:component",
@@ -2683,7 +2781,7 @@ export const Index: Record<string, any> = {
       name: "sidebar-group-action",
       description: "",
       type: "registry:internal",
-      registryDependencies: undefined,
+      registryDependencies: [],
       files: [{
         path: "registry/new-york/internal/sidebar-group-action.tsx",
         type: "registry:component",
@@ -2698,7 +2796,7 @@ export const Index: Record<string, any> = {
       name: "sidebar-menu",
       description: "",
       type: "registry:internal",
-      registryDependencies: undefined,
+      registryDependencies: [],
       files: [{
         path: "registry/new-york/internal/sidebar-menu.tsx",
         type: "registry:component",
@@ -2713,7 +2811,7 @@ export const Index: Record<string, any> = {
       name: "sidebar-menu-action",
       description: "",
       type: "registry:internal",
-      registryDependencies: undefined,
+      registryDependencies: [],
       files: [{
         path: "registry/new-york/internal/sidebar-menu-action.tsx",
         type: "registry:component",
@@ -2728,7 +2826,7 @@ export const Index: Record<string, any> = {
       name: "sidebar-menu-sub",
       description: "",
       type: "registry:internal",
-      registryDependencies: undefined,
+      registryDependencies: [],
       files: [{
         path: "registry/new-york/internal/sidebar-menu-sub.tsx",
         type: "registry:component",
@@ -2743,7 +2841,7 @@ export const Index: Record<string, any> = {
       name: "sidebar-menu-collapsible",
       description: "",
       type: "registry:internal",
-      registryDependencies: undefined,
+      registryDependencies: [],
       files: [{
         path: "registry/new-york/internal/sidebar-menu-collapsible.tsx",
         type: "registry:component",
@@ -2758,7 +2856,7 @@ export const Index: Record<string, any> = {
       name: "sidebar-menu-badge",
       description: "",
       type: "registry:internal",
-      registryDependencies: undefined,
+      registryDependencies: [],
       files: [{
         path: "registry/new-york/internal/sidebar-menu-badge.tsx",
         type: "registry:component",
@@ -2773,7 +2871,7 @@ export const Index: Record<string, any> = {
       name: "sidebar-rsc",
       description: "",
       type: "registry:internal",
-      registryDependencies: undefined,
+      registryDependencies: [],
       files: [{
         path: "registry/new-york/internal/sidebar-rsc.tsx",
         type: "registry:component",
@@ -2788,7 +2886,7 @@ export const Index: Record<string, any> = {
       name: "sidebar-controlled",
       description: "",
       type: "registry:internal",
-      registryDependencies: undefined,
+      registryDependencies: [],
       files: [{
         path: "registry/new-york/internal/sidebar-controlled.tsx",
         type: "registry:component",
@@ -4948,7 +5046,7 @@ export const Index: Record<string, any> = {
       name: "typography-blockquote",
       description: "",
       type: "registry:example",
-      registryDependencies: undefined,
+      registryDependencies: [],
       files: [{
         path: "registry/new-york/examples/typography-blockquote.tsx",
         type: "registry:example",
@@ -4963,7 +5061,7 @@ export const Index: Record<string, any> = {
       name: "typography-demo",
       description: "",
       type: "registry:example",
-      registryDependencies: undefined,
+      registryDependencies: [],
       files: [{
         path: "registry/new-york/examples/typography-demo.tsx",
         type: "registry:example",
@@ -4978,7 +5076,7 @@ export const Index: Record<string, any> = {
       name: "typography-h1",
       description: "",
       type: "registry:example",
-      registryDependencies: undefined,
+      registryDependencies: [],
       files: [{
         path: "registry/new-york/examples/typography-h1.tsx",
         type: "registry:example",
@@ -4993,7 +5091,7 @@ export const Index: Record<string, any> = {
       name: "typography-h2",
       description: "",
       type: "registry:example",
-      registryDependencies: undefined,
+      registryDependencies: [],
       files: [{
         path: "registry/new-york/examples/typography-h2.tsx",
         type: "registry:example",
@@ -5008,7 +5106,7 @@ export const Index: Record<string, any> = {
       name: "typography-h3",
       description: "",
       type: "registry:example",
-      registryDependencies: undefined,
+      registryDependencies: [],
       files: [{
         path: "registry/new-york/examples/typography-h3.tsx",
         type: "registry:example",
@@ -5023,7 +5121,7 @@ export const Index: Record<string, any> = {
       name: "typography-h4",
       description: "",
       type: "registry:example",
-      registryDependencies: undefined,
+      registryDependencies: [],
       files: [{
         path: "registry/new-york/examples/typography-h4.tsx",
         type: "registry:example",
@@ -5038,7 +5136,7 @@ export const Index: Record<string, any> = {
       name: "typography-inline-code",
       description: "",
       type: "registry:example",
-      registryDependencies: undefined,
+      registryDependencies: [],
       files: [{
         path: "registry/new-york/examples/typography-inline-code.tsx",
         type: "registry:example",
@@ -5053,7 +5151,7 @@ export const Index: Record<string, any> = {
       name: "typography-large",
       description: "",
       type: "registry:example",
-      registryDependencies: undefined,
+      registryDependencies: [],
       files: [{
         path: "registry/new-york/examples/typography-large.tsx",
         type: "registry:example",
@@ -5068,7 +5166,7 @@ export const Index: Record<string, any> = {
       name: "typography-lead",
       description: "",
       type: "registry:example",
-      registryDependencies: undefined,
+      registryDependencies: [],
       files: [{
         path: "registry/new-york/examples/typography-lead.tsx",
         type: "registry:example",
@@ -5083,7 +5181,7 @@ export const Index: Record<string, any> = {
       name: "typography-list",
       description: "",
       type: "registry:example",
-      registryDependencies: undefined,
+      registryDependencies: [],
       files: [{
         path: "registry/new-york/examples/typography-list.tsx",
         type: "registry:example",
@@ -5098,7 +5196,7 @@ export const Index: Record<string, any> = {
       name: "typography-muted",
       description: "",
       type: "registry:example",
-      registryDependencies: undefined,
+      registryDependencies: [],
       files: [{
         path: "registry/new-york/examples/typography-muted.tsx",
         type: "registry:example",
@@ -5113,7 +5211,7 @@ export const Index: Record<string, any> = {
       name: "typography-p",
       description: "",
       type: "registry:example",
-      registryDependencies: undefined,
+      registryDependencies: [],
       files: [{
         path: "registry/new-york/examples/typography-p.tsx",
         type: "registry:example",
@@ -5128,7 +5226,7 @@ export const Index: Record<string, any> = {
       name: "typography-small",
       description: "",
       type: "registry:example",
-      registryDependencies: undefined,
+      registryDependencies: [],
       files: [{
         path: "registry/new-york/examples/typography-small.tsx",
         type: "registry:example",
@@ -5143,7 +5241,7 @@ export const Index: Record<string, any> = {
       name: "typography-table",
       description: "",
       type: "registry:example",
-      registryDependencies: undefined,
+      registryDependencies: [],
       files: [{
         path: "registry/new-york/examples/typography-table.tsx",
         type: "registry:example",
@@ -5158,7 +5256,7 @@ export const Index: Record<string, any> = {
       name: "mode-toggle",
       description: "",
       type: "registry:example",
-      registryDependencies: undefined,
+      registryDependencies: [],
       files: [{
         path: "registry/new-york/examples/mode-toggle.tsx",
         type: "registry:example",
@@ -5173,7 +5271,7 @@ export const Index: Record<string, any> = {
       name: "chart-bar-demo",
       description: "",
       type: "registry:example",
-      registryDependencies: undefined,
+      registryDependencies: [],
       files: [{
         path: "registry/new-york/examples/chart-bar-demo.tsx",
         type: "registry:example",
@@ -5188,7 +5286,7 @@ export const Index: Record<string, any> = {
       name: "chart-bar-demo-grid",
       description: "",
       type: "registry:example",
-      registryDependencies: undefined,
+      registryDependencies: [],
       files: [{
         path: "registry/new-york/examples/chart-bar-demo-grid.tsx",
         type: "registry:example",
@@ -5203,7 +5301,7 @@ export const Index: Record<string, any> = {
       name: "chart-bar-demo-axis",
       description: "",
       type: "registry:example",
-      registryDependencies: undefined,
+      registryDependencies: [],
       files: [{
         path: "registry/new-york/examples/chart-bar-demo-axis.tsx",
         type: "registry:example",
@@ -5218,7 +5316,7 @@ export const Index: Record<string, any> = {
       name: "chart-bar-demo-tooltip",
       description: "",
       type: "registry:example",
-      registryDependencies: undefined,
+      registryDependencies: [],
       files: [{
         path: "registry/new-york/examples/chart-bar-demo-tooltip.tsx",
         type: "registry:example",
@@ -5233,7 +5331,7 @@ export const Index: Record<string, any> = {
       name: "chart-bar-demo-legend",
       description: "",
       type: "registry:example",
-      registryDependencies: undefined,
+      registryDependencies: [],
       files: [{
         path: "registry/new-york/examples/chart-bar-demo-legend.tsx",
         type: "registry:example",
@@ -5248,7 +5346,7 @@ export const Index: Record<string, any> = {
       name: "chart-tooltip-demo",
       description: "",
       type: "registry:example",
-      registryDependencies: undefined,
+      registryDependencies: [],
       files: [{
         path: "registry/new-york/examples/chart-tooltip-demo.tsx",
         type: "registry:example",
@@ -5264,7 +5362,7 @@ export const Index: Record<string, any> = {
       name: "accordion",
       description: "",
       type: "registry:ui",
-      registryDependencies: undefined,
+      registryDependencies: [],
       files: [{
         path: "registry/default/ui/accordion.tsx",
         type: "registry:ui",
@@ -5279,7 +5377,7 @@ export const Index: Record<string, any> = {
       name: "alert",
       description: "",
       type: "registry:ui",
-      registryDependencies: undefined,
+      registryDependencies: [],
       files: [{
         path: "registry/default/ui/alert.tsx",
         type: "registry:ui",
@@ -5309,7 +5407,7 @@ export const Index: Record<string, any> = {
       name: "aspect-ratio",
       description: "",
       type: "registry:ui",
-      registryDependencies: undefined,
+      registryDependencies: [],
       files: [{
         path: "registry/default/ui/aspect-ratio.tsx",
         type: "registry:ui",
@@ -5324,7 +5422,7 @@ export const Index: Record<string, any> = {
       name: "avatar",
       description: "",
       type: "registry:ui",
-      registryDependencies: undefined,
+      registryDependencies: [],
       files: [{
         path: "registry/default/ui/avatar.tsx",
         type: "registry:ui",
@@ -5339,7 +5437,7 @@ export const Index: Record<string, any> = {
       name: "badge",
       description: "",
       type: "registry:ui",
-      registryDependencies: undefined,
+      registryDependencies: [],
       files: [{
         path: "registry/default/ui/badge.tsx",
         type: "registry:ui",
@@ -5354,7 +5452,7 @@ export const Index: Record<string, any> = {
       name: "breadcrumb",
       description: "",
       type: "registry:ui",
-      registryDependencies: undefined,
+      registryDependencies: [],
       files: [{
         path: "registry/default/ui/breadcrumb.tsx",
         type: "registry:ui",
@@ -5369,7 +5467,7 @@ export const Index: Record<string, any> = {
       name: "button",
       description: "",
       type: "registry:ui",
-      registryDependencies: undefined,
+      registryDependencies: [],
       files: [{
         path: "registry/default/ui/button.tsx",
         type: "registry:ui",
@@ -5399,7 +5497,7 @@ export const Index: Record<string, any> = {
       name: "card",
       description: "",
       type: "registry:ui",
-      registryDependencies: undefined,
+      registryDependencies: [],
       files: [{
         path: "registry/default/ui/card.tsx",
         type: "registry:ui",
@@ -5444,7 +5542,7 @@ export const Index: Record<string, any> = {
       name: "checkbox",
       description: "",
       type: "registry:ui",
-      registryDependencies: undefined,
+      registryDependencies: [],
       files: [{
         path: "registry/default/ui/checkbox.tsx",
         type: "registry:ui",
@@ -5459,7 +5557,7 @@ export const Index: Record<string, any> = {
       name: "collapsible",
       description: "",
       type: "registry:ui",
-      registryDependencies: undefined,
+      registryDependencies: [],
       files: [{
         path: "registry/default/ui/collapsible.tsx",
         type: "registry:ui",
@@ -5489,7 +5587,7 @@ export const Index: Record<string, any> = {
       name: "context-menu",
       description: "",
       type: "registry:ui",
-      registryDependencies: undefined,
+      registryDependencies: [],
       files: [{
         path: "registry/default/ui/context-menu.tsx",
         type: "registry:ui",
@@ -5504,7 +5602,7 @@ export const Index: Record<string, any> = {
       name: "dialog",
       description: "",
       type: "registry:ui",
-      registryDependencies: undefined,
+      registryDependencies: [],
       files: [{
         path: "registry/default/ui/dialog.tsx",
         type: "registry:ui",
@@ -5519,7 +5617,7 @@ export const Index: Record<string, any> = {
       name: "drawer",
       description: "",
       type: "registry:ui",
-      registryDependencies: undefined,
+      registryDependencies: [],
       files: [{
         path: "registry/default/ui/drawer.tsx",
         type: "registry:ui",
@@ -5534,7 +5632,7 @@ export const Index: Record<string, any> = {
       name: "dropdown-menu",
       description: "",
       type: "registry:ui",
-      registryDependencies: undefined,
+      registryDependencies: [],
       files: [{
         path: "registry/default/ui/dropdown-menu.tsx",
         type: "registry:ui",
@@ -5564,7 +5662,7 @@ export const Index: Record<string, any> = {
       name: "hover-card",
       description: "",
       type: "registry:ui",
-      registryDependencies: undefined,
+      registryDependencies: [],
       files: [{
         path: "registry/default/ui/hover-card.tsx",
         type: "registry:ui",
@@ -5579,7 +5677,7 @@ export const Index: Record<string, any> = {
       name: "input",
       description: "",
       type: "registry:ui",
-      registryDependencies: undefined,
+      registryDependencies: [],
       files: [{
         path: "registry/default/ui/input.tsx",
         type: "registry:ui",
@@ -5594,7 +5692,7 @@ export const Index: Record<string, any> = {
       name: "input-otp",
       description: "",
       type: "registry:ui",
-      registryDependencies: undefined,
+      registryDependencies: [],
       files: [{
         path: "registry/default/ui/input-otp.tsx",
         type: "registry:ui",
@@ -5609,7 +5707,7 @@ export const Index: Record<string, any> = {
       name: "label",
       description: "",
       type: "registry:ui",
-      registryDependencies: undefined,
+      registryDependencies: [],
       files: [{
         path: "registry/default/ui/label.tsx",
         type: "registry:ui",
@@ -5624,7 +5722,7 @@ export const Index: Record<string, any> = {
       name: "menubar",
       description: "",
       type: "registry:ui",
-      registryDependencies: undefined,
+      registryDependencies: [],
       files: [{
         path: "registry/default/ui/menubar.tsx",
         type: "registry:ui",
@@ -5639,7 +5737,7 @@ export const Index: Record<string, any> = {
       name: "navigation-menu",
       description: "",
       type: "registry:ui",
-      registryDependencies: undefined,
+      registryDependencies: [],
       files: [{
         path: "registry/default/ui/navigation-menu.tsx",
         type: "registry:ui",
@@ -5669,7 +5767,7 @@ export const Index: Record<string, any> = {
       name: "popover",
       description: "",
       type: "registry:ui",
-      registryDependencies: undefined,
+      registryDependencies: [],
       files: [{
         path: "registry/default/ui/popover.tsx",
         type: "registry:ui",
@@ -5684,7 +5782,7 @@ export const Index: Record<string, any> = {
       name: "progress",
       description: "",
       type: "registry:ui",
-      registryDependencies: undefined,
+      registryDependencies: [],
       files: [{
         path: "registry/default/ui/progress.tsx",
         type: "registry:ui",
@@ -5699,7 +5797,7 @@ export const Index: Record<string, any> = {
       name: "radio-group",
       description: "",
       type: "registry:ui",
-      registryDependencies: undefined,
+      registryDependencies: [],
       files: [{
         path: "registry/default/ui/radio-group.tsx",
         type: "registry:ui",
@@ -5714,7 +5812,7 @@ export const Index: Record<string, any> = {
       name: "resizable",
       description: "",
       type: "registry:ui",
-      registryDependencies: undefined,
+      registryDependencies: [],
       files: [{
         path: "registry/default/ui/resizable.tsx",
         type: "registry:ui",
@@ -5729,7 +5827,7 @@ export const Index: Record<string, any> = {
       name: "scroll-area",
       description: "",
       type: "registry:ui",
-      registryDependencies: undefined,
+      registryDependencies: [],
       files: [{
         path: "registry/default/ui/scroll-area.tsx",
         type: "registry:ui",
@@ -5744,7 +5842,7 @@ export const Index: Record<string, any> = {
       name: "select",
       description: "",
       type: "registry:ui",
-      registryDependencies: undefined,
+      registryDependencies: [],
       files: [{
         path: "registry/default/ui/select.tsx",
         type: "registry:ui",
@@ -5759,7 +5857,7 @@ export const Index: Record<string, any> = {
       name: "separator",
       description: "",
       type: "registry:ui",
-      registryDependencies: undefined,
+      registryDependencies: [],
       files: [{
         path: "registry/default/ui/separator.tsx",
         type: "registry:ui",
@@ -5774,7 +5872,7 @@ export const Index: Record<string, any> = {
       name: "sheet",
       description: "",
       type: "registry:ui",
-      registryDependencies: undefined,
+      registryDependencies: [],
       files: [{
         path: "registry/default/ui/sheet.tsx",
         type: "registry:ui",
@@ -5804,7 +5902,7 @@ export const Index: Record<string, any> = {
       name: "skeleton",
       description: "",
       type: "registry:ui",
-      registryDependencies: undefined,
+      registryDependencies: [],
       files: [{
         path: "registry/default/ui/skeleton.tsx",
         type: "registry:ui",
@@ -5819,7 +5917,7 @@ export const Index: Record<string, any> = {
       name: "slider",
       description: "",
       type: "registry:ui",
-      registryDependencies: undefined,
+      registryDependencies: [],
       files: [{
         path: "registry/default/ui/slider.tsx",
         type: "registry:ui",
@@ -5834,7 +5932,7 @@ export const Index: Record<string, any> = {
       name: "sonner",
       description: "",
       type: "registry:ui",
-      registryDependencies: undefined,
+      registryDependencies: [],
       files: [{
         path: "registry/default/ui/sonner.tsx",
         type: "registry:ui",
@@ -5849,7 +5947,7 @@ export const Index: Record<string, any> = {
       name: "switch",
       description: "",
       type: "registry:ui",
-      registryDependencies: undefined,
+      registryDependencies: [],
       files: [{
         path: "registry/default/ui/switch.tsx",
         type: "registry:ui",
@@ -5864,7 +5962,7 @@ export const Index: Record<string, any> = {
       name: "table",
       description: "",
       type: "registry:ui",
-      registryDependencies: undefined,
+      registryDependencies: [],
       files: [{
         path: "registry/default/ui/table.tsx",
         type: "registry:ui",
@@ -5879,7 +5977,7 @@ export const Index: Record<string, any> = {
       name: "tabs",
       description: "",
       type: "registry:ui",
-      registryDependencies: undefined,
+      registryDependencies: [],
       files: [{
         path: "registry/default/ui/tabs.tsx",
         type: "registry:ui",
@@ -5894,7 +5992,7 @@ export const Index: Record<string, any> = {
       name: "textarea",
       description: "",
       type: "registry:ui",
-      registryDependencies: undefined,
+      registryDependencies: [],
       files: [{
         path: "registry/default/ui/textarea.tsx",
         type: "registry:ui",
@@ -5909,7 +6007,7 @@ export const Index: Record<string, any> = {
       name: "toast",
       description: "",
       type: "registry:ui",
-      registryDependencies: undefined,
+      registryDependencies: [],
       files: [{
         path: "registry/default/ui/toast.tsx",
         type: "registry:ui",
@@ -5932,7 +6030,7 @@ export const Index: Record<string, any> = {
       name: "toggle",
       description: "",
       type: "registry:ui",
-      registryDependencies: undefined,
+      registryDependencies: [],
       files: [{
         path: "registry/default/ui/toggle.tsx",
         type: "registry:ui",
@@ -5962,7 +6060,7 @@ export const Index: Record<string, any> = {
       name: "tooltip",
       description: "",
       type: "registry:ui",
-      registryDependencies: undefined,
+      registryDependencies: [],
       files: [{
         path: "registry/default/ui/tooltip.tsx",
         type: "registry:ui",
@@ -5973,530 +6071,628 @@ export const Index: Record<string, any> = {
       source: "",
       meta: undefined,
     },
-    "sidebar-01": {
-      name: "sidebar-01",
-      description: "A simple sidebar with navigation grouped by section.",
-      type: "registry:block",
-      registryDependencies: ["sidebar","breadcrumb","separator","label","dropdown-menu"],
+    "dashboard-01": {
+      name: "dashboard-01",
+      description: "A dashboard with sidebar, charts and data table.",
+      type: "registry:template",
+      registryDependencies: ["sidebar","breadcrumb","separator","label","chart","card","select","tabs","table","toggle-group","badge","button","checkbox","dropdown-menu","drawer","input","avatar","sheet","sonner"],
       files: [{
-        path: "registry/default/blocks/sidebar-01/page.tsx",
+        path: "registry/default/templates/dashboard-01/page.tsx",
         type: "registry:page",
         target: "app/dashboard/page.tsx"
       },{
-        path: "registry/default/blocks/sidebar-01/components/app-sidebar.tsx",
+        path: "registry/default/templates/dashboard-01/data.json",
+        type: "registry:file",
+        target: "app/dashboard/data.json"
+      },{
+        path: "registry/default/templates/dashboard-01/components/app-sidebar.tsx",
         type: "registry:component",
         target: ""
       },{
-        path: "registry/default/blocks/sidebar-01/components/search-form.tsx",
+        path: "registry/default/templates/dashboard-01/components/chart-area-interactive.tsx",
         type: "registry:component",
         target: ""
       },{
-        path: "registry/default/blocks/sidebar-01/components/version-switcher.tsx",
+        path: "registry/default/templates/dashboard-01/components/data-table.tsx",
+        type: "registry:component",
+        target: ""
+      },{
+        path: "registry/default/templates/dashboard-01/components/nav-documents.tsx",
+        type: "registry:component",
+        target: ""
+      },{
+        path: "registry/default/templates/dashboard-01/components/nav-main.tsx",
+        type: "registry:component",
+        target: ""
+      },{
+        path: "registry/default/templates/dashboard-01/components/nav-secondary.tsx",
+        type: "registry:component",
+        target: ""
+      },{
+        path: "registry/default/templates/dashboard-01/components/nav-user.tsx",
+        type: "registry:component",
+        target: ""
+      },{
+        path: "registry/default/templates/dashboard-01/components/section-cards.tsx",
+        type: "registry:component",
+        target: ""
+      },{
+        path: "registry/default/templates/dashboard-01/components/site-header.tsx",
+        type: "registry:component",
+        target: ""
+      }],
+      categories: ["dashboard"],
+      component: React.lazy(() => import("@/registry/default/templates/dashboard-01/page.tsx")),
+      source: "__registry__/default/templates/dashboard-01/page.tsx",
+      meta: undefined,
+    },
+    "sidebar-01": {
+      name: "sidebar-01",
+      description: "A simple sidebar with navigation grouped by section.",
+      type: "registry:template",
+      registryDependencies: ["sidebar","breadcrumb","separator","label","dropdown-menu"],
+      files: [{
+        path: "registry/default/templates/sidebar-01/page.tsx",
+        type: "registry:page",
+        target: "app/dashboard/page.tsx"
+      },{
+        path: "registry/default/templates/sidebar-01/components/app-sidebar.tsx",
+        type: "registry:component",
+        target: ""
+      },{
+        path: "registry/default/templates/sidebar-01/components/search-form.tsx",
+        type: "registry:component",
+        target: ""
+      },{
+        path: "registry/default/templates/sidebar-01/components/version-switcher.tsx",
         type: "registry:component",
         target: ""
       }],
       categories: ["sidebar","dashboard"],
-      component: React.lazy(() => import("@/registry/default/blocks/sidebar-01/page.tsx")),
-      source: "__registry__/default/blocks/sidebar-01/page.tsx",
+      component: React.lazy(() => import("@/registry/default/templates/sidebar-01/page.tsx")),
+      source: "__registry__/default/templates/sidebar-01/page.tsx",
       meta: undefined,
     },
     "sidebar-02": {
       name: "sidebar-02",
       description: "A sidebar with collapsible sections.",
-      type: "registry:block",
+      type: "registry:template",
       registryDependencies: ["sidebar","breadcrumb","separator","label","dropdown-menu"],
       files: [{
-        path: "registry/default/blocks/sidebar-02/page.tsx",
+        path: "registry/default/templates/sidebar-02/page.tsx",
         type: "registry:page",
         target: "app/dashboard/page.tsx"
       },{
-        path: "registry/default/blocks/sidebar-02/components/app-sidebar.tsx",
+        path: "registry/default/templates/sidebar-02/components/app-sidebar.tsx",
         type: "registry:component",
         target: ""
       },{
-        path: "registry/default/blocks/sidebar-02/components/search-form.tsx",
+        path: "registry/default/templates/sidebar-02/components/search-form.tsx",
         type: "registry:component",
         target: ""
       },{
-        path: "registry/default/blocks/sidebar-02/components/version-switcher.tsx",
+        path: "registry/default/templates/sidebar-02/components/version-switcher.tsx",
         type: "registry:component",
         target: ""
       }],
       categories: ["sidebar","dashboard"],
-      component: React.lazy(() => import("@/registry/default/blocks/sidebar-02/page.tsx")),
-      source: "__registry__/default/blocks/sidebar-02/page.tsx",
+      component: React.lazy(() => import("@/registry/default/templates/sidebar-02/page.tsx")),
+      source: "__registry__/default/templates/sidebar-02/page.tsx",
       meta: undefined,
     },
     "sidebar-03": {
       name: "sidebar-03",
       description: "A sidebar with submenus.",
-      type: "registry:block",
+      type: "registry:template",
       registryDependencies: ["sidebar","breadcrumb"],
       files: [{
-        path: "registry/default/blocks/sidebar-03/page.tsx",
+        path: "registry/default/templates/sidebar-03/page.tsx",
         type: "registry:page",
         target: "app/dashboard/page.tsx"
       },{
-        path: "registry/default/blocks/sidebar-03/components/app-sidebar.tsx",
+        path: "registry/default/templates/sidebar-03/components/app-sidebar.tsx",
         type: "registry:component",
         target: ""
       }],
       categories: ["sidebar","dashboard"],
-      component: React.lazy(() => import("@/registry/default/blocks/sidebar-03/page.tsx")),
-      source: "__registry__/default/blocks/sidebar-03/page.tsx",
+      component: React.lazy(() => import("@/registry/default/templates/sidebar-03/page.tsx")),
+      source: "__registry__/default/templates/sidebar-03/page.tsx",
       meta: undefined,
     },
     "sidebar-04": {
       name: "sidebar-04",
       description: "A floating sidebar with submenus.",
-      type: "registry:block",
+      type: "registry:template",
       registryDependencies: ["sidebar","breadcrumb","separator"],
       files: [{
-        path: "registry/default/blocks/sidebar-04/page.tsx",
+        path: "registry/default/templates/sidebar-04/page.tsx",
         type: "registry:page",
         target: "app/dashboard/page.tsx"
       },{
-        path: "registry/default/blocks/sidebar-04/components/app-sidebar.tsx",
+        path: "registry/default/templates/sidebar-04/components/app-sidebar.tsx",
         type: "registry:component",
         target: ""
       }],
       categories: ["sidebar","dashboard"],
-      component: React.lazy(() => import("@/registry/default/blocks/sidebar-04/page.tsx")),
-      source: "__registry__/default/blocks/sidebar-04/page.tsx",
+      component: React.lazy(() => import("@/registry/default/templates/sidebar-04/page.tsx")),
+      source: "__registry__/default/templates/sidebar-04/page.tsx",
       meta: undefined,
     },
     "sidebar-05": {
       name: "sidebar-05",
       description: "A sidebar with collapsible submenus.",
-      type: "registry:block",
+      type: "registry:template",
       registryDependencies: ["sidebar","breadcrumb","separator","label","collapsible"],
       files: [{
-        path: "registry/default/blocks/sidebar-05/page.tsx",
+        path: "registry/default/templates/sidebar-05/page.tsx",
         type: "registry:page",
         target: "app/dashboard/page.tsx"
       },{
-        path: "registry/default/blocks/sidebar-05/components/app-sidebar.tsx",
+        path: "registry/default/templates/sidebar-05/components/app-sidebar.tsx",
         type: "registry:component",
         target: ""
       },{
-        path: "registry/default/blocks/sidebar-05/components/search-form.tsx",
+        path: "registry/default/templates/sidebar-05/components/search-form.tsx",
         type: "registry:component",
         target: ""
       }],
       categories: ["sidebar","dashboard"],
-      component: React.lazy(() => import("@/registry/default/blocks/sidebar-05/page.tsx")),
-      source: "__registry__/default/blocks/sidebar-05/page.tsx",
+      component: React.lazy(() => import("@/registry/default/templates/sidebar-05/page.tsx")),
+      source: "__registry__/default/templates/sidebar-05/page.tsx",
       meta: undefined,
     },
     "sidebar-06": {
       name: "sidebar-06",
       description: "A sidebar with submenus as dropdowns.",
-      type: "registry:block",
+      type: "registry:template",
       registryDependencies: ["sidebar","breadcrumb","separator","card","dropdown-menu"],
       files: [{
-        path: "registry/default/blocks/sidebar-06/page.tsx",
+        path: "registry/default/templates/sidebar-06/page.tsx",
         type: "registry:page",
         target: "app/dashboard/page.tsx"
       },{
-        path: "registry/default/blocks/sidebar-06/components/app-sidebar.tsx",
+        path: "registry/default/templates/sidebar-06/components/app-sidebar.tsx",
         type: "registry:component",
         target: ""
       },{
-        path: "registry/default/blocks/sidebar-06/components/nav-main.tsx",
+        path: "registry/default/templates/sidebar-06/components/nav-main.tsx",
         type: "registry:component",
         target: ""
       },{
-        path: "registry/default/blocks/sidebar-06/components/sidebar-opt-in-form.tsx",
+        path: "registry/default/templates/sidebar-06/components/sidebar-opt-in-form.tsx",
         type: "registry:component",
         target: ""
       }],
       categories: ["sidebar","dashboard"],
-      component: React.lazy(() => import("@/registry/default/blocks/sidebar-06/page.tsx")),
-      source: "__registry__/default/blocks/sidebar-06/page.tsx",
+      component: React.lazy(() => import("@/registry/default/templates/sidebar-06/page.tsx")),
+      source: "__registry__/default/templates/sidebar-06/page.tsx",
       meta: undefined,
     },
     "sidebar-07": {
       name: "sidebar-07",
       description: "A sidebar that collapses to icons.",
-      type: "registry:block",
+      type: "registry:template",
       registryDependencies: ["sidebar","breadcrumb","separator","collapsible","dropdown-menu","avatar"],
       files: [{
-        path: "registry/default/blocks/sidebar-07/page.tsx",
+        path: "registry/default/templates/sidebar-07/page.tsx",
         type: "registry:page",
         target: "app/dashboard/page.tsx"
       },{
-        path: "registry/default/blocks/sidebar-07/components/app-sidebar.tsx",
+        path: "registry/default/templates/sidebar-07/components/app-sidebar.tsx",
         type: "registry:component",
         target: ""
       },{
-        path: "registry/default/blocks/sidebar-07/components/nav-main.tsx",
+        path: "registry/default/templates/sidebar-07/components/nav-main.tsx",
         type: "registry:component",
         target: ""
       },{
-        path: "registry/default/blocks/sidebar-07/components/nav-projects.tsx",
+        path: "registry/default/templates/sidebar-07/components/nav-projects.tsx",
         type: "registry:component",
         target: ""
       },{
-        path: "registry/default/blocks/sidebar-07/components/nav-user.tsx",
+        path: "registry/default/templates/sidebar-07/components/nav-user.tsx",
         type: "registry:component",
         target: ""
       },{
-        path: "registry/default/blocks/sidebar-07/components/team-switcher.tsx",
+        path: "registry/default/templates/sidebar-07/components/team-switcher.tsx",
         type: "registry:component",
         target: ""
       }],
       categories: ["sidebar","dashboard"],
-      component: React.lazy(() => import("@/registry/default/blocks/sidebar-07/page.tsx")),
-      source: "__registry__/default/blocks/sidebar-07/page.tsx",
+      component: React.lazy(() => import("@/registry/default/templates/sidebar-07/page.tsx")),
+      source: "__registry__/default/templates/sidebar-07/page.tsx",
       meta: undefined,
     },
     "sidebar-08": {
       name: "sidebar-08",
       description: "An inset sidebar with secondary navigation.",
-      type: "registry:block",
+      type: "registry:template",
       registryDependencies: ["sidebar","breadcrumb","separator","collapsible","dropdown-menu","avatar"],
       files: [{
-        path: "registry/default/blocks/sidebar-08/page.tsx",
+        path: "registry/default/templates/sidebar-08/page.tsx",
         type: "registry:page",
         target: "app/dashboard/page.tsx"
       },{
-        path: "registry/default/blocks/sidebar-08/components/app-sidebar.tsx",
+        path: "registry/default/templates/sidebar-08/components/app-sidebar.tsx",
         type: "registry:component",
         target: ""
       },{
-        path: "registry/default/blocks/sidebar-08/components/nav-main.tsx",
+        path: "registry/default/templates/sidebar-08/components/nav-main.tsx",
         type: "registry:component",
         target: ""
       },{
-        path: "registry/default/blocks/sidebar-08/components/nav-projects.tsx",
+        path: "registry/default/templates/sidebar-08/components/nav-projects.tsx",
         type: "registry:component",
         target: ""
       },{
-        path: "registry/default/blocks/sidebar-08/components/nav-secondary.tsx",
+        path: "registry/default/templates/sidebar-08/components/nav-secondary.tsx",
         type: "registry:component",
         target: ""
       },{
-        path: "registry/default/blocks/sidebar-08/components/nav-user.tsx",
+        path: "registry/default/templates/sidebar-08/components/nav-user.tsx",
         type: "registry:component",
         target: ""
       }],
       categories: ["sidebar","dashboard"],
-      component: React.lazy(() => import("@/registry/default/blocks/sidebar-08/page.tsx")),
-      source: "__registry__/default/blocks/sidebar-08/page.tsx",
+      component: React.lazy(() => import("@/registry/default/templates/sidebar-08/page.tsx")),
+      source: "__registry__/default/templates/sidebar-08/page.tsx",
       meta: undefined,
     },
     "sidebar-09": {
       name: "sidebar-09",
       description: "Collapsible nested sidebars.",
-      type: "registry:block",
-      registryDependencies: ["sidebar","breadcrumb","separator","collapsible","dropdown-menu","avatar","switch"],
+      type: "registry:template",
+      registryDependencies: ["sidebar","breadcrumb","separator","collapsible","dropdown-menu","avatar","switch","label"],
       files: [{
-        path: "registry/default/blocks/sidebar-09/page.tsx",
+        path: "registry/default/templates/sidebar-09/page.tsx",
         type: "registry:page",
         target: "app/dashboard/page.tsx"
       },{
-        path: "registry/default/blocks/sidebar-09/components/app-sidebar.tsx",
+        path: "registry/default/templates/sidebar-09/components/app-sidebar.tsx",
         type: "registry:component",
         target: ""
       },{
-        path: "registry/default/blocks/sidebar-09/components/nav-user.tsx",
+        path: "registry/default/templates/sidebar-09/components/nav-user.tsx",
         type: "registry:component",
         target: ""
       }],
       categories: ["sidebar","dashboard"],
-      component: React.lazy(() => import("@/registry/default/blocks/sidebar-09/page.tsx")),
-      source: "__registry__/default/blocks/sidebar-09/page.tsx",
+      component: React.lazy(() => import("@/registry/default/templates/sidebar-09/page.tsx")),
+      source: "__registry__/default/templates/sidebar-09/page.tsx",
       meta: undefined,
     },
     "sidebar-10": {
       name: "sidebar-10",
       description: "A sidebar in a popover.",
-      type: "registry:block",
+      type: "registry:template",
       registryDependencies: ["sidebar","breadcrumb","separator","popover","collapsible","dropdown-menu"],
       files: [{
-        path: "registry/default/blocks/sidebar-10/page.tsx",
+        path: "registry/default/templates/sidebar-10/page.tsx",
         type: "registry:page",
         target: "app/dashboard/page.tsx"
       },{
-        path: "registry/default/blocks/sidebar-10/components/app-sidebar.tsx",
+        path: "registry/default/templates/sidebar-10/components/app-sidebar.tsx",
         type: "registry:component",
         target: ""
       },{
-        path: "registry/default/blocks/sidebar-10/components/nav-actions.tsx",
+        path: "registry/default/templates/sidebar-10/components/nav-actions.tsx",
         type: "registry:component",
         target: ""
       },{
-        path: "registry/default/blocks/sidebar-10/components/nav-favorites.tsx",
+        path: "registry/default/templates/sidebar-10/components/nav-favorites.tsx",
         type: "registry:component",
         target: ""
       },{
-        path: "registry/default/blocks/sidebar-10/components/nav-main.tsx",
+        path: "registry/default/templates/sidebar-10/components/nav-main.tsx",
         type: "registry:component",
         target: ""
       },{
-        path: "registry/default/blocks/sidebar-10/components/nav-secondary.tsx",
+        path: "registry/default/templates/sidebar-10/components/nav-secondary.tsx",
         type: "registry:component",
         target: ""
       },{
-        path: "registry/default/blocks/sidebar-10/components/nav-workspaces.tsx",
+        path: "registry/default/templates/sidebar-10/components/nav-workspaces.tsx",
         type: "registry:component",
         target: ""
       },{
-        path: "registry/default/blocks/sidebar-10/components/team-switcher.tsx",
+        path: "registry/default/templates/sidebar-10/components/team-switcher.tsx",
         type: "registry:component",
         target: ""
       }],
       categories: ["sidebar","dashboard"],
-      component: React.lazy(() => import("@/registry/default/blocks/sidebar-10/page.tsx")),
-      source: "__registry__/default/blocks/sidebar-10/page.tsx",
+      component: React.lazy(() => import("@/registry/default/templates/sidebar-10/page.tsx")),
+      source: "__registry__/default/templates/sidebar-10/page.tsx",
       meta: undefined,
     },
     "sidebar-11": {
       name: "sidebar-11",
       description: "A sidebar with a collapsible file tree.",
-      type: "registry:block",
+      type: "registry:template",
       registryDependencies: ["sidebar","breadcrumb","separator","collapsible"],
       files: [{
-        path: "registry/default/blocks/sidebar-11/page.tsx",
+        path: "registry/default/templates/sidebar-11/page.tsx",
         type: "registry:page",
         target: "app/dashboard/page.tsx"
       },{
-        path: "registry/default/blocks/sidebar-11/components/app-sidebar.tsx",
+        path: "registry/default/templates/sidebar-11/components/app-sidebar.tsx",
         type: "registry:component",
         target: ""
       }],
       categories: ["sidebar","dashboard"],
-      component: React.lazy(() => import("@/registry/default/blocks/sidebar-11/page.tsx")),
-      source: "__registry__/default/blocks/sidebar-11/page.tsx",
+      component: React.lazy(() => import("@/registry/default/templates/sidebar-11/page.tsx")),
+      source: "__registry__/default/templates/sidebar-11/page.tsx",
       meta: undefined,
     },
     "sidebar-12": {
       name: "sidebar-12",
       description: "A sidebar with a calendar.",
-      type: "registry:block",
+      type: "registry:template",
       registryDependencies: ["sidebar","breadcrumb","separator","collapsible","calendar","dropdown-menu","avatar"],
       files: [{
-        path: "registry/default/blocks/sidebar-12/page.tsx",
+        path: "registry/default/templates/sidebar-12/page.tsx",
         type: "registry:page",
         target: "app/dashboard/page.tsx"
       },{
-        path: "registry/default/blocks/sidebar-12/components/app-sidebar.tsx",
+        path: "registry/default/templates/sidebar-12/components/app-sidebar.tsx",
         type: "registry:component",
         target: ""
       },{
-        path: "registry/default/blocks/sidebar-12/components/calendars.tsx",
+        path: "registry/default/templates/sidebar-12/components/calendars.tsx",
         type: "registry:component",
         target: ""
       },{
-        path: "registry/default/blocks/sidebar-12/components/date-picker.tsx",
+        path: "registry/default/templates/sidebar-12/components/date-picker.tsx",
         type: "registry:component",
         target: ""
       },{
-        path: "registry/default/blocks/sidebar-12/components/nav-user.tsx",
+        path: "registry/default/templates/sidebar-12/components/nav-user.tsx",
         type: "registry:component",
         target: ""
       }],
       categories: ["sidebar","dashboard"],
-      component: React.lazy(() => import("@/registry/default/blocks/sidebar-12/page.tsx")),
-      source: "__registry__/default/blocks/sidebar-12/page.tsx",
+      component: React.lazy(() => import("@/registry/default/templates/sidebar-12/page.tsx")),
+      source: "__registry__/default/templates/sidebar-12/page.tsx",
       meta: undefined,
     },
     "sidebar-13": {
       name: "sidebar-13",
       description: "A sidebar in a dialog.",
-      type: "registry:block",
+      type: "registry:template",
       registryDependencies: ["sidebar","breadcrumb","button","dialog"],
       files: [{
-        path: "registry/default/blocks/sidebar-13/page.tsx",
+        path: "registry/default/templates/sidebar-13/page.tsx",
         type: "registry:page",
         target: "app/dashboard/page.tsx"
       },{
-        path: "registry/default/blocks/sidebar-13/components/settings-dialog.tsx",
+        path: "registry/default/templates/sidebar-13/components/settings-dialog.tsx",
         type: "registry:component",
         target: ""
       }],
       categories: ["sidebar","dashboard"],
-      component: React.lazy(() => import("@/registry/default/blocks/sidebar-13/page.tsx")),
-      source: "__registry__/default/blocks/sidebar-13/page.tsx",
+      component: React.lazy(() => import("@/registry/default/templates/sidebar-13/page.tsx")),
+      source: "__registry__/default/templates/sidebar-13/page.tsx",
       meta: undefined,
     },
     "sidebar-14": {
       name: "sidebar-14",
       description: "A sidebar on the right.",
-      type: "registry:block",
+      type: "registry:template",
       registryDependencies: ["sidebar","breadcrumb"],
       files: [{
-        path: "registry/default/blocks/sidebar-14/page.tsx",
+        path: "registry/default/templates/sidebar-14/page.tsx",
         type: "registry:page",
         target: "app/dashboard/page.tsx"
       },{
-        path: "registry/default/blocks/sidebar-14/components/app-sidebar.tsx",
+        path: "registry/default/templates/sidebar-14/components/app-sidebar.tsx",
         type: "registry:component",
         target: ""
       }],
       categories: ["sidebar","dashboard"],
-      component: React.lazy(() => import("@/registry/default/blocks/sidebar-14/page.tsx")),
-      source: "__registry__/default/blocks/sidebar-14/page.tsx",
+      component: React.lazy(() => import("@/registry/default/templates/sidebar-14/page.tsx")),
+      source: "__registry__/default/templates/sidebar-14/page.tsx",
       meta: undefined,
     },
     "sidebar-15": {
       name: "sidebar-15",
       description: "A left and right sidebar.",
-      type: "registry:block",
+      type: "registry:template",
       registryDependencies: ["sidebar","breadcrumb","separator","popover","collapsible","dropdown-menu","calendar","avatar"],
       files: [{
-        path: "registry/default/blocks/sidebar-15/page.tsx",
+        path: "registry/default/templates/sidebar-15/page.tsx",
         type: "registry:page",
         target: "app/dashboard/page.tsx"
       },{
-        path: "registry/default/blocks/sidebar-15/components/calendars.tsx",
+        path: "registry/default/templates/sidebar-15/components/calendars.tsx",
         type: "registry:component",
         target: ""
       },{
-        path: "registry/default/blocks/sidebar-15/components/date-picker.tsx",
+        path: "registry/default/templates/sidebar-15/components/date-picker.tsx",
         type: "registry:component",
         target: ""
       },{
-        path: "registry/default/blocks/sidebar-15/components/nav-favorites.tsx",
+        path: "registry/default/templates/sidebar-15/components/nav-favorites.tsx",
         type: "registry:component",
         target: ""
       },{
-        path: "registry/default/blocks/sidebar-15/components/nav-main.tsx",
+        path: "registry/default/templates/sidebar-15/components/nav-main.tsx",
         type: "registry:component",
         target: ""
       },{
-        path: "registry/default/blocks/sidebar-15/components/nav-secondary.tsx",
+        path: "registry/default/templates/sidebar-15/components/nav-secondary.tsx",
         type: "registry:component",
         target: ""
       },{
-        path: "registry/default/blocks/sidebar-15/components/nav-user.tsx",
+        path: "registry/default/templates/sidebar-15/components/nav-user.tsx",
         type: "registry:component",
         target: ""
       },{
-        path: "registry/default/blocks/sidebar-15/components/nav-workspaces.tsx",
+        path: "registry/default/templates/sidebar-15/components/nav-workspaces.tsx",
         type: "registry:component",
         target: ""
       },{
-        path: "registry/default/blocks/sidebar-15/components/sidebar-left.tsx",
+        path: "registry/default/templates/sidebar-15/components/sidebar-left.tsx",
         type: "registry:component",
         target: ""
       },{
-        path: "registry/default/blocks/sidebar-15/components/sidebar-right.tsx",
+        path: "registry/default/templates/sidebar-15/components/sidebar-right.tsx",
         type: "registry:component",
         target: ""
       },{
-        path: "registry/default/blocks/sidebar-15/components/team-switcher.tsx",
+        path: "registry/default/templates/sidebar-15/components/team-switcher.tsx",
         type: "registry:component",
         target: ""
       }],
       categories: ["sidebar","dashboard"],
-      component: React.lazy(() => import("@/registry/default/blocks/sidebar-15/page.tsx")),
-      source: "__registry__/default/blocks/sidebar-15/page.tsx",
+      component: React.lazy(() => import("@/registry/default/templates/sidebar-15/page.tsx")),
+      source: "__registry__/default/templates/sidebar-15/page.tsx",
+      meta: undefined,
+    },
+    "sidebar-16": {
+      name: "sidebar-16",
+      description: "A sidebar with a sticky site header.",
+      type: "registry:template",
+      registryDependencies: ["sidebar","breadcrumb","separator","collapsible","dropdown-menu","avatar","button","label"],
+      files: [{
+        path: "registry/default/templates/sidebar-16/page.tsx",
+        type: "registry:page",
+        target: "app/dashboard/page.tsx"
+      },{
+        path: "registry/default/templates/sidebar-16/components/app-sidebar.tsx",
+        type: "registry:component",
+        target: ""
+      },{
+        path: "registry/default/templates/sidebar-16/components/nav-main.tsx",
+        type: "registry:component",
+        target: ""
+      },{
+        path: "registry/default/templates/sidebar-16/components/nav-projects.tsx",
+        type: "registry:component",
+        target: ""
+      },{
+        path: "registry/default/templates/sidebar-16/components/nav-secondary.tsx",
+        type: "registry:component",
+        target: ""
+      },{
+        path: "registry/default/templates/sidebar-16/components/nav-user.tsx",
+        type: "registry:component",
+        target: ""
+      },{
+        path: "registry/default/templates/sidebar-16/components/search-form.tsx",
+        type: "registry:component",
+        target: ""
+      },{
+        path: "registry/default/templates/sidebar-16/components/site-header.tsx",
+        type: "registry:component",
+        target: ""
+      }],
+      categories: ["sidebar","dashboard"],
+      component: React.lazy(() => import("@/registry/default/templates/sidebar-16/page.tsx")),
+      source: "__registry__/default/templates/sidebar-16/page.tsx",
       meta: undefined,
     },
     "login-01": {
       name: "login-01",
       description: "A simple login form.",
-      type: "registry:block",
+      type: "registry:template",
       registryDependencies: ["button","card","input","label"],
       files: [{
-        path: "registry/default/blocks/login-01/page.tsx",
+        path: "registry/default/templates/login-01/page.tsx",
         type: "registry:page",
         target: "app/login/page.tsx"
       },{
-        path: "registry/default/blocks/login-01/components/login-form.tsx",
+        path: "registry/default/templates/login-01/components/login-form.tsx",
         type: "registry:component",
         target: ""
       }],
       categories: ["authentication","login"],
-      component: React.lazy(() => import("@/registry/default/blocks/login-01/page.tsx")),
-      source: "__registry__/default/blocks/login-01/page.tsx",
+      component: React.lazy(() => import("@/registry/default/templates/login-01/page.tsx")),
+      source: "__registry__/default/templates/login-01/page.tsx",
       meta: undefined,
     },
     "login-02": {
       name: "login-02",
       description: "A two column login page with a cover image.",
-      type: "registry:block",
+      type: "registry:template",
       registryDependencies: ["button","card","input","label"],
       files: [{
-        path: "registry/default/blocks/login-02/page.tsx",
+        path: "registry/default/templates/login-02/page.tsx",
         type: "registry:page",
         target: "app/login/page.tsx"
       },{
-        path: "registry/default/blocks/login-02/components/login-form.tsx",
+        path: "registry/default/templates/login-02/components/login-form.tsx",
         type: "registry:component",
         target: ""
       }],
       categories: ["authentication","login"],
-      component: React.lazy(() => import("@/registry/default/blocks/login-02/page.tsx")),
-      source: "__registry__/default/blocks/login-02/page.tsx",
+      component: React.lazy(() => import("@/registry/default/templates/login-02/page.tsx")),
+      source: "__registry__/default/templates/login-02/page.tsx",
       meta: undefined,
     },
     "login-03": {
       name: "login-03",
       description: "A login page with a muted background color.",
-      type: "registry:block",
+      type: "registry:template",
       registryDependencies: ["button","card","input","label"],
       files: [{
-        path: "registry/default/blocks/login-03/page.tsx",
+        path: "registry/default/templates/login-03/page.tsx",
         type: "registry:page",
         target: "app/login/page.tsx"
       },{
-        path: "registry/default/blocks/login-03/components/login-form.tsx",
+        path: "registry/default/templates/login-03/components/login-form.tsx",
         type: "registry:component",
         target: ""
       }],
       categories: ["authentication","login"],
-      component: React.lazy(() => import("@/registry/default/blocks/login-03/page.tsx")),
-      source: "__registry__/default/blocks/login-03/page.tsx",
+      component: React.lazy(() => import("@/registry/default/templates/login-03/page.tsx")),
+      source: "__registry__/default/templates/login-03/page.tsx",
       meta: undefined,
     },
     "login-04": {
       name: "login-04",
       description: "A login page with form and image.",
-      type: "registry:block",
+      type: "registry:template",
       registryDependencies: ["button","card","input","label"],
       files: [{
-        path: "registry/default/blocks/login-04/page.tsx",
+        path: "registry/default/templates/login-04/page.tsx",
         type: "registry:page",
         target: "app/login/page.tsx"
       },{
-        path: "registry/default/blocks/login-04/components/login-form.tsx",
+        path: "registry/default/templates/login-04/components/login-form.tsx",
         type: "registry:component",
         target: ""
       }],
       categories: ["authentication","login"],
-      component: React.lazy(() => import("@/registry/default/blocks/login-04/page.tsx")),
-      source: "__registry__/default/blocks/login-04/page.tsx",
+      component: React.lazy(() => import("@/registry/default/templates/login-04/page.tsx")),
+      source: "__registry__/default/templates/login-04/page.tsx",
       meta: undefined,
     },
     "login-05": {
       name: "login-05",
       description: "A simple email-only login page.",
-      type: "registry:block",
+      type: "registry:template",
       registryDependencies: ["button","card","input","label"],
       files: [{
-        path: "registry/default/blocks/login-05/page.tsx",
+        path: "registry/default/templates/login-05/page.tsx",
         type: "registry:page",
         target: "app/login/page.tsx"
       },{
-        path: "registry/default/blocks/login-05/components/login-form.tsx",
+        path: "registry/default/templates/login-05/components/login-form.tsx",
         type: "registry:component",
         target: ""
       }],
       categories: ["authentication","login"],
-      component: React.lazy(() => import("@/registry/default/blocks/login-05/page.tsx")),
-      source: "__registry__/default/blocks/login-05/page.tsx",
+      component: React.lazy(() => import("@/registry/default/templates/login-05/page.tsx")),
+      source: "__registry__/default/templates/login-05/page.tsx",
       meta: undefined,
     },
     "chart-area-axes": {
       name: "chart-area-axes",
       description: "",
-      type: "registry:block",
+      type: "registry:template",
       registryDependencies: ["card","chart"],
       files: [{
         path: "registry/default/charts/chart-area-axes.tsx",
-        type: "registry:block",
+        type: "registry:template",
         target: ""
       }],
       categories: ["charts","charts-area"],
@@ -6507,11 +6703,11 @@ export const Index: Record<string, any> = {
     "chart-area-default": {
       name: "chart-area-default",
       description: "",
-      type: "registry:block",
+      type: "registry:template",
       registryDependencies: ["card","chart"],
       files: [{
         path: "registry/default/charts/chart-area-default.tsx",
-        type: "registry:block",
+        type: "registry:template",
         target: ""
       }],
       categories: ["charts","charts-area"],
@@ -6522,11 +6718,11 @@ export const Index: Record<string, any> = {
     "chart-area-gradient": {
       name: "chart-area-gradient",
       description: "",
-      type: "registry:block",
+      type: "registry:template",
       registryDependencies: ["card","chart"],
       files: [{
         path: "registry/default/charts/chart-area-gradient.tsx",
-        type: "registry:block",
+        type: "registry:template",
         target: ""
       }],
       categories: ["charts","charts-area"],
@@ -6537,11 +6733,11 @@ export const Index: Record<string, any> = {
     "chart-area-icons": {
       name: "chart-area-icons",
       description: "",
-      type: "registry:block",
+      type: "registry:template",
       registryDependencies: ["card","chart"],
       files: [{
         path: "registry/default/charts/chart-area-icons.tsx",
-        type: "registry:block",
+        type: "registry:template",
         target: ""
       }],
       categories: ["charts","charts-area"],
@@ -6552,7 +6748,7 @@ export const Index: Record<string, any> = {
     "chart-area-interactive": {
       name: "chart-area-interactive",
       description: "",
-      type: "registry:block",
+      type: "registry:template",
       registryDependencies: ["card","chart","select"],
       files: [{
         path: "registry/default/charts/chart-area-interactive.tsx",
@@ -6567,11 +6763,11 @@ export const Index: Record<string, any> = {
     "chart-area-legend": {
       name: "chart-area-legend",
       description: "",
-      type: "registry:block",
+      type: "registry:template",
       registryDependencies: ["card","chart"],
       files: [{
         path: "registry/default/charts/chart-area-legend.tsx",
-        type: "registry:block",
+        type: "registry:template",
         target: ""
       }],
       categories: ["charts","charts-area"],
@@ -6582,11 +6778,11 @@ export const Index: Record<string, any> = {
     "chart-area-linear": {
       name: "chart-area-linear",
       description: "",
-      type: "registry:block",
+      type: "registry:template",
       registryDependencies: ["card","chart"],
       files: [{
         path: "registry/default/charts/chart-area-linear.tsx",
-        type: "registry:block",
+        type: "registry:template",
         target: ""
       }],
       categories: ["charts","charts-area"],
@@ -6597,11 +6793,11 @@ export const Index: Record<string, any> = {
     "chart-area-stacked-expand": {
       name: "chart-area-stacked-expand",
       description: "",
-      type: "registry:block",
+      type: "registry:template",
       registryDependencies: ["card","chart"],
       files: [{
         path: "registry/default/charts/chart-area-stacked-expand.tsx",
-        type: "registry:block",
+        type: "registry:template",
         target: ""
       }],
       categories: ["charts","charts-area"],
@@ -6612,11 +6808,11 @@ export const Index: Record<string, any> = {
     "chart-area-stacked": {
       name: "chart-area-stacked",
       description: "",
-      type: "registry:block",
+      type: "registry:template",
       registryDependencies: ["card","chart"],
       files: [{
         path: "registry/default/charts/chart-area-stacked.tsx",
-        type: "registry:block",
+        type: "registry:template",
         target: ""
       }],
       categories: ["charts","charts-area"],
@@ -6627,11 +6823,11 @@ export const Index: Record<string, any> = {
     "chart-area-step": {
       name: "chart-area-step",
       description: "",
-      type: "registry:block",
+      type: "registry:template",
       registryDependencies: ["card","chart"],
       files: [{
         path: "registry/default/charts/chart-area-step.tsx",
-        type: "registry:block",
+        type: "registry:template",
         target: ""
       }],
       categories: ["charts","charts-area"],
@@ -6642,11 +6838,11 @@ export const Index: Record<string, any> = {
     "chart-bar-active": {
       name: "chart-bar-active",
       description: "",
-      type: "registry:block",
+      type: "registry:template",
       registryDependencies: ["card","chart"],
       files: [{
         path: "registry/default/charts/chart-bar-active.tsx",
-        type: "registry:block",
+        type: "registry:template",
         target: ""
       }],
       categories: ["charts","charts-bar"],
@@ -6657,11 +6853,11 @@ export const Index: Record<string, any> = {
     "chart-bar-default": {
       name: "chart-bar-default",
       description: "",
-      type: "registry:block",
+      type: "registry:template",
       registryDependencies: ["card","chart"],
       files: [{
         path: "registry/default/charts/chart-bar-default.tsx",
-        type: "registry:block",
+        type: "registry:template",
         target: ""
       }],
       categories: ["charts","charts-bar"],
@@ -6672,11 +6868,11 @@ export const Index: Record<string, any> = {
     "chart-bar-horizontal": {
       name: "chart-bar-horizontal",
       description: "",
-      type: "registry:block",
+      type: "registry:template",
       registryDependencies: ["card","chart"],
       files: [{
         path: "registry/default/charts/chart-bar-horizontal.tsx",
-        type: "registry:block",
+        type: "registry:template",
         target: ""
       }],
       categories: ["charts","charts-bar"],
@@ -6687,11 +6883,11 @@ export const Index: Record<string, any> = {
     "chart-bar-interactive": {
       name: "chart-bar-interactive",
       description: "",
-      type: "registry:block",
+      type: "registry:template",
       registryDependencies: ["card","chart"],
       files: [{
         path: "registry/default/charts/chart-bar-interactive.tsx",
-        type: "registry:block",
+        type: "registry:template",
         target: ""
       }],
       categories: ["charts","charts-bar"],
@@ -6702,11 +6898,11 @@ export const Index: Record<string, any> = {
     "chart-bar-label-custom": {
       name: "chart-bar-label-custom",
       description: "",
-      type: "registry:block",
+      type: "registry:template",
       registryDependencies: ["card","chart"],
       files: [{
         path: "registry/default/charts/chart-bar-label-custom.tsx",
-        type: "registry:block",
+        type: "registry:template",
         target: ""
       }],
       categories: ["charts","charts-bar"],
@@ -6717,11 +6913,11 @@ export const Index: Record<string, any> = {
     "chart-bar-label": {
       name: "chart-bar-label",
       description: "",
-      type: "registry:block",
+      type: "registry:template",
       registryDependencies: ["card","chart"],
       files: [{
         path: "registry/default/charts/chart-bar-label.tsx",
-        type: "registry:block",
+        type: "registry:template",
         target: ""
       }],
       categories: ["charts","charts-bar"],
@@ -6732,11 +6928,11 @@ export const Index: Record<string, any> = {
     "chart-bar-mixed": {
       name: "chart-bar-mixed",
       description: "",
-      type: "registry:block",
+      type: "registry:template",
       registryDependencies: ["card","chart"],
       files: [{
         path: "registry/default/charts/chart-bar-mixed.tsx",
-        type: "registry:block",
+        type: "registry:template",
         target: ""
       }],
       categories: ["charts","charts-bar"],
@@ -6747,11 +6943,11 @@ export const Index: Record<string, any> = {
     "chart-bar-multiple": {
       name: "chart-bar-multiple",
       description: "",
-      type: "registry:block",
+      type: "registry:template",
       registryDependencies: ["card","chart"],
       files: [{
         path: "registry/default/charts/chart-bar-multiple.tsx",
-        type: "registry:block",
+        type: "registry:template",
         target: ""
       }],
       categories: ["charts","charts-bar"],
@@ -6762,11 +6958,11 @@ export const Index: Record<string, any> = {
     "chart-bar-negative": {
       name: "chart-bar-negative",
       description: "",
-      type: "registry:block",
+      type: "registry:template",
       registryDependencies: ["card","chart"],
       files: [{
         path: "registry/default/charts/chart-bar-negative.tsx",
-        type: "registry:block",
+        type: "registry:template",
         target: ""
       }],
       categories: ["charts","charts-bar"],
@@ -6777,11 +6973,11 @@ export const Index: Record<string, any> = {
     "chart-bar-stacked": {
       name: "chart-bar-stacked",
       description: "",
-      type: "registry:block",
+      type: "registry:template",
       registryDependencies: ["card","chart"],
       files: [{
         path: "registry/default/charts/chart-bar-stacked.tsx",
-        type: "registry:block",
+        type: "registry:template",
         target: ""
       }],
       categories: ["charts","charts-bar"],
@@ -6792,11 +6988,11 @@ export const Index: Record<string, any> = {
     "chart-line-default": {
       name: "chart-line-default",
       description: "",
-      type: "registry:block",
+      type: "registry:template",
       registryDependencies: ["card","chart"],
       files: [{
         path: "registry/default/charts/chart-line-default.tsx",
-        type: "registry:block",
+        type: "registry:template",
         target: ""
       }],
       categories: ["charts","charts-line"],
@@ -6807,11 +7003,11 @@ export const Index: Record<string, any> = {
     "chart-line-dots-colors": {
       name: "chart-line-dots-colors",
       description: "",
-      type: "registry:block",
+      type: "registry:template",
       registryDependencies: ["card","chart"],
       files: [{
         path: "registry/default/charts/chart-line-dots-colors.tsx",
-        type: "registry:block",
+        type: "registry:template",
         target: ""
       }],
       categories: ["charts","charts-line"],
@@ -6822,11 +7018,11 @@ export const Index: Record<string, any> = {
     "chart-line-dots-custom": {
       name: "chart-line-dots-custom",
       description: "",
-      type: "registry:block",
+      type: "registry:template",
       registryDependencies: ["card","chart"],
       files: [{
         path: "registry/default/charts/chart-line-dots-custom.tsx",
-        type: "registry:block",
+        type: "registry:template",
         target: ""
       }],
       categories: ["charts","charts-line"],
@@ -6837,11 +7033,11 @@ export const Index: Record<string, any> = {
     "chart-line-dots": {
       name: "chart-line-dots",
       description: "",
-      type: "registry:block",
+      type: "registry:template",
       registryDependencies: ["card","chart"],
       files: [{
         path: "registry/default/charts/chart-line-dots.tsx",
-        type: "registry:block",
+        type: "registry:template",
         target: ""
       }],
       categories: ["charts","charts-line"],
@@ -6852,11 +7048,11 @@ export const Index: Record<string, any> = {
     "chart-line-interactive": {
       name: "chart-line-interactive",
       description: "",
-      type: "registry:block",
+      type: "registry:template",
       registryDependencies: ["card","chart"],
       files: [{
         path: "registry/default/charts/chart-line-interactive.tsx",
-        type: "registry:block",
+        type: "registry:template",
         target: ""
       }],
       categories: ["charts","charts-line"],
@@ -6867,11 +7063,11 @@ export const Index: Record<string, any> = {
     "chart-line-label-custom": {
       name: "chart-line-label-custom",
       description: "",
-      type: "registry:block",
+      type: "registry:template",
       registryDependencies: ["card","chart"],
       files: [{
         path: "registry/default/charts/chart-line-label-custom.tsx",
-        type: "registry:block",
+        type: "registry:template",
         target: ""
       }],
       categories: ["charts","charts-line"],
@@ -6882,11 +7078,11 @@ export const Index: Record<string, any> = {
     "chart-line-label": {
       name: "chart-line-label",
       description: "",
-      type: "registry:block",
+      type: "registry:template",
       registryDependencies: ["card","chart"],
       files: [{
         path: "registry/default/charts/chart-line-label.tsx",
-        type: "registry:block",
+        type: "registry:template",
         target: ""
       }],
       categories: ["charts","charts-line"],
@@ -6897,11 +7093,11 @@ export const Index: Record<string, any> = {
     "chart-line-linear": {
       name: "chart-line-linear",
       description: "",
-      type: "registry:block",
+      type: "registry:template",
       registryDependencies: ["card","chart"],
       files: [{
         path: "registry/default/charts/chart-line-linear.tsx",
-        type: "registry:block",
+        type: "registry:template",
         target: ""
       }],
       categories: ["charts","charts-line"],
@@ -6912,11 +7108,11 @@ export const Index: Record<string, any> = {
     "chart-line-multiple": {
       name: "chart-line-multiple",
       description: "",
-      type: "registry:block",
+      type: "registry:template",
       registryDependencies: ["card","chart"],
       files: [{
         path: "registry/default/charts/chart-line-multiple.tsx",
-        type: "registry:block",
+        type: "registry:template",
         target: ""
       }],
       categories: ["charts","charts-line"],
@@ -6927,11 +7123,11 @@ export const Index: Record<string, any> = {
     "chart-line-step": {
       name: "chart-line-step",
       description: "",
-      type: "registry:block",
+      type: "registry:template",
       registryDependencies: ["card","chart"],
       files: [{
         path: "registry/default/charts/chart-line-step.tsx",
-        type: "registry:block",
+        type: "registry:template",
         target: ""
       }],
       categories: ["charts","charts-line"],
@@ -6942,11 +7138,11 @@ export const Index: Record<string, any> = {
     "chart-pie-donut-active": {
       name: "chart-pie-donut-active",
       description: "",
-      type: "registry:block",
+      type: "registry:template",
       registryDependencies: ["card","chart"],
       files: [{
         path: "registry/default/charts/chart-pie-donut-active.tsx",
-        type: "registry:block",
+        type: "registry:template",
         target: ""
       }],
       categories: ["charts","charts-pie"],
@@ -6957,11 +7153,11 @@ export const Index: Record<string, any> = {
     "chart-pie-donut-text": {
       name: "chart-pie-donut-text",
       description: "",
-      type: "registry:block",
+      type: "registry:template",
       registryDependencies: ["card","chart"],
       files: [{
         path: "registry/default/charts/chart-pie-donut-text.tsx",
-        type: "registry:block",
+        type: "registry:template",
         target: ""
       }],
       categories: ["charts","charts-pie"],
@@ -6972,11 +7168,11 @@ export const Index: Record<string, any> = {
     "chart-pie-donut": {
       name: "chart-pie-donut",
       description: "",
-      type: "registry:block",
+      type: "registry:template",
       registryDependencies: ["card","chart"],
       files: [{
         path: "registry/default/charts/chart-pie-donut.tsx",
-        type: "registry:block",
+        type: "registry:template",
         target: ""
       }],
       categories: ["charts","charts-pie"],
@@ -6987,11 +7183,11 @@ export const Index: Record<string, any> = {
     "chart-pie-interactive": {
       name: "chart-pie-interactive",
       description: "",
-      type: "registry:block",
+      type: "registry:template",
       registryDependencies: ["card","chart"],
       files: [{
         path: "registry/default/charts/chart-pie-interactive.tsx",
-        type: "registry:block",
+        type: "registry:template",
         target: ""
       }],
       categories: ["charts","charts-pie"],
@@ -7002,11 +7198,11 @@ export const Index: Record<string, any> = {
     "chart-pie-label-custom": {
       name: "chart-pie-label-custom",
       description: "",
-      type: "registry:block",
+      type: "registry:template",
       registryDependencies: ["card","chart"],
       files: [{
         path: "registry/default/charts/chart-pie-label-custom.tsx",
-        type: "registry:block",
+        type: "registry:template",
         target: ""
       }],
       categories: ["charts","charts-pie"],
@@ -7017,11 +7213,11 @@ export const Index: Record<string, any> = {
     "chart-pie-label-list": {
       name: "chart-pie-label-list",
       description: "",
-      type: "registry:block",
+      type: "registry:template",
       registryDependencies: ["card","chart"],
       files: [{
         path: "registry/default/charts/chart-pie-label-list.tsx",
-        type: "registry:block",
+        type: "registry:template",
         target: ""
       }],
       categories: ["charts","charts-pie"],
@@ -7032,11 +7228,11 @@ export const Index: Record<string, any> = {
     "chart-pie-label": {
       name: "chart-pie-label",
       description: "",
-      type: "registry:block",
+      type: "registry:template",
       registryDependencies: ["card","chart"],
       files: [{
         path: "registry/default/charts/chart-pie-label.tsx",
-        type: "registry:block",
+        type: "registry:template",
         target: ""
       }],
       categories: ["charts","charts-pie"],
@@ -7047,11 +7243,11 @@ export const Index: Record<string, any> = {
     "chart-pie-legend": {
       name: "chart-pie-legend",
       description: "",
-      type: "registry:block",
+      type: "registry:template",
       registryDependencies: ["card","chart"],
       files: [{
         path: "registry/default/charts/chart-pie-legend.tsx",
-        type: "registry:block",
+        type: "registry:template",
         target: ""
       }],
       categories: ["charts","charts-pie"],
@@ -7062,11 +7258,11 @@ export const Index: Record<string, any> = {
     "chart-pie-separator-none": {
       name: "chart-pie-separator-none",
       description: "",
-      type: "registry:block",
+      type: "registry:template",
       registryDependencies: ["card","chart"],
       files: [{
         path: "registry/default/charts/chart-pie-separator-none.tsx",
-        type: "registry:block",
+        type: "registry:template",
         target: ""
       }],
       categories: ["charts","charts-pie"],
@@ -7077,11 +7273,11 @@ export const Index: Record<string, any> = {
     "chart-pie-simple": {
       name: "chart-pie-simple",
       description: "",
-      type: "registry:block",
+      type: "registry:template",
       registryDependencies: ["card","chart"],
       files: [{
         path: "registry/default/charts/chart-pie-simple.tsx",
-        type: "registry:block",
+        type: "registry:template",
         target: ""
       }],
       categories: ["charts","charts-pie"],
@@ -7092,11 +7288,11 @@ export const Index: Record<string, any> = {
     "chart-pie-stacked": {
       name: "chart-pie-stacked",
       description: "",
-      type: "registry:block",
+      type: "registry:template",
       registryDependencies: ["card","chart"],
       files: [{
         path: "registry/default/charts/chart-pie-stacked.tsx",
-        type: "registry:block",
+        type: "registry:template",
         target: ""
       }],
       categories: ["charts","charts-pie"],
@@ -7107,11 +7303,11 @@ export const Index: Record<string, any> = {
     "chart-radar-default": {
       name: "chart-radar-default",
       description: "",
-      type: "registry:block",
+      type: "registry:template",
       registryDependencies: ["card","chart"],
       files: [{
         path: "registry/default/charts/chart-radar-default.tsx",
-        type: "registry:block",
+        type: "registry:template",
         target: ""
       }],
       categories: ["charts","charts-radar"],
@@ -7122,11 +7318,11 @@ export const Index: Record<string, any> = {
     "chart-radar-dots": {
       name: "chart-radar-dots",
       description: "",
-      type: "registry:block",
+      type: "registry:template",
       registryDependencies: ["card","chart"],
       files: [{
         path: "registry/default/charts/chart-radar-dots.tsx",
-        type: "registry:block",
+        type: "registry:template",
         target: ""
       }],
       categories: ["charts","charts-radar"],
@@ -7137,11 +7333,11 @@ export const Index: Record<string, any> = {
     "chart-radar-grid-circle-fill": {
       name: "chart-radar-grid-circle-fill",
       description: "",
-      type: "registry:block",
+      type: "registry:template",
       registryDependencies: ["card","chart"],
       files: [{
         path: "registry/default/charts/chart-radar-grid-circle-fill.tsx",
-        type: "registry:block",
+        type: "registry:template",
         target: ""
       }],
       categories: ["charts","charts-radar"],
@@ -7152,11 +7348,11 @@ export const Index: Record<string, any> = {
     "chart-radar-grid-circle-no-lines": {
       name: "chart-radar-grid-circle-no-lines",
       description: "",
-      type: "registry:block",
+      type: "registry:template",
       registryDependencies: ["card","chart"],
       files: [{
         path: "registry/default/charts/chart-radar-grid-circle-no-lines.tsx",
-        type: "registry:block",
+        type: "registry:template",
         target: ""
       }],
       categories: ["charts","charts-radar"],
@@ -7167,11 +7363,11 @@ export const Index: Record<string, any> = {
     "chart-radar-grid-circle": {
       name: "chart-radar-grid-circle",
       description: "",
-      type: "registry:block",
+      type: "registry:template",
       registryDependencies: ["card","chart"],
       files: [{
         path: "registry/default/charts/chart-radar-grid-circle.tsx",
-        type: "registry:block",
+        type: "registry:template",
         target: ""
       }],
       categories: ["charts","charts-radar"],
@@ -7182,11 +7378,11 @@ export const Index: Record<string, any> = {
     "chart-radar-grid-custom": {
       name: "chart-radar-grid-custom",
       description: "",
-      type: "registry:block",
+      type: "registry:template",
       registryDependencies: ["card","chart"],
       files: [{
         path: "registry/default/charts/chart-radar-grid-custom.tsx",
-        type: "registry:block",
+        type: "registry:template",
         target: ""
       }],
       categories: ["charts","charts-radar"],
@@ -7197,11 +7393,11 @@ export const Index: Record<string, any> = {
     "chart-radar-grid-fill": {
       name: "chart-radar-grid-fill",
       description: "",
-      type: "registry:block",
+      type: "registry:template",
       registryDependencies: ["card","chart"],
       files: [{
         path: "registry/default/charts/chart-radar-grid-fill.tsx",
-        type: "registry:block",
+        type: "registry:template",
         target: ""
       }],
       categories: ["charts","charts-radar"],
@@ -7212,11 +7408,11 @@ export const Index: Record<string, any> = {
     "chart-radar-grid-none": {
       name: "chart-radar-grid-none",
       description: "",
-      type: "registry:block",
+      type: "registry:template",
       registryDependencies: ["card","chart"],
       files: [{
         path: "registry/default/charts/chart-radar-grid-none.tsx",
-        type: "registry:block",
+        type: "registry:template",
         target: ""
       }],
       categories: ["charts","charts-radar"],
@@ -7227,11 +7423,11 @@ export const Index: Record<string, any> = {
     "chart-radar-icons": {
       name: "chart-radar-icons",
       description: "",
-      type: "registry:block",
+      type: "registry:template",
       registryDependencies: ["card","chart"],
       files: [{
         path: "registry/default/charts/chart-radar-icons.tsx",
-        type: "registry:block",
+        type: "registry:template",
         target: ""
       }],
       categories: ["charts","charts-radar"],
@@ -7242,11 +7438,11 @@ export const Index: Record<string, any> = {
     "chart-radar-label-custom": {
       name: "chart-radar-label-custom",
       description: "",
-      type: "registry:block",
+      type: "registry:template",
       registryDependencies: ["card","chart"],
       files: [{
         path: "registry/default/charts/chart-radar-label-custom.tsx",
-        type: "registry:block",
+        type: "registry:template",
         target: ""
       }],
       categories: ["charts","charts-radar"],
@@ -7257,11 +7453,11 @@ export const Index: Record<string, any> = {
     "chart-radar-legend": {
       name: "chart-radar-legend",
       description: "",
-      type: "registry:block",
+      type: "registry:template",
       registryDependencies: ["card","chart"],
       files: [{
         path: "registry/default/charts/chart-radar-legend.tsx",
-        type: "registry:block",
+        type: "registry:template",
         target: ""
       }],
       categories: ["charts","charts-radar"],
@@ -7272,11 +7468,11 @@ export const Index: Record<string, any> = {
     "chart-radar-lines-only": {
       name: "chart-radar-lines-only",
       description: "",
-      type: "registry:block",
+      type: "registry:template",
       registryDependencies: ["card","chart"],
       files: [{
         path: "registry/default/charts/chart-radar-lines-only.tsx",
-        type: "registry:block",
+        type: "registry:template",
         target: ""
       }],
       categories: ["charts","charts-radar"],
@@ -7287,11 +7483,11 @@ export const Index: Record<string, any> = {
     "chart-radar-multiple": {
       name: "chart-radar-multiple",
       description: "",
-      type: "registry:block",
+      type: "registry:template",
       registryDependencies: ["card","chart"],
       files: [{
         path: "registry/default/charts/chart-radar-multiple.tsx",
-        type: "registry:block",
+        type: "registry:template",
         target: ""
       }],
       categories: ["charts","charts-radar"],
@@ -7302,11 +7498,11 @@ export const Index: Record<string, any> = {
     "chart-radar-radius": {
       name: "chart-radar-radius",
       description: "",
-      type: "registry:block",
+      type: "registry:template",
       registryDependencies: ["card","chart"],
       files: [{
         path: "registry/default/charts/chart-radar-radius.tsx",
-        type: "registry:block",
+        type: "registry:template",
         target: ""
       }],
       categories: ["charts","charts-radar"],
@@ -7317,11 +7513,11 @@ export const Index: Record<string, any> = {
     "chart-radial-grid": {
       name: "chart-radial-grid",
       description: "",
-      type: "registry:block",
+      type: "registry:template",
       registryDependencies: ["card","chart"],
       files: [{
         path: "registry/default/charts/chart-radial-grid.tsx",
-        type: "registry:block",
+        type: "registry:template",
         target: ""
       }],
       categories: ["charts","charts-radial"],
@@ -7332,11 +7528,11 @@ export const Index: Record<string, any> = {
     "chart-radial-label": {
       name: "chart-radial-label",
       description: "",
-      type: "registry:block",
+      type: "registry:template",
       registryDependencies: ["card","chart"],
       files: [{
         path: "registry/default/charts/chart-radial-label.tsx",
-        type: "registry:block",
+        type: "registry:template",
         target: ""
       }],
       categories: ["charts","charts-radial"],
@@ -7347,11 +7543,11 @@ export const Index: Record<string, any> = {
     "chart-radial-shape": {
       name: "chart-radial-shape",
       description: "",
-      type: "registry:block",
+      type: "registry:template",
       registryDependencies: ["card","chart"],
       files: [{
         path: "registry/default/charts/chart-radial-shape.tsx",
-        type: "registry:block",
+        type: "registry:template",
         target: ""
       }],
       categories: ["charts","charts-radial"],
@@ -7362,11 +7558,11 @@ export const Index: Record<string, any> = {
     "chart-radial-simple": {
       name: "chart-radial-simple",
       description: "",
-      type: "registry:block",
+      type: "registry:template",
       registryDependencies: ["card","chart"],
       files: [{
         path: "registry/default/charts/chart-radial-simple.tsx",
-        type: "registry:block",
+        type: "registry:template",
         target: ""
       }],
       categories: ["charts","charts-radial"],
@@ -7377,11 +7573,11 @@ export const Index: Record<string, any> = {
     "chart-radial-stacked": {
       name: "chart-radial-stacked",
       description: "",
-      type: "registry:block",
+      type: "registry:template",
       registryDependencies: ["card","chart"],
       files: [{
         path: "registry/default/charts/chart-radial-stacked.tsx",
-        type: "registry:block",
+        type: "registry:template",
         target: ""
       }],
       categories: ["charts","charts-radial"],
@@ -7392,11 +7588,11 @@ export const Index: Record<string, any> = {
     "chart-radial-text": {
       name: "chart-radial-text",
       description: "",
-      type: "registry:block",
+      type: "registry:template",
       registryDependencies: ["card","chart"],
       files: [{
         path: "registry/default/charts/chart-radial-text.tsx",
-        type: "registry:block",
+        type: "registry:template",
         target: ""
       }],
       categories: ["charts","charts-radial"],
@@ -7407,11 +7603,11 @@ export const Index: Record<string, any> = {
     "chart-tooltip-default": {
       name: "chart-tooltip-default",
       description: "",
-      type: "registry:block",
+      type: "registry:template",
       registryDependencies: ["card","chart"],
       files: [{
         path: "registry/default/charts/chart-tooltip-default.tsx",
-        type: "registry:block",
+        type: "registry:template",
         target: ""
       }],
       categories: ["charts","charts-tooltip"],
@@ -7422,11 +7618,11 @@ export const Index: Record<string, any> = {
     "chart-tooltip-indicator-line": {
       name: "chart-tooltip-indicator-line",
       description: "",
-      type: "registry:block",
+      type: "registry:template",
       registryDependencies: ["card","chart"],
       files: [{
         path: "registry/default/charts/chart-tooltip-indicator-line.tsx",
-        type: "registry:block",
+        type: "registry:template",
         target: ""
       }],
       categories: ["charts","charts-tooltip"],
@@ -7437,11 +7633,11 @@ export const Index: Record<string, any> = {
     "chart-tooltip-indicator-none": {
       name: "chart-tooltip-indicator-none",
       description: "",
-      type: "registry:block",
+      type: "registry:template",
       registryDependencies: ["card","chart"],
       files: [{
         path: "registry/default/charts/chart-tooltip-indicator-none.tsx",
-        type: "registry:block",
+        type: "registry:template",
         target: ""
       }],
       categories: ["charts","charts-tooltip"],
@@ -7452,11 +7648,11 @@ export const Index: Record<string, any> = {
     "chart-tooltip-label-none": {
       name: "chart-tooltip-label-none",
       description: "",
-      type: "registry:block",
+      type: "registry:template",
       registryDependencies: ["card","chart"],
       files: [{
         path: "registry/default/charts/chart-tooltip-label-none.tsx",
-        type: "registry:block",
+        type: "registry:template",
         target: ""
       }],
       categories: ["charts","charts-tooltip"],
@@ -7467,11 +7663,11 @@ export const Index: Record<string, any> = {
     "chart-tooltip-label-custom": {
       name: "chart-tooltip-label-custom",
       description: "",
-      type: "registry:block",
+      type: "registry:template",
       registryDependencies: ["card","chart"],
       files: [{
         path: "registry/default/charts/chart-tooltip-label-custom.tsx",
-        type: "registry:block",
+        type: "registry:template",
         target: ""
       }],
       categories: ["charts","charts-tooltip"],
@@ -7482,11 +7678,11 @@ export const Index: Record<string, any> = {
     "chart-tooltip-label-formatter": {
       name: "chart-tooltip-label-formatter",
       description: "",
-      type: "registry:block",
+      type: "registry:template",
       registryDependencies: ["card","chart"],
       files: [{
         path: "registry/default/charts/chart-tooltip-label-formatter.tsx",
-        type: "registry:block",
+        type: "registry:template",
         target: ""
       }],
       categories: ["charts","charts-tooltip"],
@@ -7497,11 +7693,11 @@ export const Index: Record<string, any> = {
     "chart-tooltip-formatter": {
       name: "chart-tooltip-formatter",
       description: "",
-      type: "registry:block",
+      type: "registry:template",
       registryDependencies: ["card","chart"],
       files: [{
         path: "registry/default/charts/chart-tooltip-formatter.tsx",
-        type: "registry:block",
+        type: "registry:template",
         target: ""
       }],
       categories: ["charts","charts-tooltip"],
@@ -7512,11 +7708,11 @@ export const Index: Record<string, any> = {
     "chart-tooltip-icons": {
       name: "chart-tooltip-icons",
       description: "",
-      type: "registry:block",
+      type: "registry:template",
       registryDependencies: ["card","chart"],
       files: [{
         path: "registry/default/charts/chart-tooltip-icons.tsx",
-        type: "registry:block",
+        type: "registry:template",
         target: ""
       }],
       categories: ["charts","charts-tooltip"],
@@ -7527,11 +7723,11 @@ export const Index: Record<string, any> = {
     "chart-tooltip-advanced": {
       name: "chart-tooltip-advanced",
       description: "",
-      type: "registry:block",
+      type: "registry:template",
       registryDependencies: ["card","chart"],
       files: [{
         path: "registry/default/charts/chart-tooltip-advanced.tsx",
-        type: "registry:block",
+        type: "registry:template",
         target: ""
       }],
       categories: ["charts","charts-tooltip"],
@@ -7543,7 +7739,7 @@ export const Index: Record<string, any> = {
       name: "utils",
       description: "",
       type: "registry:lib",
-      registryDependencies: undefined,
+      registryDependencies: [],
       files: [{
         path: "registry/default/lib/utils.ts",
         type: "registry:lib",
@@ -7558,7 +7754,7 @@ export const Index: Record<string, any> = {
       name: "use-mobile",
       description: "",
       type: "registry:hook",
-      registryDependencies: undefined,
+      registryDependencies: [],
       files: [{
         path: "registry/default/hooks/use-mobile.tsx",
         type: "registry:hook",
@@ -7573,7 +7769,7 @@ export const Index: Record<string, any> = {
       name: "use-toast",
       description: "",
       type: "registry:hook",
-      registryDependencies: undefined,
+      registryDependencies: [],
       files: [{
         path: "registry/default/hooks/use-toast.ts",
         type: "registry:hook",
@@ -7863,7 +8059,7 @@ export const Index: Record<string, any> = {
       name: "sidebar-demo",
       description: "",
       type: "registry:internal",
-      registryDependencies: undefined,
+      registryDependencies: [],
       files: [{
         path: "registry/default/internal/sidebar-demo.tsx",
         type: "registry:component",
@@ -7878,7 +8074,7 @@ export const Index: Record<string, any> = {
       name: "sidebar-header",
       description: "",
       type: "registry:internal",
-      registryDependencies: undefined,
+      registryDependencies: [],
       files: [{
         path: "registry/default/internal/sidebar-header.tsx",
         type: "registry:component",
@@ -7893,7 +8089,7 @@ export const Index: Record<string, any> = {
       name: "sidebar-footer",
       description: "",
       type: "registry:internal",
-      registryDependencies: undefined,
+      registryDependencies: [],
       files: [{
         path: "registry/default/internal/sidebar-footer.tsx",
         type: "registry:component",
@@ -7908,7 +8104,7 @@ export const Index: Record<string, any> = {
       name: "sidebar-group",
       description: "",
       type: "registry:internal",
-      registryDependencies: undefined,
+      registryDependencies: [],
       files: [{
         path: "registry/default/internal/sidebar-group.tsx",
         type: "registry:component",
@@ -7923,7 +8119,7 @@ export const Index: Record<string, any> = {
       name: "sidebar-group-collapsible",
       description: "",
       type: "registry:internal",
-      registryDependencies: undefined,
+      registryDependencies: [],
       files: [{
         path: "registry/default/internal/sidebar-group-collapsible.tsx",
         type: "registry:component",
@@ -7938,7 +8134,7 @@ export const Index: Record<string, any> = {
       name: "sidebar-group-action",
       description: "",
       type: "registry:internal",
-      registryDependencies: undefined,
+      registryDependencies: [],
       files: [{
         path: "registry/default/internal/sidebar-group-action.tsx",
         type: "registry:component",
@@ -7953,7 +8149,7 @@ export const Index: Record<string, any> = {
       name: "sidebar-menu",
       description: "",
       type: "registry:internal",
-      registryDependencies: undefined,
+      registryDependencies: [],
       files: [{
         path: "registry/default/internal/sidebar-menu.tsx",
         type: "registry:component",
@@ -7968,7 +8164,7 @@ export const Index: Record<string, any> = {
       name: "sidebar-menu-action",
       description: "",
       type: "registry:internal",
-      registryDependencies: undefined,
+      registryDependencies: [],
       files: [{
         path: "registry/default/internal/sidebar-menu-action.tsx",
         type: "registry:component",
@@ -7983,7 +8179,7 @@ export const Index: Record<string, any> = {
       name: "sidebar-menu-sub",
       description: "",
       type: "registry:internal",
-      registryDependencies: undefined,
+      registryDependencies: [],
       files: [{
         path: "registry/default/internal/sidebar-menu-sub.tsx",
         type: "registry:component",
@@ -7998,7 +8194,7 @@ export const Index: Record<string, any> = {
       name: "sidebar-menu-collapsible",
       description: "",
       type: "registry:internal",
-      registryDependencies: undefined,
+      registryDependencies: [],
       files: [{
         path: "registry/default/internal/sidebar-menu-collapsible.tsx",
         type: "registry:component",
@@ -8013,7 +8209,7 @@ export const Index: Record<string, any> = {
       name: "sidebar-menu-badge",
       description: "",
       type: "registry:internal",
-      registryDependencies: undefined,
+      registryDependencies: [],
       files: [{
         path: "registry/default/internal/sidebar-menu-badge.tsx",
         type: "registry:component",
@@ -8028,7 +8224,7 @@ export const Index: Record<string, any> = {
       name: "sidebar-rsc",
       description: "",
       type: "registry:internal",
-      registryDependencies: undefined,
+      registryDependencies: [],
       files: [{
         path: "registry/default/internal/sidebar-rsc.tsx",
         type: "registry:component",
@@ -8043,7 +8239,7 @@ export const Index: Record<string, any> = {
       name: "sidebar-controlled",
       description: "",
       type: "registry:internal",
-      registryDependencies: undefined,
+      registryDependencies: [],
       files: [{
         path: "registry/default/internal/sidebar-controlled.tsx",
         type: "registry:component",
@@ -10203,7 +10399,7 @@ export const Index: Record<string, any> = {
       name: "typography-blockquote",
       description: "",
       type: "registry:example",
-      registryDependencies: undefined,
+      registryDependencies: [],
       files: [{
         path: "registry/default/examples/typography-blockquote.tsx",
         type: "registry:example",
@@ -10218,7 +10414,7 @@ export const Index: Record<string, any> = {
       name: "typography-demo",
       description: "",
       type: "registry:example",
-      registryDependencies: undefined,
+      registryDependencies: [],
       files: [{
         path: "registry/default/examples/typography-demo.tsx",
         type: "registry:example",
@@ -10233,7 +10429,7 @@ export const Index: Record<string, any> = {
       name: "typography-h1",
       description: "",
       type: "registry:example",
-      registryDependencies: undefined,
+      registryDependencies: [],
       files: [{
         path: "registry/default/examples/typography-h1.tsx",
         type: "registry:example",
@@ -10248,7 +10444,7 @@ export const Index: Record<string, any> = {
       name: "typography-h2",
       description: "",
       type: "registry:example",
-      registryDependencies: undefined,
+      registryDependencies: [],
       files: [{
         path: "registry/default/examples/typography-h2.tsx",
         type: "registry:example",
@@ -10263,7 +10459,7 @@ export const Index: Record<string, any> = {
       name: "typography-h3",
       description: "",
       type: "registry:example",
-      registryDependencies: undefined,
+      registryDependencies: [],
       files: [{
         path: "registry/default/examples/typography-h3.tsx",
         type: "registry:example",
@@ -10278,7 +10474,7 @@ export const Index: Record<string, any> = {
       name: "typography-h4",
       description: "",
       type: "registry:example",
-      registryDependencies: undefined,
+      registryDependencies: [],
       files: [{
         path: "registry/default/examples/typography-h4.tsx",
         type: "registry:example",
@@ -10293,7 +10489,7 @@ export const Index: Record<string, any> = {
       name: "typography-inline-code",
       description: "",
       type: "registry:example",
-      registryDependencies: undefined,
+      registryDependencies: [],
       files: [{
         path: "registry/default/examples/typography-inline-code.tsx",
         type: "registry:example",
@@ -10308,7 +10504,7 @@ export const Index: Record<string, any> = {
       name: "typography-large",
       description: "",
       type: "registry:example",
-      registryDependencies: undefined,
+      registryDependencies: [],
       files: [{
         path: "registry/default/examples/typography-large.tsx",
         type: "registry:example",
@@ -10323,7 +10519,7 @@ export const Index: Record<string, any> = {
       name: "typography-lead",
       description: "",
       type: "registry:example",
-      registryDependencies: undefined,
+      registryDependencies: [],
       files: [{
         path: "registry/default/examples/typography-lead.tsx",
         type: "registry:example",
@@ -10338,7 +10534,7 @@ export const Index: Record<string, any> = {
       name: "typography-list",
       description: "",
       type: "registry:example",
-      registryDependencies: undefined,
+      registryDependencies: [],
       files: [{
         path: "registry/default/examples/typography-list.tsx",
         type: "registry:example",
@@ -10353,7 +10549,7 @@ export const Index: Record<string, any> = {
       name: "typography-muted",
       description: "",
       type: "registry:example",
-      registryDependencies: undefined,
+      registryDependencies: [],
       files: [{
         path: "registry/default/examples/typography-muted.tsx",
         type: "registry:example",
@@ -10368,7 +10564,7 @@ export const Index: Record<string, any> = {
       name: "typography-p",
       description: "",
       type: "registry:example",
-      registryDependencies: undefined,
+      registryDependencies: [],
       files: [{
         path: "registry/default/examples/typography-p.tsx",
         type: "registry:example",
@@ -10383,7 +10579,7 @@ export const Index: Record<string, any> = {
       name: "typography-small",
       description: "",
       type: "registry:example",
-      registryDependencies: undefined,
+      registryDependencies: [],
       files: [{
         path: "registry/default/examples/typography-small.tsx",
         type: "registry:example",
@@ -10398,7 +10594,7 @@ export const Index: Record<string, any> = {
       name: "typography-table",
       description: "",
       type: "registry:example",
-      registryDependencies: undefined,
+      registryDependencies: [],
       files: [{
         path: "registry/default/examples/typography-table.tsx",
         type: "registry:example",
@@ -10413,7 +10609,7 @@ export const Index: Record<string, any> = {
       name: "mode-toggle",
       description: "",
       type: "registry:example",
-      registryDependencies: undefined,
+      registryDependencies: [],
       files: [{
         path: "registry/default/examples/mode-toggle.tsx",
         type: "registry:example",
@@ -10428,7 +10624,7 @@ export const Index: Record<string, any> = {
       name: "chart-bar-demo",
       description: "",
       type: "registry:example",
-      registryDependencies: undefined,
+      registryDependencies: [],
       files: [{
         path: "registry/default/examples/chart-bar-demo.tsx",
         type: "registry:example",
@@ -10443,7 +10639,7 @@ export const Index: Record<string, any> = {
       name: "chart-bar-demo-grid",
       description: "",
       type: "registry:example",
-      registryDependencies: undefined,
+      registryDependencies: [],
       files: [{
         path: "registry/default/examples/chart-bar-demo-grid.tsx",
         type: "registry:example",
@@ -10458,7 +10654,7 @@ export const Index: Record<string, any> = {
       name: "chart-bar-demo-axis",
       description: "",
       type: "registry:example",
-      registryDependencies: undefined,
+      registryDependencies: [],
       files: [{
         path: "registry/default/examples/chart-bar-demo-axis.tsx",
         type: "registry:example",
@@ -10473,7 +10669,7 @@ export const Index: Record<string, any> = {
       name: "chart-bar-demo-tooltip",
       description: "",
       type: "registry:example",
-      registryDependencies: undefined,
+      registryDependencies: [],
       files: [{
         path: "registry/default/examples/chart-bar-demo-tooltip.tsx",
         type: "registry:example",
@@ -10488,7 +10684,7 @@ export const Index: Record<string, any> = {
       name: "chart-bar-demo-legend",
       description: "",
       type: "registry:example",
-      registryDependencies: undefined,
+      registryDependencies: [],
       files: [{
         path: "registry/default/examples/chart-bar-demo-legend.tsx",
         type: "registry:example",
@@ -10503,7 +10699,7 @@ export const Index: Record<string, any> = {
       name: "chart-tooltip-demo",
       description: "",
       type: "registry:example",
-      registryDependencies: undefined,
+      registryDependencies: [],
       files: [{
         path: "registry/default/examples/chart-tooltip-demo.tsx",
         type: "registry:example",

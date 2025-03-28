@@ -7,7 +7,6 @@ import {
   ArrowUpRight,
   AudioWaveform,
   Bell,
-  Blocks,
   Calendar,
   ChevronDown,
   ChevronRight,
@@ -19,6 +18,7 @@ import {
   GalleryVerticalEnd,
   Home,
   Inbox,
+  LayoutTemplate,
   LineChart,
   Link,
   MessageCircleQuestion,
@@ -31,7 +31,6 @@ import {
   StarOff,
   Trash,
   Trash2,
-  type LucideIcon,
 } from "lucide-react"
 
 import {
@@ -144,7 +143,7 @@ const data = {
     {
       title: "Templates",
       url: "#",
-      icon: Blocks,
+      icon: LayoutTemplate,
     },
     {
       title: "Trash",
@@ -692,6 +691,10 @@ function TeamSwitcher({
   }[]
 }) {
   const [activeTeam, setActiveTeam] = React.useState(teams[0])
+
+  if (!activeTeam) {
+    return null
+  }
 
   return (
     <SidebarMenu>

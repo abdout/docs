@@ -5,23 +5,23 @@ import { useAtom } from "jotai"
 import { atomWithStorage } from "jotai/utils"
 
 type Project = {
-  blocks: string[]
+  templates: string[]
 }
 
 const projectAtom = atomWithStorage<Project>("project", {
-  blocks: [],
+  templates: [],
 })
 
 export function useProject() {
   const [isAdded, setIsAdded] = React.useState(false)
   const [project, setProject] = useAtom(projectAtom)
 
-  const addBlock = React.useCallback((block: string) => {
+  const addTemplate = React.useCallback((template: string) => {
     setProject((prev) => {
-      if (prev.blocks.includes(block)) {
+      if (prev.templates.includes(template)) {
         return prev
       }
-      return { ...prev, blocks: [...prev.blocks, block] }
+      return { ...prev, templates: [...prev.templates, template] }
     })
     setIsAdded(true)
 
@@ -30,20 +30,27 @@ export function useProject() {
     }, 2000)
   }, [])
 
-  const removeBlock = React.useCallback((block: string) => {
+  const removeTemplate = React.useCallback((template: string) => {
     setProject((prev) => ({
       ...prev,
-      blocks: prev.blocks.filter((b) => b !== block),
+      templates: prev.templates.filter((t) => t !== template),
     }))
   }, [])
 
-  const hasBlock = React.useCallback((block: string) => {
-    return project.blocks.includes(block)
+  const hasTemplate = React.useCallback((template: string) => {
+    return project.templates.includes(template)
   }, [])
 
   const resetProject = React.useCallback(() => {
-    setProject({ blocks: [] })
+    setProject({ templates: [] })
   }, [])
 
-  return { project, addBlock, removeBlock, resetProject, hasBlock, isAdded }
+  return {
+    project,
+    addTemplate,
+    removeTemplate,
+    resetProject,
+    hasTemplate,
+    isAdded,
+  }
 }

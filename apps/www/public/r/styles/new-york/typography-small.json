@@ -1,12 +1,14 @@
 {
   "name": "typography-small",
-  "type": "registry:example",
+  "dependencies": [],
+  "registryDependencies": [],
   "files": [
     {
       "path": "examples/typography-small.tsx",
-      "content": "export default function TypographySmall() {\n  return (\n    <small className=\"text-sm font-medium leading-none\">Email address</small>\n  )\n}\n",
       "type": "registry:example",
+      "content": "export default function TypographySmall() {\n  return (\n    <small className=\"text-sm font-medium leading-none\">Email address</small>\n  )\n}\n",
       "target": ""
     }
-  ]
+  ],
+  "type": "registry:example"
 }

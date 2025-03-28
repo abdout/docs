@@ -1,12 +1,14 @@
 {
   "name": "typography-muted",
-  "type": "registry:example",
+  "dependencies": [],
+  "registryDependencies": [],
   "files": [
     {
       "path": "examples/typography-muted.tsx",
-      "content": "export default function TypographyMuted() {\n  return (\n    <p className=\"text-sm text-muted-foreground\">Enter your email address.</p>\n  )\n}\n",
       "type": "registry:example",
+      "content": "export default function TypographyMuted() {\n  return (\n    <p className=\"text-sm text-muted-foreground\">Enter your email address.</p>\n  )\n}\n",
       "target": ""
     }
-  ]
+  ],
+  "type": "registry:example"
 }

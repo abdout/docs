@@ -1,15 +1,16 @@
 {
   "name": "button-ghost",
-  "type": "registry:example",
+  "dependencies": [],
   "registryDependencies": [
     "button"
   ],
   "files": [
     {
       "path": "examples/button-ghost.tsx",
-      "content": "import { Button } from \"@/registry/default/ui/button\"\n\nexport default function ButtonGhost() {\n  return <Button variant=\"ghost\">Ghost</Button>\n}\n",
       "type": "registry:example",
+      "content": "import { Button } from \"@/registry/default/ui/button\"\n\nexport default function ButtonGhost() {\n  return <Button variant=\"ghost\">Ghost</Button>\n}\n",
       "target": ""
     }
-  ]
+  ],
+  "type": "registry:example"
 }

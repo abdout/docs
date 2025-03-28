@@ -1,15 +1,16 @@
 {
   "name": "badge-demo",
-  "type": "registry:example",
+  "dependencies": [],
   "registryDependencies": [
     "badge"
   ],
   "files": [
     {
       "path": "examples/badge-demo.tsx",
-      "content": "import { Badge } from \"@/registry/default/ui/badge\"\n\nexport default function BadgeDemo() {\n  return <Badge>Badge</Badge>\n}\n",
       "type": "registry:example",
+      "content": "import { Badge } from \"@/registry/default/ui/badge\"\n\nexport default function BadgeDemo() {\n  return <Badge>Badge</Badge>\n}\n",
       "target": ""
     }
-  ]
+  ],
+  "type": "registry:example"
 }

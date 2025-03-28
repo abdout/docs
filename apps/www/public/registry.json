@@ -9,15 +9,22 @@
       "type": "string",
       "enum": [
         "registry:lib",
-        "registry:block",
+        "registry:template",
         "registry:component",
         "registry:ui",
         "registry:hook",
         "registry:theme",
-        "registry:page"
+        "registry:page",
+        "registry:file"
       ]
     },
     "description": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "author": {
       "type": "string"
     },
     "dependencies": {
@@ -53,7 +60,7 @@
             "type": "string",
             "enum": [
               "registry:lib",
-              "registry:block",
+              "registry:template",
               "registry:component",
               "registry:ui",
               "registry:hook",

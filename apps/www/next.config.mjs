@@ -4,7 +4,7 @@ import { createContentlayerPlugin } from "next-contentlayer2"
 const nextConfig = {
   experimental: {
     outputFileTracingIncludes: {
-      "/blocks/*": ["./registry/**/*"],
+      "/templates/*": ["./registry/**/*"],
     },
   },
   reactStrictMode: true,

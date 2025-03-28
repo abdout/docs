@@ -2,7 +2,7 @@ import { existsSync, promises as fs } from "fs"
 import path from "path"
 import puppeteer from "puppeteer"
 
-import { getAllBlockIds } from "../lib/blocks"
+import { getAllTemplateIds } from "../lib/templates"
 
 const REGISTRY_PATH = path.join(process.cwd(), "public/r")
 
@@ -10,21 +10,21 @@ const REGISTRY_PATH = path.join(process.cwd(), "public/r")
 // Capture screenshots.
 // ----------------------------------------------------------------------------
 async function captureScreenshots() {
-  const blockIds = await getAllBlockIds()
-  const blocks = blockIds.filter((block) => {
+  const templateIds = await getAllTemplateIds()
+  const templates = templateIds.filter((template) => {
     // Check if screenshots already exist
     const lightPath = path.join(
       REGISTRY_PATH,
-      `styles/new-york/${block}-light.png`
+      `styles/new-york/${template}-light.png`
     )
     const darkPath = path.join(
       REGISTRY_PATH,
-      `styles/new-york/${block}-dark.png`
+      `styles/new-york/${template}-dark.png`
     )
     return !existsSync(lightPath) || !existsSync(darkPath)
   })
 
-  if (blocks.length === 0) {
+  if (templates.length === 0) {
     console.log("✨ All screenshots exist, nothing to capture")
     return
   }
@@ -37,20 +37,20 @@ async function captureScreenshots() {
     },
   })
 
-  for (const block of blocks) {
-    const pageUrl = `http://localhost:3333/view/styles/new-york/${block}`
+  for (const template of templates) {
+    const pageUrl = `http://localhost:3333/view/styles/new-york/${template}`
 
     const page = await browser.newPage()
     await page.goto(pageUrl, {
       waitUntil: "networkidle2",
     })
 
-    console.log(`- Capturing ${block}...`)
+    console.log(`- Capturing ${template}...`)
 
     for (const theme of ["light", "dark"]) {
       const screenshotPath = path.join(
         REGISTRY_PATH,
-        `styles/new-york/${block}${theme === "dark" ? "-dark" : "-light"}.png`
+        `styles/new-york/${template}${theme === "dark" ? "-dark" : "-light"}.png`
       )
 
       if (existsSync(screenshotPath)) {
@@ -65,8 +65,8 @@ async function captureScreenshots() {
       await page.reload({ waitUntil: "networkidle2" })
 
       // Wait for animations to complete
-      if (block.startsWith("chart")) {
-        await new Promise((resolve) => setTimeout(resolve, 500))
+      if (template.startsWith("chart") || template.startsWith("dashboard")) {
+        await new Promise((resolve) => setTimeout(resolve, 1000))
       }
 
       // Hide Tailwind indicator
@@ -88,13 +88,19 @@ async function captureScreenshots() {
   await browser.close()
 }
 
-try {
+// Main execution function
+function main() {
   console.log("🔍 Capturing screenshots...")
-
-  await captureScreenshots()
-
-  console.log("✅ Done!")
-} catch (error) {
-  console.error(error)
-  process.exit(1)
+  
+  captureScreenshots()
+    .then(() => {
+      console.log("✅ Done!")
+    })
+    .catch((error: Error) => {
+      console.error(error)
+      process.exit(1)
+    })
 }
+
+// Run the program
+main()

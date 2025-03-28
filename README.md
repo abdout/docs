@@ -1,4 +1,4 @@
-# shadcn/ui
+# Codebase
 
 Accessible and customizable components that you can copy and paste into your apps. Free. Open Source. **Use this to build your own component library**.
 
@@ -6,7 +6,7 @@ Accessible and customizable components that you can copy and paste into your app
 
 ## Documentation
 
-Visit http://ui.shadcn.com/docs to view the documentation.
+Visit http://cb.databayt.org/docs to view the documentation.
 
 ## Contributing
 

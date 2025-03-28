@@ -1,5 +1,5 @@
-title: "[blocks]: "
-labels: ["Blocks Request"]
+title: "[templates]: "
+labels: ["templates Request"]
 body:
   - type: markdown
     attributes:

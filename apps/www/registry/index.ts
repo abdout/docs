@@ -1,22 +1,27 @@
-import { blocks } from "@/registry/registry-blocks"
-import { charts } from "@/registry/registry-charts"
-import { examples } from "@/registry/registry-examples"
-import { hooks } from "@/registry/registry-hooks"
-import { internal } from "@/registry/registry-internal"
-import { lib } from "@/registry/registry-lib"
-import { themes } from "@/registry/registry-themes"
-import { ui } from "@/registry/registry-ui"
-import { Registry } from "@/registry/schema"
+import { z } from "zod"
 
-export const registry: Registry = [
-  ...ui,
-  ...blocks,
-  ...charts,
-  ...lib,
-  ...hooks,
-  ...themes,
+import { charts } from "./registry-charts"
+import { examples } from "./registry-examples"
+import { hooks } from "./registry-hooks"
+import { internal } from "./registry-internal"
+import { lib } from "./registry-lib"
+import { templates } from "./registry-templates"
+import { themes } from "./registry-themes"
+import { ui } from "./registry-ui"
 
-  // Internal use only.
-  ...internal,
-  ...examples,
-]
+export const registry = {
+  name: "shadcn/ui",
+  homepage: "https://ui.shadcn.com",
+  items: [
+    ...ui,
+    ...templates,
+    ...charts,
+    ...lib,
+    ...hooks,
+    ...themes,
+
+    // Internal use only.
+    ...internal,
+    ...examples,
+  ],
+}

@@ -1,5 +1,5 @@
-import { getAllBlockIds } from "@/lib/blocks"
-import { BlockDisplay } from "@/components/block-display"
+import { getAllTemplateIds } from "@/lib/templates"
+import { TemplateDisplay } from "@/components/template-display"
 import { registryCategories } from "@/registry/registry-categories"
 
 export const dynamicParams = false
@@ -10,22 +10,22 @@ export async function generateStaticParams() {
   }))
 }
 
-export default async function BlocksPage({
+export default async function templatesPage({
   params,
 }: {
   params: { categories?: string[] }
 }) {
-  const blocks = await getAllBlockIds(
-    ["registry:block"],
+  const templates = await getAllTemplateIds(
+    ["registry:template"],
     params.categories ?? []
   )
 
-  return blocks.map((name) => (
+  return templates.map((name) => (
     <div
       key={name}
       className="border-grid container border-b py-8 first:pt-6 last:border-b-0 md:py-12"
     >
-      <BlockDisplay name={name} />
+      <TemplateDisplay name={name} />
     </div>
   ))
 }

@@ -8,7 +8,7 @@ const eventSchema = z.object({
     "copy_usage_code",
     "copy_primitive_code",
     "copy_theme_code",
-    "copy_block_code",
+    "copy_template_code",
     "copy_chunk_code",
     "enable_lift_mode",
     "copy_chart_code",

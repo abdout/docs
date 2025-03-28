@@ -1,5 +1,7 @@
 {
   "name": "theme-midnight",
+  "dependencies": [],
+  "registryDependencies": [],
   "type": "registry:theme",
   "cssVars": {
     "light": {

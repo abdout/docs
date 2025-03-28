@@ -3,7 +3,7 @@ import { Metadata } from "next"
 import { notFound } from "next/navigation"
 
 import { siteConfig } from "@/config/site"
-import { getAllBlockIds } from "@/lib/blocks"
+import { getAllTemplateIds } from "@/lib/templates"
 import { absoluteUrl, cn } from "@/lib/utils"
 import { Style, styles } from "@/registry/registry-styles"
 
@@ -43,7 +43,7 @@ export async function generateMetadata({
       title,
       description,
       type: "article",
-      url: absoluteUrl(`/blocks/${style}/${item.name}`),
+      url: absoluteUrl(`/templates/${style}/${item.name}`),
       images: [
         {
           url: siteConfig.ogImage,
@@ -64,10 +64,10 @@ export async function generateMetadata({
 }
 
 export async function generateStaticParams() {
-  const blockIds = await getAllBlockIds()
+  const templateIds = await getAllTemplateIds()
   return styles
     .map((style) =>
-      blockIds.map((name) => ({
+      templateIds.map((name) => ({
         style: style.name,
         name,
       }))
@@ -75,7 +75,7 @@ export async function generateStaticParams() {
     .flat()
 }
 
-export default async function BlockPage({
+export default async function TemplatePage({
   params,
 }: {
   params: {

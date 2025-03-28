@@ -1,5 +1,7 @@
 {
   "name": "theme-emerald",
+  "dependencies": [],
+  "registryDependencies": [],
   "type": "registry:theme",
   "cssVars": {
     "light": {

@@ -1,5 +1,7 @@
 {
   "name": "theme-daylight",
+  "dependencies": [],
+  "registryDependencies": [],
   "type": "registry:theme",
   "cssVars": {
     "light": {

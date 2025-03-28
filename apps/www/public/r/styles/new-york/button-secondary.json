@@ -1,15 +1,16 @@
 {
   "name": "button-secondary",
-  "type": "registry:example",
+  "dependencies": [],
   "registryDependencies": [
     "button"
   ],
   "files": [
     {
       "path": "examples/button-secondary.tsx",
-      "content": "import { Button } from \"@/registry/new-york/ui/button\"\n\nexport default function ButtonSecondary() {\n  return <Button variant=\"secondary\">Secondary</Button>\n}\n",
       "type": "registry:example",
+      "content": "import { Button } from \"@/registry/new-york/ui/button\"\n\nexport default function ButtonSecondary() {\n  return <Button variant=\"secondary\">Secondary</Button>\n}\n",
       "target": ""
     }
-  ]
+  ],
+  "type": "registry:example"
 }

@@ -1,25 +1,49 @@
 import { existsSync, promises as fs } from "fs"
 import { tmpdir } from "os"
 import path from "path"
-import { cwd } from "process"
 import template from "lodash/template"
 import { rimraf } from "rimraf"
-import { Project, ScriptKind } from "ts-morph"
-import { z } from "zod"
-
-import { registry } from "../registry"
-import { baseColors } from "../registry/registry-base-colors"
-import { registryCategories } from "../registry/registry-categories"
-import { colorMapping, colors } from "../registry/registry-colors"
-import { iconLibraries, icons } from "../registry/registry-icons"
-import { styles } from "../registry/registry-styles"
 import {
   Registry,
   registryItemSchema,
   registryItemTypeSchema,
   registrySchema,
-} from "../registry/schema"
-import { fixImport } from "./fix-import.mts"
+} from "./registry"
+import { Project, ScriptKind } from "ts-morph"
+import { z } from "zod"
+
+import { registry } from "../registry"
+import { baseColors, baseColorsV4 } from "../registry/registry-base-colors"
+import { registryCategories } from "../registry/registry-categories"
+import { colorMapping, colors } from "../registry/registry-colors"
+import { iconLibraries, icons } from "../registry/registry-icons"
+import { styles } from "../registry/registry-styles"
+
+// Define the fixImport function inline to avoid import issues
+function fixImport(content: string) {
+  const regex = /@\/(.+?)\/((?:.*?\/)?(?:components|ui|hooks|lib))\/([\w-]+)/g
+
+  const replacement = (
+    match: string,
+    path: string,
+    type: string,
+    component: string
+  ) => {
+    if (type.endsWith("components")) {
+      return `@/components/${component}`
+    } else if (type.endsWith("ui")) {
+      return `@/components/ui/${component}`
+    } else if (type.endsWith("hooks")) {
+      return `@/hooks/${component}`
+    } else if (type.endsWith("lib")) {
+      return `@/lib/${component}`
+    }
+
+    return match
+  }
+
+  return content.replace(regex, replacement)
+}
 
 const REGISTRY_PATH = path.join(process.cwd(), "public/r")
 
@@ -28,7 +52,7 @@ const REGISTRY_INDEX_WHITELIST: z.infer<typeof registryItemTypeSchema>[] = [
   "registry:lib",
   "registry:hook",
   "registry:theme",
-  "registry:block",
+  "registry:template",
   "registry:example",
   "registry:internal",
 ]
@@ -49,23 +73,23 @@ async function syncStyles() {
   const sourceStyle = "new-york"
   const targetStyle = "default"
 
-  const syncDirectories = ["blocks", "hooks", "internal", "lib", "charts"]
+  const syncDirectories = ["templates", "hooks", "internal", "lib", "charts"]
 
   // Clean up sync directories.
   for (const dir of syncDirectories) {
     rimraf.sync(path.join("registry", targetStyle, dir))
   }
 
-  for (const item of registry) {
+  for (const item of registry.items) {
     if (
-      !REGISTRY_INDEX_WHITELIST.includes(item.type) &&
+      !REGISTRY_INDEX_WHITELIST.includes(item.type as any) &&
       item.type !== "registry:ui"
     ) {
       continue
     }
 
     const resolveFiles = item.files?.map(
-      (file) =>
+      (file: string | { path: string; type?: string; target?: string }) =>
         `registry/${sourceStyle}/${typeof file === "string" ? file : file.path}`
     )
     if (!resolveFiles) {
@@ -113,12 +137,10 @@ export const Index: Record<string, any> = {
     index += `  "${style.name}": {`
 
     // Build style index.
-    for (const item of registry) {
+    for (const item of registry.items) {
       const resolveFiles = item.files?.map(
-        (file) =>
-          `registry/${style.name}/${
-            typeof file === "string" ? file : file.path
-          }`
+        (file: string | { path: string; type?: string; target?: string }) =>
+          `registry/${style.name}/${typeof file === "string" ? file : file.path}`
       )
       if (!resolveFiles) {
         continue
@@ -141,7 +163,7 @@ export const Index: Record<string, any> = {
       const type = item.type.split(":")[1]
       let sourceFilename = ""
 
-      if (item.type === "registry:block") {
+      if (item.type === "registry:template") {
         const file = resolveFiles[0]
         const filename = path.basename(file)
         let raw: string
@@ -183,7 +205,7 @@ export const Index: Record<string, any> = {
           }
         })
 
-        // Write the source file for blocks only.
+        // Write the source file for templates only.
         sourceFilename = `__registry__/${style.name}/${type}/${item.name}.tsx`
 
         if (item.files) {
@@ -256,7 +278,7 @@ export const Index: Record<string, any> = {
   // ----------------------------------------------------------------------------
   // Build registry/index.json.
   // ----------------------------------------------------------------------------
-  const items = registry
+  const items = registry.items
     .filter((item) => ["registry:ui"].includes(item.type))
     .map((item) => {
       return {
@@ -299,8 +321,8 @@ async function buildStyles(registry: Registry) {
       await fs.mkdir(targetPath, { recursive: true })
     }
 
-    for (const item of registry) {
-      if (!REGISTRY_INDEX_WHITELIST.includes(item.type)) {
+    for (const item of registry.items) {
+      if (!REGISTRY_INDEX_WHITELIST.includes(item.type as any)) {
         continue
       }
 
@@ -325,7 +347,7 @@ async function buildStyles(registry: Registry) {
                 "utf8"
               )
 
-              // Only fix imports for v0- blocks.
+              // Only fix imports for v0- templates.
               if (item.name.startsWith("v0-")) {
                 content = fixImport(content)
               }
@@ -347,7 +369,7 @@ async function buildStyles(registry: Registry) {
             if ((!target || target === "") && item.name.startsWith("v0-")) {
               const fileName = file.path.split("/").pop()
               if (
-                file.type === "registry:block" ||
+                  file.type === "registry:template" ||
                 file.type === "registry:component" ||
                 file.type === "registry:example"
               ) {
@@ -378,6 +400,8 @@ async function buildStyles(registry: Registry) {
       }
 
       const payload = registryItemSchema.safeParse({
+        $schema: "https://ui.shadcn.com/schema/registry-item.json",
+        author: "shadcn (https://ui.shadcn.com)",
         ...item,
         files,
       })
@@ -426,7 +450,7 @@ async function buildStylesIndex() {
       },
       cssVars: {},
       files: [],
-    }
+    } as any;
 
     await fs.writeFile(
       path.join(targetPath, "index.json"),
@@ -593,6 +617,9 @@ async function buildThemes() {
         }
       }
     }
+
+    // Add v4 css vars.
+    base["cssVarsV4"] = baseColorsV4[baseColor as keyof typeof baseColorsV4]
 
     // Build css vars.
     base["inlineColorsTemplate"] = template(BASE_STYLES)({})
@@ -771,7 +798,7 @@ export const Icons = {
   for (const [icon, libraries] of Object.entries(icons)) {
     index += `  "${icon}": {`
     for (const [library, componentName] of Object.entries(libraries)) {
-      const packageName = iconLibraries[library].package
+      const packageName = iconLibraries[library as keyof typeof iconLibraries]?.package
       if (packageName) {
         index += `
   ${library}: React.lazy(() => import("${packageName}").then(mod => ({
@@ -805,16 +832,22 @@ try {
     process.exit(1)
   }
 
-  await syncStyles()
-  await buildRegistry(result.data)
-  await buildStyles(result.data)
-  await buildStylesIndex()
-  await buildThemes()
+  // Wrap in async IIFE
+  (async () => {
+    await syncStyles()
+    await buildRegistry(result.data as any)
+    await buildStyles(result.data as any)
+    await buildStylesIndex()
+    await buildThemes()
 
-  await buildRegistryIcons()
-  await buildIcons()
+    await buildRegistryIcons()
+    await buildIcons()
 
-  console.log("✅ Done!")
+    console.log("✅ Done!")
+  })().catch(error => {
+    console.error(error)
+    process.exit(1)
+  })
 } catch (error) {
   console.error(error)
   process.exit(1)
