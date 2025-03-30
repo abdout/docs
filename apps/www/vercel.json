@@ -5,47 +5,11 @@
         "destination": "https://block-ivory.vercel.app/:path*"
       },
       {
-        "source": "/_next/static/:path*",
-        "destination": "https://block-ivory.vercel.app/_next/static/:path*"
+        "source": "/_next/:path*",
+        "destination": "https://block-ivory.vercel.app/_next/:path*"
       },
       {
-        "source": "/_next/image/:path*", 
-        "destination": "https://block-ivory.vercel.app/_next/image/:path*"
-      },
-      {
-        "source": "/_next/data/:path*",
-        "destination": "https://block-ivory.vercel.app/_next/data/:path*"
-      },
-      {
-        "source": "/_next/static/media/:path*",
-        "destination": "https://block-ivory.vercel.app/_next/static/media/:path*"
-      },
-      {
-        "source": "/_next/static/css/:path*",
-        "destination": "https://block-ivory.vercel.app/_next/static/css/:path*"
-      },
-      {
-        "source": "/_next/static/chunks/:path*",
-        "destination": "https://block-ivory.vercel.app/_next/static/chunks/:path*"
-      },
-      {
-        "source": "/_next/static/development/:path*",
-        "destination": "https://block-ivory.vercel.app/_next/static/development/:path*"
-      },
-      {
-        "source": "/_next/static/webpack/:path*",
-        "destination": "https://block-ivory.vercel.app/_next/static/webpack/:path*"
-      },
-      {
-        "source": "/:assetFile(.*\\.css)",
-        "destination": "https://block-ivory.vercel.app/:assetFile"
-      },
-      {
-        "source": "/:assetFile(.*\\.js)",
-        "destination": "https://block-ivory.vercel.app/:assetFile"
-      },
-      {
-        "source": "/:assetFile(.*\\.woff2)",
+        "source": "/:assetFile([a-zA-Z0-9][a-zA-Z0-9\\-\\.]+\\.(css|js|woff2|png|jpg|svg|json))",
         "destination": "https://block-ivory.vercel.app/:assetFile"
       },
       {
@@ -57,16 +21,75 @@
         "destination": "https://block-ivory.vercel.app/d498c84e4ab246b3.css"
       },
       {
-        "source": "/569ce4b8f30dc480-s.p.woff2",
-        "destination": "https://block-ivory.vercel.app/569ce4b8f30dc480-s.p.woff2"
-      },
-      {
         "source": "/93f479601ee12b01-s.p.woff2",
         "destination": "https://block-ivory.vercel.app/93f479601ee12b01-s.p.woff2"
       },
       {
-        "source": "/_next/:path*",
-        "destination": "https://block-ivory.vercel.app/_next/:path*"
+        "source": "/569ce4b8f30dc480-s.p.woff2",
+        "destination": "https://block-ivory.vercel.app/569ce4b8f30dc480-s.p.woff2"
+      },
+      {
+        "source": "/919-035ce3daca0e86d5.js",
+        "destination": "https://block-ivory.vercel.app/919-035ce3daca0e86d5.js"
+      },
+      {
+        "source": "/79b3e8d8-e1e0232c73e7d972.js",
+        "destination": "https://block-ivory.vercel.app/79b3e8d8-e1e0232c73e7d972.js"
+      },
+      {
+        "source": "/526-7e7c2f3bdfcf3c84.js",
+        "destination": "https://block-ivory.vercel.app/526-7e7c2f3bdfcf3c84.js"
+      },
+      {
+        "source": "/941-fc82e41482d7510d.js",
+        "destination": "https://block-ivory.vercel.app/941-fc82e41482d7510d.js"
+      },
+      {
+        "source": "/webpack-e437ed0b22924053.js",
+        "destination": "https://block-ivory.vercel.app/webpack-e437ed0b22924053.js"
+      },
+      {
+        "source": "/main-app-3c64a54ea1f1080b.js",
+        "destination": "https://block-ivory.vercel.app/main-app-3c64a54ea1f1080b.js"
+      },
+      {
+        "source": "/page-ca124e965bd2b37a.js",
+        "destination": "https://block-ivory.vercel.app/page-ca124e965bd2b37a.js"
+      },
+      {
+        "source": "/968-dda42a7c00653852.js",
+        "destination": "https://block-ivory.vercel.app/968-dda42a7c00653852.js"
+      },
+      {
+        "source": "/750-25ec140ab4d6aadb.js",
+        "destination": "https://block-ivory.vercel.app/750-25ec140ab4d6aadb.js"
+      },
+      {
+        "source": "/422-0ff7d103ab187636.js",
+        "destination": "https://block-ivory.vercel.app/422-0ff7d103ab187636.js"
+      },
+      {
+        "source": "/309-52809d50f9cfd5d2.js",
+        "destination": "https://block-ivory.vercel.app/309-52809d50f9cfd5d2.js"
+      },
+      {
+        "source": "/406-a6d7759234e556d9.js",
+        "destination": "https://block-ivory.vercel.app/406-a6d7759234e556d9.js"
+      },
+      {
+        "source": "/layout-3c5c7538e4e99493.js",
+        "destination": "https://block-ivory.vercel.app/layout-3c5c7538e4e99493.js"
+      },
+      {
+        "source": "/:path*",
+        "destination": "https://block-ivory.vercel.app/:path*",
+        "has": [
+          {
+            "type": "header",
+            "key": "referer",
+            "value": "cb\\.databayt\\.org/blocks/.*"
+          }
+        ]
       }
     ]
   }
