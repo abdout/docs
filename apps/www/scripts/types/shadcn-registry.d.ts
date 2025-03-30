@@ -14,6 +14,15 @@ declare module 'shadcn/registry' {
     files?: (string | { path: string; type: string; target?: string })[];
     categories?: string[];
     meta?: Record<string, any>;
+    tailwind?: {
+      config?: {
+        theme?: Record<string, any>;
+      };
+    };
+    cssVars?: {
+      light?: Record<string, string>;
+      dark?: Record<string, string>;
+    };
   }
 
   export const registryItemSchema: z.ZodType<any>;
