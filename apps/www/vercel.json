@@ -1,0 +1,8 @@
+{
+    "rewrites": [
+      {
+        "source": "/blocks/:path*",
+        "destination": "https://block-ivory.vercel.app/:path*"
+      }
+    ]
+  }
