@@ -92,7 +92,7 @@ export default function BlocksPage() {
                   {block.icon}
                 </div>
                 <div className="space-y-2">
-                  <h3 className="group-hover:text-primary font-bold transition-colors">
+                  <h3 className="transition-colors font-bold group-hover:text-primary">
                     {block.title}
                   </h3>
                   <p className="text-sm text-muted-foreground">
