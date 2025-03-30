@@ -77,7 +77,7 @@ export default function BlocksPage() {
         <div className="space-y-2">
           <h1 className="text-3xl font-bold">Blocks</h1>
           <p className="text-muted-foreground">
-            Ready-to-use UI blocks and functionality demos
+            Read-to-use UI blocks and functionality demos
           </p>
         </div>
         <div className="grid gap-4 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
