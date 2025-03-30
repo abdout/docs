@@ -58,8 +58,8 @@ export const themes: Registry["items"] = [
           "chart-4": "31 41% 48%",
           "chart-5": "35 43% 53%",
         },
-      }
-    }
+      },
+    },
   },
   {
     name: "theme-midnight",
@@ -118,8 +118,8 @@ export const themes: Registry["items"] = [
           "chart-4": "240 1% 42%",
           "chart-5": "240 2% 26%",
         },
-      }
-    }
+      },
+    },
   },
   {
     name: "theme-emerald",
@@ -178,7 +178,7 @@ export const themes: Registry["items"] = [
           "chart-4": "137 55% 15%",
           "chart-5": "141 40% 9%",
         },
-      }
-    }
+      },
+    },
   },
 ]

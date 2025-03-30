@@ -284,7 +284,14 @@ function TemplateViewerCode() {
   const { activeFile, highlightedFiles } = useTemplateViewer()
 
   const file = React.useMemo(() => {
-    return highlightedFiles?.find((file: { target?: string; path: string; content?: string; highlightedContent?: string }) => file.target === activeFile)
+    return highlightedFiles?.find(
+      (file: {
+        target?: string
+        path: string
+        content?: string
+        highlightedContent?: string
+      }) => file.target === activeFile
+    )
   }, [highlightedFiles, activeFile])
 
   if (!file) {
@@ -407,7 +414,9 @@ function TemplateCopyCodeButton() {
   const { copyToClipboard, isCopied } = useCopyToClipboard()
 
   const file = React.useMemo(() => {
-    return item.files?.find((file: { target?: string; path: string }) => file.target === activeFile)
+    return item.files?.find(
+      (file: { target?: string; path: string }) => file.target === activeFile
+    )
   }, [activeFile, item.files])
 
   const content = file?.content

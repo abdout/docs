@@ -40,15 +40,22 @@ export async function editInV0({
     registryItem.description = registryItem.description || projectName
 
     // Replace `@/registry/new-york/` in files.
-    registryItem.files = registryItem.files?.map((file: { content?: string; path: string; type: string; target: string }) => {
-      if (file.content?.includes("@/registry/new-york/ui")) {
-        file.content = file.content?.replaceAll(
-          "@/registry/new-york/ui",
-          "@/components/ui"
-        )
+    registryItem.files = registryItem.files?.map(
+      (file: {
+        content?: string
+        path: string
+        type: string
+        target: string
+      }) => {
+        if (file.content?.includes("@/registry/new-york/ui")) {
+          file.content = file.content?.replaceAll(
+            "@/registry/new-york/ui",
+            "@/components/ui"
+          )
+        }
+        return file
       }
-      return file
-    })
+    )
 
     if (TAILWIND_CONFIG_templates.includes(name)) {
       registryItem.files?.push({

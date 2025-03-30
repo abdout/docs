@@ -1,4 +1,4 @@
-import Link from 'next/link'
+import Link from "next/link"
 
 // Define our blocks data structure
 const blocks = [
@@ -27,8 +27,17 @@ const blocks = [
     title: "Notification",
     description: "Notifications using Pusher and web sockets.",
     icon: (
-      <svg xmlns="http://www.w3.org/2000/svg" width="45" height="45" viewBox="0 0 32 32" className="h-12 w-12">
-        <path fill="currentColor" d="M28.707 19.293L26 16.586V13a10.014 10.014 0 0 0-9-9.95V1h-2v2.05A10.014 10.014 0 0 0 6 13v3.586l-2.707 2.707A1 1 0 0 0 3 20v3a1 1 0 0 0 1 1h7v1a5 5 0 0 0 10 0v-1h7a1 1 0 0 0 1-1v-3a1 1 0 0 0-.293-.707M19 25a3 3 0 0 1-6 0v-1h6Z"/>
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        width="45"
+        height="45"
+        viewBox="0 0 32 32"
+        className="h-12 w-12"
+      >
+        <path
+          fill="currentColor"
+          d="M28.707 19.293L26 16.586V13a10.014 10.014 0 0 0-9-9.95V1h-2v2.05A10.014 10.014 0 0 0 6 13v3.586l-2.707 2.707A1 1 0 0 0 3 20v3a1 1 0 0 0 1 1h7v1a5 5 0 0 0 10 0v-1h7a1 1 0 0 0 1-1v-3a1 1 0 0 0-.293-.707M19 25a3 3 0 0 1-6 0v-1h6Z"
+        />
       </svg>
     ),
   },
@@ -37,8 +46,22 @@ const blocks = [
     title: "Contentlayer",
     description: "Content using Contentlayer and MDX.",
     icon: (
-      <svg xmlns="http://www.w3.org/2000/svg" width="45" height="45" viewBox="0 0 16 16" className="h-12 w-12">
-        <path fill="currentColor" fillRule="evenodd" stroke="currentColor" strokeWidth="2.146" d="M-2.482.404A1.93 1.93 0 0 1-.16.427l6.967 5.356a1.93 1.93 0 0 1 0 3.058L4.15 10.883l2.7 2.171c.983.79.956 2.294-.053 3.048l-7.152 5.344a1.93 1.93 0 0 1-2.439-.106l-5.596-4.996l-.782-.672c-3.492-3-3.062-8.526.845-10.951zm5.6 9.65L-.13 7.444a1.93 1.93 0 0 0-2.384-.026l-2.403 1.848a1.93 1.93 0 0 0 0 3.058l2.42 1.86a1.93 1.93 0 0 0 2.352 0l3.246-2.494l2.944 2.366a.643.643 0 0 1-.018 1.016l-7.152 5.344a.64.64 0 0 1-.813-.035l-5.6-5l-.796-.684c-2.839-2.439-2.482-6.935.705-8.896l.023-.014l5.888-4.349a.64.64 0 0 1 .774.008l6.967 5.356a.643.643 0 0 1 0 1.02zm-1.049.807l-2.998 2.304a.64.64 0 0 1-.783 0l-2.421-1.86a.643.643 0 0 1 0-1.02l2.403-1.848a.64.64 0 0 1 .795.009z" clipRule="evenodd" transform="matrix(.5949 0 0 .61208 9.182 1.311)"/>
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        width="45"
+        height="45"
+        viewBox="0 0 16 16"
+        className="h-12 w-12"
+      >
+        <path
+          fill="currentColor"
+          fillRule="evenodd"
+          stroke="currentColor"
+          strokeWidth="2.146"
+          d="M-2.482.404A1.93 1.93 0 0 1-.16.427l6.967 5.356a1.93 1.93 0 0 1 0 3.058L4.15 10.883l2.7 2.171c.983.79.956 2.294-.053 3.048l-7.152 5.344a1.93 1.93 0 0 1-2.439-.106l-5.596-4.996l-.782-.672c-3.492-3-3.062-8.526.845-10.951zm5.6 9.65L-.13 7.444a1.93 1.93 0 0 0-2.384-.026l-2.403 1.848a1.93 1.93 0 0 0 0 3.058l2.42 1.86a1.93 1.93 0 0 0 2.352 0l3.246-2.494l2.944 2.366a.643.643 0 0 1-.018 1.016l-7.152 5.344a.64.64 0 0 1-.813-.035l-5.6-5l-.796-.684c-2.839-2.439-2.482-6.935.705-8.896l.023-.014l5.888-4.349a.64.64 0 0 1 .774.008l6.967 5.356a.643.643 0 0 1 0 1.02zm-1.049.807l-2.998 2.304a.64.64 0 0 1-.783 0l-2.421-1.86a.643.643 0 0 1 0-1.02l2.403-1.848a.64.64 0 0 1 .795.009z"
+          clipRule="evenodd"
+          transform="matrix(.5949 0 0 .61208 9.182 1.311)"
+        />
       </svg>
     ),
   },
@@ -68,36 +91,32 @@ const blocks = [
       </svg>
     ),
   },
-];
+]
 
 export default function BlocksPage() {
   return (
-   
-    
-        <div className="container mx-auto grid grid-cols-1 gap-4 py-12 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
-          {blocks.map((block) => (
-            <Link
-              key={block.id}
-              href={`https://block.databayt.org/${block.id}`}
-              className="group relative overflow-hidden rounded-lg border bg-background p-2 transition-all hover:border-primary"
-            >
-              <div className="flex h-[180px] flex-col justify-between rounded-md p-6">
-                {/* <div className="w-fit  p-2"> */}
-                  {block.icon}
-                {/* </div> */}
-                <div className="space-y-2">
-                  <h3 className="font-bold transition-colors group-hover:text-primary">
-                    {block.title}
-                  </h3>
-                  <p className="text-sm text-muted-foreground">
-                    {block.description}
-                  </p>
-                </div>
-              </div>
-            </Link>
-          ))}
-        </div>
-      
-   
+    <div className="container mx-auto grid grid-cols-1 gap-4 py-12 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
+      {blocks.map((block) => (
+        <Link
+          key={block.id}
+          href={`https://block.databayt.org/${block.id}`}
+          className="group relative overflow-hidden rounded-lg border bg-background p-2 transition-all hover:border-primary"
+        >
+          <div className="flex h-[180px] flex-col justify-between rounded-md p-6">
+            {/* <div className="w-fit  p-2"> */}
+            {block.icon}
+            {/* </div> */}
+            <div className="space-y-2">
+              <h3 className="font-bold transition-colors group-hover:text-primary">
+                {block.title}
+              </h3>
+              <p className="text-sm text-muted-foreground">
+                {block.description}
+              </p>
+            </div>
+          </div>
+        </Link>
+      ))}
+    </div>
   )
 }

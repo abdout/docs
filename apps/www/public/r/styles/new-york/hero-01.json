@@ -1,0 +1,38 @@
+{
+  "name": "hero-01",
+  "description": "A clean, modern hero section with a large headline, subtext, and call-to-action buttons.",
+  "dependencies": [],
+  "registryDependencies": [
+    "button"
+  ],
+  "files": [
+    {
+      "path": "templates/hero-01/page.tsx",
+      "type": "registry:page",
+      "content": "import React from \"react\"\n\nimport { Hero } from \"./components/hero\"\n\nexport default function HeroPage() {\n  return (\n    <div className=\"h-screen flex flex-col items-center justify-center space-y-6\">\n      <Hero />\n    </div>\n  )\n}\n",
+      "target": "app/hero/page.tsx"
+    },
+    {
+      "path": "templates/hero-01/components/hero.tsx",
+      "type": "registry:component",
+      "content": "import React from \"react\"\nimport Link from \"next/link\"\n\nimport { cn } from \"@/registry/new-york/lib/utils\"\nimport { buttonVariants } from \"@/registry/new-york/ui/button\"\n\nimport { siteConfig } from \"./constant\"\n\n/**\n * Hero section component with headline and call-to-action buttons\n * @component\n */\nexport function Hero() {\n  return (\n    <div className=\"flex flex-col items-center gap-4 text-center\">\n      <Link\n        href={siteConfig.links.twitter}\n        className=\"rounded-2xl bg-muted px-4 py-1.5 text-sm font-medium -mt-32 md:-mt-28\"\n        target=\"_blank\"\n      >\n        Follow along on Discord\n      </Link>\n      <h1 className=\"font-heading font-extrabold text-3xl sm:text-5xl md:text-6xl lg:text-[90px]\">\n        Automate the boring,\n        <br /> elevate the wondrous.\n      </h1>\n      <p className=\"max-w-[42rem] leading-normal text-muted-foreground sm:text-xl sm:leading-8\">\n        Building codebase for business automation and open sourcing everything.\n        Follow along as we figure this out together.\n      </p>\n      <div className=\"space-x-4\">\n        <Link href=\"/login\" className={cn(buttonVariants({ size: \"lg\" }))}>\n          Get Started\n        </Link>\n        <Link\n          href={siteConfig.links.github}\n          target=\"_blank\"\n          rel=\"noreferrer\"\n          className={cn(buttonVariants({ variant: \"outline\", size: \"lg\" }))}\n        >\n          GitHub\n        </Link>\n      </div>\n    </div>\n  )\n}\n",
+      "target": "app/hero/components/hero.tsx"
+    },
+    {
+      "path": "templates/hero-01/components/constant.ts",
+      "type": "registry:component",
+      "content": "import { SiteConfig } from \"@/registry/new-york/templates/hero-01/components/type\"\n\nexport const siteConfig: SiteConfig = {\n  name: \"Databayt\",\n  description: \"Business automation and open sourcing everything.\",\n  url: \"https://databayt.org\",\n  ogImage: \"https://tx.shadcn.com/og.jpg\",\n  links: {\n    twitter: \"https://discord.gg/uPa4gGG62c\",\n    github: \"https://github.com/abdout/databayt\",\n  },\n}\n\nexport const META_THEME_COLORS = {\n  light: \"#ffffff\",\n  dark: \"#09090b\",\n}\n",
+      "target": "app/hero/components/constant.ts"
+    },
+    {
+      "path": "templates/hero-01/components/type.ts",
+      "type": "registry:component",
+      "content": "export type SiteConfig = {\n  name: string\n  description: string\n  url: string\n  ogImage: string\n  links: {\n    twitter: string\n    github: string\n  }\n}\n",
+      "target": "app/hero/components/type.ts"
+    }
+  ],
+  "type": "registry:template",
+  "categories": [
+    "hero"
+  ]
+}

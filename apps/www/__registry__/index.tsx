@@ -1332,6 +1332,33 @@ export const Index: Record<string, any> = {
       source: "__registry__/new-york/templates/login-05/page.tsx",
       meta: undefined,
     },
+    "hero-01": {
+      name: "hero-01",
+      description: "A clean, modern hero section with a large headline, subtext, and call-to-action buttons.",
+      type: "registry:template",
+      registryDependencies: ["button"],
+      files: [{
+        path: "registry/new-york/templates/hero-01/page.tsx",
+        type: "registry:page",
+        target: "app/hero/page.tsx"
+      },{
+        path: "registry/new-york/templates/hero-01/components/hero.tsx",
+        type: "registry:component",
+        target: "app/hero/components/hero.tsx"
+      },{
+        path: "registry/new-york/templates/hero-01/components/constant.ts",
+        type: "registry:component",
+        target: "app/hero/components/constant.ts"
+      },{
+        path: "registry/new-york/templates/hero-01/components/type.ts",
+        type: "registry:component",
+        target: "app/hero/components/type.ts"
+      }],
+      categories: ["hero"],
+      component: React.lazy(() => import("@/registry/new-york/templates/hero-01/page.tsx")),
+      source: "__registry__/new-york/templates/hero-01/page.tsx",
+      meta: undefined,
+    },
     "chart-area-axes": {
       name: "chart-area-axes",
       description: "",
@@ -6683,6 +6710,33 @@ export const Index: Record<string, any> = {
       categories: ["authentication","login"],
       component: React.lazy(() => import("@/registry/default/templates/login-05/page.tsx")),
       source: "__registry__/default/templates/login-05/page.tsx",
+      meta: undefined,
+    },
+    "hero-01": {
+      name: "hero-01",
+      description: "A clean, modern hero section with a large headline, subtext, and call-to-action buttons.",
+      type: "registry:template",
+      registryDependencies: ["button"],
+      files: [{
+        path: "registry/default/templates/hero-01/page.tsx",
+        type: "registry:page",
+        target: "app/hero/page.tsx"
+      },{
+        path: "registry/default/templates/hero-01/components/hero.tsx",
+        type: "registry:component",
+        target: "app/hero/components/hero.tsx"
+      },{
+        path: "registry/default/templates/hero-01/components/constant.ts",
+        type: "registry:component",
+        target: "app/hero/components/constant.ts"
+      },{
+        path: "registry/default/templates/hero-01/components/type.ts",
+        type: "registry:component",
+        target: "app/hero/components/type.ts"
+      }],
+      categories: ["hero"],
+      component: React.lazy(() => import("@/registry/default/templates/hero-01/page.tsx")),
+      source: "__registry__/default/templates/hero-01/page.tsx",
       meta: undefined,
     },
     "chart-area-axes": {

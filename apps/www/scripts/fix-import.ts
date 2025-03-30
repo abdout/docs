@@ -21,4 +21,4 @@ export function fixImport(content: string) {
   }
 
   return content.replace(regex, replacement)
-} 
+}

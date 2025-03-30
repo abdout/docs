@@ -9,6 +9,7 @@ const FEATURED_templates = [
   "sidebar-03",
   "login-03",
   "login-04",
+  "hero-01",
 ]
 
 export default async function TemplatesPage() {

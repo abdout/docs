@@ -702,4 +702,34 @@ export const templates: Registry["items"] = [
     ],
     categories: ["authentication", "login"],
   },
+  {
+    name: "hero-01",
+    description:
+      "A clean, modern hero section with a large headline, subtext, and call-to-action buttons.",
+    type: "registry:template",
+    registryDependencies: ["button"],
+    files: [
+      {
+        path: "templates/hero-01/page.tsx",
+        target: "app/hero/page.tsx",
+        type: "registry:page",
+      },
+      {
+        path: "templates/hero-01/components/hero.tsx",
+        type: "registry:component",
+        target: "app/hero/components/hero.tsx",
+      },
+      {
+        path: "templates/hero-01/components/constant.ts",
+        type: "registry:component",
+        target: "app/hero/components/constant.ts",
+      },
+      {
+        path: "templates/hero-01/components/type.ts",
+        type: "registry:component",
+        target: "app/hero/components/type.ts",
+      },
+    ],
+    categories: ["hero"],
+  },
 ]
