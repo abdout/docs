@@ -88,7 +88,7 @@ export default function BlocksPage() {
               className="group relative overflow-hidden rounded-lg border bg-background p-2 transition-all hover:shadow-md"
             >
               <div className="flex h-[180px] flex-col justify-between rounded-md p-6">
-                <div className="p-2 bg-primary/10 rounded-md w-fit">
+                <div className="w-fit rounded-md bg-primary/10 p-2">
                   {block.icon}
                 </div>
                 <div className="space-y-2">
