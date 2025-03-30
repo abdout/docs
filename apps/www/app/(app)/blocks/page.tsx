@@ -84,7 +84,7 @@ export default function BlocksPage() {
           {blocks.map((block) => (
             <Link
               key={block.id}
-              href={`/blocks/${block.id}`}
+              href={`https://bl.cb.databayt.org/${block.id}`}
               className="group relative overflow-hidden rounded-lg border bg-background p-2 transition-all hover:shadow-md"
             >
               <div className="flex h-[180px] flex-col justify-between rounded-md p-6">
