@@ -704,8 +704,7 @@ export const templates: Registry["items"] = [
   },
   {
     name: "hero-01",
-    description:
-      "A clean, modern hero section with a large headline, subtext, and call-to-action buttons.",
+    description: "A clean hero section with a large headline.",
     type: "registry:template",
     registryDependencies: ["button"],
     files: [
