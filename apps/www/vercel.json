@@ -35,6 +35,38 @@
       {
         "source": "/_next/static/webpack/:path*",
         "destination": "https://block-ivory.vercel.app/_next/static/webpack/:path*"
+      },
+      {
+        "source": "/:assetFile(.*\\.css)",
+        "destination": "https://block-ivory.vercel.app/:assetFile"
+      },
+      {
+        "source": "/:assetFile(.*\\.js)",
+        "destination": "https://block-ivory.vercel.app/:assetFile"
+      },
+      {
+        "source": "/:assetFile(.*\\.woff2)",
+        "destination": "https://block-ivory.vercel.app/:assetFile"
+      },
+      {
+        "source": "/dea294500a4b77e3.css",
+        "destination": "https://block-ivory.vercel.app/dea294500a4b77e3.css"
+      },
+      {
+        "source": "/d498c84e4ab246b3.css",
+        "destination": "https://block-ivory.vercel.app/d498c84e4ab246b3.css"
+      },
+      {
+        "source": "/569ce4b8f30dc480-s.p.woff2",
+        "destination": "https://block-ivory.vercel.app/569ce4b8f30dc480-s.p.woff2"
+      },
+      {
+        "source": "/93f479601ee12b01-s.p.woff2",
+        "destination": "https://block-ivory.vercel.app/93f479601ee12b01-s.p.woff2"
+      },
+      {
+        "source": "/_next/:path*",
+        "destination": "https://block-ivory.vercel.app/_next/:path*"
       }
     ]
   }
