@@ -74,7 +74,7 @@ export default function BlocksPage() {
   return (
    
     
-        <div className="mx-auto container grid grid-cols-1 gap-4 py-12 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
+        <div className="container mx-auto grid grid-cols-1 gap-4 py-12 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
           {blocks.map((block) => (
             <Link
               key={block.id}
