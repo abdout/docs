@@ -5,6 +5,26 @@
         "destination": "https://block-ivory.vercel.app/:path*"
       },
       {
+        "source": "/_next/static/css/:path*",
+        "destination": "https://block-ivory.vercel.app/_next/static/css/:path*"
+      },
+      {
+        "source": "/_next/static/chunks/:path*",
+        "destination": "https://block-ivory.vercel.app/_next/static/chunks/:path*"
+      },
+      {
+        "source": "/_next/static/media/:path*",
+        "destination": "https://block-ivory.vercel.app/_next/static/media/:path*"
+      },
+      {
+        "source": "/_next/static/images/:path*",
+        "destination": "https://block-ivory.vercel.app/_next/static/images/:path*"
+      },
+      {
+        "source": "/_next/static/:path*",
+        "destination": "https://block-ivory.vercel.app/_next/static/:path*"
+      },
+      {
         "source": "/_next/:path*",
         "destination": "https://block-ivory.vercel.app/_next/:path*"
       },
@@ -79,6 +99,33 @@
       {
         "source": "/layout-3c5c7538e4e99493.js",
         "destination": "https://block-ivory.vercel.app/layout-3c5c7538e4e99493.js"
+      },
+      {
+        "source": "/916-dbf2bf48dba41123.js",
+        "destination": "https://block-ivory.vercel.app/916-dbf2bf48dba41123.js"
+      },
+      {
+        "source": "/_next/static/chunks/916-dbf2bf48dba41123.js",
+        "destination": "https://block-ivory.vercel.app/_next/static/chunks/916-dbf2bf48dba41123.js"
+      }
+    ],
+    "headers": [
+      {
+        "source": "/(.*)",
+        "headers": [
+          {
+            "key": "Access-Control-Allow-Origin",
+            "value": "*"
+          },
+          {
+            "key": "Access-Control-Allow-Methods",
+            "value": "GET,OPTIONS,PATCH,DELETE,POST,PUT"
+          },
+          {
+            "key": "Access-Control-Allow-Headers",
+            "value": "X-CSRF-Token, X-Requested-With, Accept, Accept-Version, Content-Length, Content-MD5, Content-Type, Date, X-Api-Version"
+          }
+        ]
       }
     ]
   }
