@@ -9,7 +9,7 @@
         "destination": "https://block-ivory.vercel.app/_next/:path*"
       },
       {
-        "source": "/:assetFile([a-zA-Z0-9][a-zA-Z0-9\\-\\.]+\\.(css|js|woff2|png|jpg|svg|json))",
+        "source": "/:assetFile",
         "destination": "https://block-ivory.vercel.app/:assetFile"
       },
       {
@@ -79,17 +79,6 @@
       {
         "source": "/layout-3c5c7538e4e99493.js",
         "destination": "https://block-ivory.vercel.app/layout-3c5c7538e4e99493.js"
-      },
-      {
-        "source": "/:path*",
-        "destination": "https://block-ivory.vercel.app/:path*",
-        "has": [
-          {
-            "type": "header",
-            "key": "referer",
-            "value": "cb\\.databayt\\.org/blocks/.*"
-          }
-        ]
       }
     ]
   }
