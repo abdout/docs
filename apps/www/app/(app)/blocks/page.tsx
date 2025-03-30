@@ -4,7 +4,7 @@ const page = () => {
   return (
     <div className="space-y-6 ">
      
-      <div className="mx-auto grid justify-center gap-4 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 px-4 py-12">
+      <div className="mx-auto grid justify-center gap-4 px-4 py-12 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
         <div className="relative overflow-hidden rounded-lg border bg-background p-2">
           <div className="flex h-[180px] flex-col justify-between rounded-md p-6">
             <svg viewBox="0 0 32 32" className="h-10 w-10 fill-current">
