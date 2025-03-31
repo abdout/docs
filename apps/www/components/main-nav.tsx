@@ -79,6 +79,18 @@ export function MainNav() {
         >
           Micros
         </Link>
+        <Link
+          href="/vibes"
+          className={cn(
+            "transition-colors hover:text-foreground/80",
+            pathname?.startsWith("/docs/component/vibes") ||
+              pathname?.startsWith("/vibes")
+              ? "text-foreground"
+              : "text-foreground/80"
+          )}
+        >
+          Vibes
+        </Link>
         {/* <Link
           href="/charts"
           className={cn(
