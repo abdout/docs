@@ -2,11 +2,6 @@ import { createContentlayerPlugin } from "next-contentlayer2"
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  experimental: {
-    outputFileTracingIncludes: {
-      "/templates/*": ["./registry/**/*"],
-    },
-  },
   reactStrictMode: true,
   swcMinify: true,
   images: {
@@ -24,48 +19,18 @@ const nextConfig = {
   redirects() {
     return [
       {
-        source: "/components",
-        destination: "/docs/components/accordion",
+        source: "/",
+        destination: "/docs",
         permanent: true,
       },
       {
         source: "/docs/components",
-        destination: "/docs/components/accordion",
+        destination: "/docs",
         permanent: true,
-      },
-      {
-        source: "/examples",
-        destination: "/examples/mail",
-        permanent: false,
       },
       {
         source: "/docs/primitives/:path*",
-        destination: "/docs/components/:path*",
-        permanent: true,
-      },
-      {
-        source: "/figma",
-        destination: "/docs/figma",
-        permanent: true,
-      },
-      {
-        source: "/docs/forms",
-        destination: "/docs/components/form",
-        permanent: false,
-      },
-      {
-        source: "/docs/forms/react-hook-form",
-        destination: "/docs/components/form",
-        permanent: false,
-      },
-      {
-        source: "/sidebar",
-        destination: "/docs/components/sidebar",
-        permanent: true,
-      },
-      {
-        source: "/react-19",
-        destination: "/docs/react-19",
+        destination: "/docs/:path*",
         permanent: true,
       },
     ]
