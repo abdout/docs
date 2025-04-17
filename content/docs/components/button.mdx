@@ -1,0 +1,93 @@
+---
+title: Button
+description: A button component that allows users to take actions with a single click.
+featured: true
+component: true
+---
+
+<ComponentPreview name="button-demo" />
+
+## Introduction
+
+The Button component is used to trigger an action or event, such as submitting a form, opening a dialog, canceling an action, or performing a delete operation.
+
+## Installation
+
+```bash
+npx shadcn-ui@latest add button
+```
+
+## Usage
+
+```tsx
+import { Button } from "@/components/ui/button"
+```
+
+```tsx
+<Button variant="outline">Button</Button>
+```
+
+## Examples
+
+### Primary
+
+<ComponentPreview name="button-demo" />
+
+### Secondary
+
+<ComponentPreview name="button-secondary" />
+
+### Destructive
+
+<ComponentPreview name="button-destructive" />
+
+### Outline
+
+<ComponentPreview name="button-outline" />
+
+### Ghost
+
+<ComponentPreview name="button-ghost" />
+
+### Link
+
+<ComponentPreview name="button-link" />
+
+### Icon
+
+<ComponentPreview name="button-icon" />
+
+### With Icon
+
+<ComponentPreview name="button-with-icon" />
+
+### Loading
+
+<ComponentPreview name="button-loading" />
+
+### As Child
+
+<ComponentPreview name="button-as-child" />
+
+## Props
+
+### Button
+
+| Prop | Type | Default | Description |
+| :--- | :--- | :------ | :---------- |
+| `variant` | `"default" \| "destructive" \| "outline" \| "secondary" \| "ghost" \| "link"` | `"default"` | The visual variant of the button. |
+| `size` | `"default" \| "sm" \| "lg" \| "icon"` | `"default"` | The size of the button. |
+| `asChild` | `boolean` | `false` | When `true`, the component will render its children directly without adding extra DOM elements. |
+
+## Source Code
+
+<ComponentSource name="button" />
+
+## Design Considerations
+
+Buttons are a fundamental UI element for user interaction. When using buttons, consider the following:
+
+1. Use clear, concise labels that describe what action the button will perform
+2. Choose the appropriate button variant based on the action's importance
+3. Maintain consistency in button usage patterns across your interface
+4. Consider the visual hierarchy of multiple buttons in the same area
