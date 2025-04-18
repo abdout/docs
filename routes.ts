@@ -5,6 +5,9 @@
  */
 export const publicRoutes = [
   "/",
+  "/docs",
+  "/docs/installation",
+  "/docs/:path*",
   "/new-verification",
   "/admin",
   "/client",

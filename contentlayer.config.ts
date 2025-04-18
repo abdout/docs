@@ -29,7 +29,7 @@ const computedFields: ComputedFields = {
   },
   slugAsParams: {
     type: "string",
-    resolve: (doc) => doc._raw.flattenedPath.split("/").slice(1).join("/"),
+    resolve: (doc) => doc._raw.flattenedPath.split("/docs").slice(1).join("/docs"),
   },
 };
 
