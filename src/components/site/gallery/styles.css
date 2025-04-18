@@ -1,0 +1,39 @@
+/* Gallery container */
+.gallery-container {
+	height: 100vh;
+	width: 100vw;
+	
+	position: relative;
+	overflow: hidden;
+}
+
+/* Image track styling */
+#image-track {
+	display: flex;
+	gap: 4vmin;
+	position: absolute;
+	left: 0;
+	top: 50%;
+	transform: translate(0%, -50%);
+	min-width: max-content;
+}
+
+/* Individual image styling */
+#image-track > .image {
+	width: 40vmin;
+	height: 56vmin;
+	object-fit: cover;
+	object-position: 100% 50%;
+	-webkit-user-drag: none;
+	user-select: none;
+}
+
+#image-track > .image img:hover {
+	cursor: pointer;
+	transform: scale(1.2);
+}
+
+.span {
+  display: inline-block;
+  width: 100px;
+}

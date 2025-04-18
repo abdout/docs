@@ -170,3 +170,112 @@ We've made significant progress in cloning the shadcn/ui docs site, including:
 - Basic component previews
 
 Further work is needed to complete all component documentation, implement additional UI components, and add more advanced features like search functionality. 
+
+## Transformation for Electrical Testing Documentation
+
+### Overview
+We are now transforming the cloned shadcn/ui docs into a specialized documentation platform for an electrical testing and commissioning company. This transformation includes adapting the structure, content organization, and adding conditional content display features based on equipment types and device models.
+
+### Transformation Progress
+
+- [x] Create hierarchical navigation structure (Equipment > Sub-items > Activities)
+- [x] Implement conditional content rendering system based on equipment type
+- [x] Develop device model selector component for filtering content
+- [x] Design activity guides template with standardized sections
+- [x] Create specialized MDX components for electrical testing documentation
+- [x] Implement equipment database/taxonomy
+- [x] Add technical illustration and diagram components
+- [ ] Develop printable report templates
+- [ ] Implement equipment comparison feature
+- [x] Add safety guidelines highlights
+
+### Content Structure Transformation
+
+#### Original Shadcn Structure:
+```
+/docs
+  ├── index.mdx
+  ├── installation.mdx
+  └── /components
+      ├── button.mdx
+      └── ...
+```
+
+#### New Electrical Testing Structure:
+```
+/docs
+  ├── index.mdx
+  ├── safety-guidelines.mdx
+  ├── /equipment
+  │   ├── transformers.mdx
+  │   ├── switchgear.mdx
+  │   ├── protection-relays.mdx
+  │   └── ...
+  ├── /activities
+  │   ├── insulation-resistance.mdx
+  │   ├── contact-resistance.mdx
+  │   ├── relay-testing.mdx
+  │   └── ...
+  └── /reports
+      ├── templates.mdx
+      ├── examples.mdx
+      └── ...
+```
+
+### Key Component Adaptations
+
+1. **Navigation Component**
+   - [x] Transform from flat component list to hierarchical equipment/activity structure
+   - [x] Add collapsible sections for equipment categories
+   - [x] Implement activity filtering by equipment type
+
+2. **Content Display Components**
+   - [x] Create conditional rendering wrapper component
+   - [x] Implement equipment selector for filtering content
+   - [x] Add device model selector dropdown
+
+3. **Technical Components**
+   - [x] Test procedure steps component
+   - [x] Safety warning component
+   - [x] Technical specification tables
+   - [x] Test result recording forms
+   - [x] Equipment diagram viewer
+
+### Next Steps for Transformation
+
+1. **Initial Setup**
+   - [x] Modify ContentLayer schema to support equipment and activity metadata
+   - [x] Create basic activity template with conditional sections
+   - [x] Implement equipment type taxonomy
+
+2. **Core Features**
+   - [x] Develop conditional content rendering system
+   - [x] Create equipment selection interface
+   - [x] Implement hierarchical navigation
+
+3. **Content Development**
+   - [x] Create sample equipment documentation
+   - [x] Develop activity guides with conditional sections
+   - [x] Add technical diagrams and procedures
+
+4. **Advanced Features**
+   - [ ] Implement printable documentation
+   - [ ] Add troubleshooting wizards
+   - [ ] Develop interactive test procedure flowcharts
+
+### Completed Components
+
+1. **Conditional Content Components**
+   - `ConditionalContent` - For filtering content based on selected models
+   - `EquipmentSpecificContent` - For showing content specific to equipment types
+   - `ModelSpecificContent` - For showing content specific to device models
+
+2. **Safety Components**
+   - `SafetyWarning` - For displaying safety warnings with different severity levels
+
+3. **Technical Components**
+   - `TestEquipment` - For displaying required test equipment
+   - `TemperatureCorrectionCalculator` - Interactive calculator for temperature correction
+
+4. **Filtering Components**
+   - `EquipmentSelector` - For selecting equipment types and models to filter content 
