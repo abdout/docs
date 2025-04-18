@@ -6,6 +6,8 @@ import { Analytics } from "@vercel/analytics/react";
 import { Metadata } from "next";
 import { ThemeProvider } from "@/components/providers";
 import { ModeToggle } from "@/components/mode-toggle";
+import { auth } from "auth";
+import { SessionProvider } from "next-auth/react";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -36,12 +38,14 @@ export const metadata: Metadata = {
   ],
 };
 
-export default function RootLayout({
+export default async function RootLayout({
   children,
 }: Readonly<{
   children: React.ReactNode;
 }>) {
+  const session = await auth();
   return (
+    <SessionProvider session={session}>
     <html lang="en" suppressHydrationWarning>
       <body className={inter.className}>
         <ThemeProvider 
@@ -58,5 +62,6 @@ export default function RootLayout({
         </ThemeProvider>
       </body>
     </html>
+    </SessionProvider>
   );
 }
